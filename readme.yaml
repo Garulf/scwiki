@@ -1,0 +1,8 @@
+project:
+  name: scwiki
+  tagline: Python client for the Star Citizen Wiki API with version-aware caching and pluggable HTTP transports
+  pypi: scwiki
+  license: MIT
+  owner: Garulf
+  repo: scwiki
+badges: [pypi, python, ci, license, ruff]

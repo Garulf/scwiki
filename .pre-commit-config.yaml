@@ -21,6 +21,12 @@ repos:
       - id: ruff-format
   - repo: local
     hooks:
+      - id: readwright
+        name: readwright check
+        entry: readwright check
+        language: system
+        files: ^(README\.md|README\.md\.j2|readme\.yaml)$
+        pass_filenames: false
       - id: pytest
         name: pytest
         entry: uv run pytest -q
