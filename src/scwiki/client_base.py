@@ -131,7 +131,11 @@ class Plan:
 
 
 def version_plan(
-    config: ClientConfig, cache: CacheStore | None, clock: Callable[[], float] = time.time
+    config: ClientConfig,
+    cache: CacheStore | None,
+    clock: Callable[[], float] = time.time,
+    *,
+    fresh: bool = False,
 ) -> Plan:
     return Plan(
         config,
@@ -141,6 +145,7 @@ def version_plan(
         "default",
         Query(),
         is_list=False,
+        fresh=fresh,
         clock=clock,
         ttl=config.default_version_ttl,
     )
