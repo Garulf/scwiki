@@ -1,0 +1,254 @@
+{
+ "data": [
+  {
+   "uuid": "f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+   "slug": "aberdeen",
+   "name": "Aberdeen",
+   "description": "This moon was named after scientist Aberdeen Hurston who was credited with designing the company's first antimatter warhead. \n\nPotential Ship Mineables:\nAluminum\nTitanium\nOuratite\nQuantainium\n\n\nPotential Hand Mineables:\nAphorite\nDolivine\nHadanite\nJanalite (Caves only)\n\nPotential Harvestables:\nRanta Dung (Caves)\nAmioshi Plague (Caves)\nBluemoon Fungus (Caves)",
+   "size": 274000,
+   "respawn_location_type": "None",
+   "child_count": 37,
+   "has_resources": true,
+   "mission_count": 414,
+   "is_scannable": false,
+   "hide_in_starmap": false,
+   "hide_in_world": false,
+   "block_travel": false,
+   "quantum_travel": {
+    "arrival_radius": 437700,
+    "adoption_radius": 1096000,
+    "obstruction_radius": 279048,
+    "sub_point_radius_multiplier": 1.5,
+    "arrival_point_detection_offset": 10000,
+    "obstruction_radius_formatted": "279 km",
+    "arrival_radius_formatted": "438 km",
+    "adoption_radius_formatted": "1\u00a0096 km"
+   },
+   "asteroid_ring": null,
+   "system": "Stanton System",
+   "star": {
+    "uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+    "name": "Stanton",
+    "type_name": "Star",
+    "slug": "stanton"
+   },
+   "parent": {
+    "uuid": "551af60b-7727-4936-acc7-763d25d7a1de",
+    "name": "Hurston",
+    "type_name": "Planet",
+    "slug": "hurston"
+   },
+   "type": {
+    "uuid": "4af1132e-d980-482d-823f-f713a196b9aa",
+    "name": "Moon",
+    "classification": "Moon",
+    "spawn_nav_points": true,
+    "valid_quantum_travel_destination": true
+   },
+   "jurisdiction": null,
+   "affiliation": null,
+   "amenities": [],
+   "tag": {
+    "uuid": "04a7053f-af5f-4bb4-964d-27459640fb7b",
+    "name": "Stanton1b"
+   },
+   "designation": "Stanton Ib",
+   "radar_contact_type": {
+    "uuid": null,
+    "name": null,
+    "display_name": null,
+    "tag_uuid": null,
+    "tag_name": null,
+    "is_object_of_interest": null
+   },
+   "link": "https://api.star-citizen.wiki/api/locations/f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+   "web_url": "https://api.star-citizen.wiki/locations/aberdeen",
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/4/47/Aberdeen-4.3.jpg?4lza5",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/4/47/Aberdeen-4.3.jpg/600px-Aberdeen-4.3.jpg.webp?4lza5",
+     "original_width": 1920,
+     "original_height": 1080,
+     "thumbnail_width": 600,
+     "thumbnail_height": 338
+    }
+   ],
+   "updated_at": "2026-08-27T09:50:53+00:00",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  {
+   "uuid": "51aeeae8-6146-48ab-9fe3-89ce30879d9a",
+   "slug": "adairs-retreat",
+   "name": "Adair's Retreat",
+   "description": "Fall back.",
+   "size": 1,
+   "respawn_location_type": "None",
+   "child_count": 0,
+   "has_resources": true,
+   "mission_count": 0,
+   "is_scannable": false,
+   "hide_in_starmap": false,
+   "hide_in_world": false,
+   "block_travel": false,
+   "quantum_travel": {
+    "arrival_radius": 20000,
+    "adoption_radius": 0,
+    "obstruction_radius": 0,
+    "sub_point_radius_multiplier": 1.5,
+    "arrival_point_detection_offset": 10000,
+    "obstruction_radius_formatted": "0 m",
+    "arrival_radius_formatted": "20 km",
+    "adoption_radius_formatted": "0 m"
+   },
+   "asteroid_ring": null,
+   "system": "Stanton System",
+   "star": {
+    "uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+    "name": "Stanton",
+    "type_name": "Star",
+    "slug": "stanton"
+   },
+   "parent": {
+    "uuid": "732dedf3-9530-4972-98ab-2fcae64669db",
+    "name": "Euterpe",
+    "type_name": "Moon",
+    "slug": "euterpe"
+   },
+   "type": {
+    "uuid": "e207a1ec-1395-4c1c-8e51-b38c4420784c",
+    "name": "Outpost",
+    "classification": "Outpost",
+    "spawn_nav_points": false,
+    "valid_quantum_travel_destination": true
+   },
+   "jurisdiction": null,
+   "affiliation": null,
+   "amenities": [],
+   "tag": null,
+   "designation": null,
+   "radar_contact_type": {
+    "uuid": null,
+    "name": null,
+    "display_name": null,
+    "tag_uuid": null,
+    "tag_name": null,
+    "is_object_of_interest": null
+   },
+   "link": "https://api.star-citizen.wiki/api/locations/51aeeae8-6146-48ab-9fe3-89ce30879d9a",
+   "web_url": "https://api.star-citizen.wiki/locations/adairs-retreat",
+   "images": [],
+   "updated_at": "2026-08-27T09:40:30+00:00",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=985",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 985,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=984",
+    "label": "984",
+    "page": 984,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=985",
+    "label": "985",
+    "page": 985,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/locations?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/locations",
+  "per_page": 2,
+  "to": 2,
+  "total": 1970,
+  "valid_relations": [
+   "amenities"
+  ]
+ }
+}

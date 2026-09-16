@@ -1,0 +1,77 @@
+{
+ "data": [
+  {
+   "code": "4.10.0-LIVE.12519617",
+   "channel": "live",
+   "released_at": "2026-08-26T00:00:00+00:00",
+   "is_default": true
+  },
+  {
+   "code": "4.9.0-LIVE.12232306",
+   "channel": "live",
+   "released_at": "2026-07-16T00:00:00+00:00",
+   "is_default": false
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 5,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/game-versions?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/game-versions",
+  "per_page": 2,
+  "to": 2,
+  "total": 10,
+  "processed_at": "2026-09-16 22:18:50",
+  "valid_relations": []
+ }
+}

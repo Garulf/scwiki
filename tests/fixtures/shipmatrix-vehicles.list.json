@@ -1,0 +1,437 @@
+{
+ "data": [
+  {
+   "id": 14,
+   "chassis_id": 3,
+   "name": "F7C-R Hornet Tracker Mk I",
+   "slug": "f7c-r-hornet-tracker-mk-i",
+   "sizes": {
+    "length": 28.25,
+    "beam": 25.5,
+    "height": 7.5
+   },
+   "dimension": {
+    "length": 28.25,
+    "width": 25.5,
+    "height": 7.5
+   },
+   "mass": 72032,
+   "cargo_capacity": 0,
+   "crew": {
+    "min": 1,
+    "max": 1
+   },
+   "speed": {
+    "scm": 219,
+    "max": 1142
+   },
+   "agility": {
+    "pitch": 56,
+    "yaw": 45,
+    "roll": 150,
+    "acceleration": {
+     "x_axis": null,
+     "y_axis": null,
+     "z_axis": null
+    }
+   },
+   "foci": [
+    {
+     "en_EN": "Pathfinder",
+     "de_DE": "Pfadfinder",
+     "zh_CN": "\u5f00\u62d3\u8005",
+     "fr_FR": "Pathfinder"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Exploration",
+    "de_DE": "Erkundung",
+    "zh_CN": "\u52d8\u63a2",
+    "fr_FR": "Exploration"
+   },
+   "description": {
+    "en_EN": "If the Ghost is made to hide, the Tracker is made to seek. The F7C-R Tracker boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&amp;C ships for their squadrons.",
+    "de_DE": "Wenn die Ghost dazu bestimmt ist, sich zu verstecken, dann ist die Trackerin dazu bestimmt, zu suchen. Die F7C-R Tracker verf\u00fcgt \u00fcber eine fortschrittliche Radaranlage, die sie ideal f\u00fcr Deep-Space-Explorer macht, die Tiefe und Genauigkeit in ihren Scankonzepten ben\u00f6tigen. Lokale Milizen und gr\u00f6\u00dfere S\u00f6ldner-Einheiten werden auch Tracker wiederverwenden, um als mobile Command and Controll-Schiffe f\u00fcr ihre Geschwader zu fungieren.",
+    "zh_CN": "\u5982\u679c\u8bf4\u5e7d\u7075\u662f\u7528\u6765\u9690\u85cf\u7684\uff0c\u90a3\u4e48\u8ffd\u8e2a\u8005\u5c31\u662f\u7528\u6765\u5bfb\u627e\u7684\u3002F7C-R \u8ffd\u8e2a\u8005\u53f7\u62e5\u6709\u5148\u8fdb\u7684\u96f7\u8fbe\u5957\u4ef6\uff0c\u662f\u8981\u6c42\u626b\u63cf\u6df1\u5ea6\u548c\u7cbe\u786e\u5ea6\u7684\u6df1\u7a7a\u63a2\u9669\u8005\u7684\u7406\u60f3\u9009\u62e9\u3002\u5f53\u5730\u6c11\u5175\u548c\u5927\u578b\u96c7\u4f63\u5175\u90e8\u961f\u4e5f\u4f1a\u5c06\u8ffd\u8e2a\u8005\u6539\u88c5\u6210\u4ed6\u4eec\u4e2d\u961f\u7684\u79fb\u52a8 C&amp;C \u6218\u8230\u3002",
+    "fr_FR": "If the Ghost is made to hide, the Tracker is made to seek. The F7C-R Tracker boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&amp;C ships for their squadrons."
+   },
+   "size": {
+    "en_EN": "Small",
+    "de_DE": "Klein",
+    "zh_CN": "\u5c0f",
+    "fr_FR": "Small"
+   },
+   "msrp": 150,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker-Mk-I",
+   "skus": [
+    {
+     "source": "upgrade_api",
+     "cig_id": 12999,
+     "title": "Standard Edition ",
+     "url": null,
+     "price": 140,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-01-07T13:54:02.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 16864,
+     "title": "Standard Edition ",
+     "url": null,
+     "price": 150,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-03-15T00:00:30.000000Z"
+    }
+   ],
+   "manufacturer": {
+    "code": "ANVL",
+    "name": "Anvil Aerospace"
+   },
+   "loaner": [],
+   "link": "https://api.star-citizen.wiki/api/shipmatrix/vehicles/f7c-r-hornet-tracker-mk-i",
+   "updated_at": "2026-06-22T16:14:15.000000Z"
+  },
+  {
+   "id": 251,
+   "chassis_id": 106,
+   "name": "Zeus Mk II ES",
+   "slug": "zeus-mk-ii-es",
+   "sizes": {
+    "length": 46,
+    "beam": 35,
+    "height": 9
+   },
+   "dimension": {
+    "length": 46,
+    "width": 35,
+    "height": 9
+   },
+   "mass": 276600,
+   "cargo_capacity": 32,
+   "crew": {
+    "min": 3,
+    "max": 3
+   },
+   "speed": {
+    "scm": 205,
+    "max": 1100
+   },
+   "agility": {
+    "pitch": 32,
+    "yaw": 32,
+    "roll": 110,
+    "acceleration": {
+     "x_axis": null,
+     "y_axis": null,
+     "z_axis": null
+    }
+   },
+   "foci": [
+    {
+     "en_EN": "Expedition",
+     "de_DE": "Forschungsreisen",
+     "zh_CN": "\u8fdc\u5f81",
+     "fr_FR": "Expedition"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Exploration",
+    "de_DE": "Erkundung",
+    "zh_CN": "\u52d8\u63a2",
+    "fr_FR": "Exploration"
+   },
+   "description": {
+    "en_EN": "Ready to ferry a whole new generation of travelers across the universe, the Zeus Mk II pays homage to the classic ship that launched Humanity to the stars in 2140. With a focus on exploration, the Zeus Mk II ES features a robust radar package for making new discoveries along with enhanced weaponry and shielding.",
+    "de_DE": "Die Zeus Mk II ist bereit, eine ganz neue Generation von Reisenden durch das Universum zu bef\u00f6rdern. Sie ist eine Hommage an das klassische Schiff, das die Menschheit im Jahr 2140 zu den Sternen brachte. Die Zeus Mk II ES konzentriert sich auf die Erforschung des Weltalls und verf\u00fcgt \u00fcber ein robustes Radarpaket, um neue Entdeckungen zu machen, sowie \u00fcber verbesserte Waffen und Schutzschilde.",
+    "zh_CN": "\u5b99\u65af Mk II \u5411 2140 \u5e74\u5c06\u4eba\u7c7b\u63a8\u5411\u661f\u9645\u7684\u7ecf\u5178\u98de\u8239\u81f4\u656c\uff0c\u968f\u65f6\u51c6\u5907\u8fd0\u9001\u65b0\u4e00\u4ee3\u65c5\u884c\u8005\u7a7f\u8d8a\u5b87\u5b99\u3002\u5b99\u65af Mk II ES \u4ee5\u63a2\u7d22\u4e3a\u91cd\u70b9\uff0c\u914d\u5907\u4e86\u5f3a\u5927\u7684\u96f7\u8fbe\u5957\u4ef6\u4ee5\u53ca\u589e\u5f3a\u578b\u6b66\u5668\u548c\u9632\u62a4\u7f69\uff0c\u7528\u4e8e\u53d1\u73b0\u65b0\u5927\u9646\u3002",
+    "fr_FR": "Ready to ferry a whole new generation of travelers across the universe, the Zeus Mk II pays homage to the classic ship that launched Humanity to the stars in 2140. With a focus on exploration, the Zeus Mk II ES features a robust radar package for making new discoveries along with enhanced weaponry and shielding."
+   },
+   "size": {
+    "en_EN": "Medium",
+    "de_DE": "Mittel",
+    "zh_CN": "\u4e2d\u7b49",
+    "fr_FR": "Medium"
+   },
+   "msrp": 175,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-ES",
+   "skus": [
+    {
+     "source": "upgrade_api",
+     "cig_id": 16231,
+     "title": "Standard Upgrade",
+     "url": null,
+     "price": 150,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-01-19T00:00:38.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17422,
+     "title": "Warbond Edition",
+     "url": null,
+     "price": 160,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-10-19T00:01:22.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17417,
+     "title": "Standard Edition",
+     "url": null,
+     "price": 175,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-10-19T00:01:22.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17958,
+     "title": "Imperator Subscribers Warbond Edition",
+     "url": null,
+     "price": 160,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-02-07T00:01:23.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17959,
+     "title": "Centurion Subscribers Warbond Edition",
+     "url": null,
+     "price": 160,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-02-07T00:01:23.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17945,
+     "title": "Imperator Subscribers Edition",
+     "url": null,
+     "price": 175,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-02-07T00:01:23.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 17942,
+     "title": "Centurion Subscribers Edition",
+     "url": null,
+     "price": 175,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-02-07T00:01:23.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 18560,
+     "title": "Warbond Edition",
+     "url": null,
+     "price": 165,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-11-30T00:01:06.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 18561,
+     "title": "Standard Edition",
+     "url": null,
+     "price": 175,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2025-11-30T00:01:06.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 19448,
+     "title": "Warbond Edition",
+     "url": null,
+     "price": 165,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2026-07-29T00:00:25.000000Z"
+    }
+   ],
+   "manufacturer": {
+    "code": "RSI",
+    "name": "Roberts Space Industries"
+   },
+   "loaner": [
+    {
+     "uuid": "9611b8ed-cc96-4b5c-aa1e-baefe7d5bb1c",
+     "name": "C1 Spirit",
+     "slug": "crus-spirit-c1",
+     "link": "https://api.star-citizen.wiki/api/vehicles/9611b8ed-cc96-4b5c-aa1e-baefe7d5bb1c",
+     "version": "3.23.1-LIVE.9179031"
+    }
+   ],
+   "link": "https://api.star-citizen.wiki/api/shipmatrix/vehicles/zeus-mk-ii-es",
+   "updated_at": "2026-06-29T19:16:24.000000Z"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=131",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 131,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=130",
+    "label": "130",
+    "page": 130,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=131",
+    "label": "131",
+    "page": 131,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/shipmatrix/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/shipmatrix/vehicles",
+  "per_page": 2,
+  "to": 2,
+  "total": 261,
+  "valid_relations": [
+   "components",
+   "loaner",
+   "skus"
+  ]
+ }
+}

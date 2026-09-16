@@ -1,0 +1,764 @@
+{
+ "data": {
+  "uuid": "9a26bc89-a35b-4317-adfd-ec4a285d7e72",
+  "slug": "a23-helmet-woodland",
+  "name": "A23 Flight Helmet Woodland",
+  "class_name": "cds_undersuit_helmet_01_01_01",
+  "classification": "FPS.Armor.Helmet",
+  "classification_label": "Helmet",
+  "description": {
+   "en_EN": "The A23 has been one of CDS' mainstay helmet systems for years. Built out of impact-resistant composite technology and a hardened laminate faceplate, the A23 is perfect for hazardous environment and basic EVA operations. Visor is AR crosshair compatible.",
+   "de_DE": "Typ (En): Flight Helmet\nTyp (De): Pilotenhelm\n\nDer A23 ist seit Jahren eines der wichtigsten Helmsysteme von CDS. Hergestellt aus schlagfester Verbundtechnologie und mit einer geh\u00e4rteten Laminat-Sichtscheibe ist der A23 perfekt f\u00fcr gef\u00e4hrliche Umgebungen und grundlegende EVA-Operationen. Das Visier unterst\u00fctzt AR-Fadenkreuze.",
+   "zh_CN": "\u7269\u54c1\u7c7b\u578b\uff1a\u98de\u884c\u5934\u76d4\n\u4f24\u5bb3\u51cf\u514d\uff1a15%\n\u9002\u7528\u6e29\u5ea6\uff1a-30 / 60 \u6444\u6c0f\u5ea6\n\u8f90\u5c04\u9632\u62a4\uff1a15200 \u96f7\u59c6\n\u8f90\u5c04\u6e05\u9664\u7387\uff1a81 \u96f7\u59c6 / \u79d2\n\n\u591a\u5e74\u6765\uff0cA23\u4e00\u76f4\u662f\u5361\u62c9\u514b\u9632\u5fa1\u7cfb\u7edf\u7684\u4e3b\u8981\u5934\u76d4\u7cfb\u7edf\u4e4b\u4e00\u3002A 23\u91c7\u7528\u6297\u51b2\u51fb\u590d\u5408\u6750\u6599\u6280\u672f\u7684\u786c\u5316\u5c42\u538b\u9762\u677f\u5236\u6210\uff0c\u975e\u5e38\u9002\u5408\u5371\u9669\u73af\u5883\u548c\u57fa\u672c\u7684\u592a\u7a7a\u884c\u8d70\u6d3b\u52a8\u3002\u8be5\u5934\u76d4\u9762\u7f69\u517c\u5bb9AR\u5341\u5b57\u51c6\u661f\u3002",
+   "fr_FR": "Type d'article : Armure L\u00e9g\u00e8re\nR\u00e9duction des d\u00e9g\u00e2ts : 10%\nTemp\u00e9rature de fonctionnement : -30 / 60 \u00b0C\nProtection contre les radiations : 15200 REM\nNeutralisation des radiations : 81 REM/s\n\nLe A23 a \u00e9t\u00e9 l'un des syst\u00e8mes de casques principaux de CDS pendant des ann\u00e9es. Construit \u00e0 partir d'une technologie composite r\u00e9sistante aux impacts et d'une visi\u00e8re lamin\u00e9e durcie, le A23 est parfait pour les environnements dangereux et les op\u00e9rations EVA de base. La visi\u00e8re est compatible avec le r\u00e9ticule en r\u00e9alit\u00e9 augment\u00e9e."
+  },
+  "size": 1,
+  "mass": 5,
+  "rarity": "Common",
+  "event_source": [],
+  "is_base_variant": true,
+  "is_craftable": true,
+  "is_lootable": true,
+  "blueprint": [
+   {
+    "uuid": "172f6f26-9a96-450e-b379-9ccb734ed744",
+    "name": "A23 Flight Helmet Woodland",
+    "link": "https://api.star-citizen.wiki/api/blueprints/172f6f26-9a96-450e-b379-9ccb734ed744"
+   }
+  ],
+  "description_data": [
+   {
+    "name": "Damage Reduction",
+    "value": "15%",
+    "type": "15%"
+   },
+   {
+    "name": "Item Type",
+    "value": "Flight Helmet",
+    "type": "Flight Helmet"
+   },
+   {
+    "name": "Radiation Protection",
+    "value": "15200 REM",
+    "type": "15200 REM"
+   },
+   {
+    "name": "Radiation Scrub Rate",
+    "value": "81 REM/s",
+    "type": "81 REM/s"
+   },
+   {
+    "name": "Temp. Rating",
+    "value": "-30 / 60 \u00b0C",
+    "type": "-30 / 60 \u00b0C"
+   }
+  ],
+  "manufacturer_description": null,
+  "manufacturer": {
+   "name": "Clark Defense Systems",
+   "code": "CDS",
+   "uuid": "8a7bd715-5b97-404f-b02e-0d0cc593f608",
+   "link": "https://api.star-citizen.wiki/api/manufacturers/CDS"
+  },
+  "type": "Char_Armor_Helmet",
+  "type_label": "Helmet (Armor)",
+  "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Char_Armor_Helmet",
+  "sub_type": "Helmet",
+  "sub_type_label": "Helmet",
+  "clothing": {
+   "slot": "Helmet",
+   "armor_type": "Helmet",
+   "type": "Helmet",
+   "garment_type": "Helmet",
+   "damage_resistance": {
+    "impact": 0.9,
+    "physical": {
+     "type": "physical",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "energy": {
+     "type": "energy",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "distortion": {
+     "type": "distortion",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "thermal": {
+     "type": "thermal",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "biochemical": {
+     "type": "biochemical",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "stun": {
+     "type": "stun",
+     "multiplier": 0.8,
+     "threshold": 0
+    }
+   },
+   "damage_resistance_map": {
+    "impact": 0.9,
+    "impact_change": -0.1,
+    "physical": 0.85,
+    "physical_change": -0.15,
+    "energy": 0.85,
+    "energy_change": -0.15,
+    "distortion": 0.85,
+    "distortion_change": -0.15,
+    "thermal": 0.85,
+    "thermal_change": -0.15,
+    "biochemical": 0.85,
+    "biochemical_change": -0.15,
+    "stun": 0.8,
+    "stun_change": -0.2
+   },
+   "protected_body_parts": [
+    "ea721959-c3e2-4df8-9ef3-8831dc98c514"
+   ],
+   "signature": {
+    "infrared": 0,
+    "electromagnetic": 2
+   },
+   "temp_resistance_min": -30,
+   "temp_resistance_max": 60,
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 15200,
+    "radiation_dissipation_rate": 81
+   },
+   "gforce_resistance": -0.025
+  },
+  "suit_armor": {
+   "slot": "Helmet",
+   "armor_type": "Helmet",
+   "type": "Helmet",
+   "garment_type": "Helmet",
+   "damage_resistance": {
+    "impact": 0.9,
+    "physical": {
+     "type": "physical",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "energy": {
+     "type": "energy",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "distortion": {
+     "type": "distortion",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "thermal": {
+     "type": "thermal",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "biochemical": {
+     "type": "biochemical",
+     "multiplier": 0.85,
+     "threshold": 0
+    },
+    "stun": {
+     "type": "stun",
+     "multiplier": 0.8,
+     "threshold": 0
+    }
+   },
+   "damage_resistance_map": {
+    "impact": 0.9,
+    "impact_change": -0.1,
+    "physical": 0.85,
+    "physical_change": -0.15,
+    "energy": 0.85,
+    "energy_change": -0.15,
+    "distortion": 0.85,
+    "distortion_change": -0.15,
+    "thermal": 0.85,
+    "thermal_change": -0.15,
+    "biochemical": 0.85,
+    "biochemical_change": -0.15,
+    "stun": 0.8,
+    "stun_change": -0.2
+   },
+   "protected_body_parts": [
+    "ea721959-c3e2-4df8-9ef3-8831dc98c514"
+   ],
+   "signature": {
+    "infrared": 0,
+    "electromagnetic": 2
+   },
+   "temp_resistance_min": -30,
+   "temp_resistance_max": 60,
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 15200,
+    "radiation_dissipation_rate": 81
+   },
+   "gforce_resistance": -0.025
+  },
+  "dimension": {
+   "width": 0.75,
+   "height": 0.75,
+   "length": 0.75,
+   "volume": 0.019,
+   "volume_converted": 19000,
+   "volume_converted_unit": "\u00b5SCU",
+   "true_dimension": {
+    "width": null,
+    "height": null,
+    "length": null
+   },
+   "cargo_dimension": {
+    "width": 0.24,
+    "height": 0.34,
+    "length": 0.3
+   },
+   "ui_dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75
+   }
+  },
+  "tags": [
+   "SM_RestrictedArm",
+   "Helmet",
+   "HelmetCarryable",
+   "Marine",
+   "Set_01",
+   "Color_01"
+  ],
+  "required_tags": [],
+  "entity_tags": [
+   "ba81fd42-eb1e-4948-9a92-6359133e16e2",
+   "fde38f18-5157-45e2-905f-d2832c8a8e91",
+   "f46195e9-7fcb-4f69-9ba7-cb6f792f9bb7",
+   "dd7bfcdd-251d-4ca5-9986-863f2b435bb9",
+   "80c7276b-b8e1-4b19-a5f3-1ea6eebb6b80",
+   "eca4cc23-79f7-4511-9cf1-1a832385383d",
+   "bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58",
+   "59ca5e36-b9a2-4459-ad0e-5745bcf5d899",
+   "3fdd9ee3-86f5-4132-9a80-b84e0c0cc759",
+   "ee684f41-bb35-4fa1-8af9-256662d85365",
+   "1caa8797-db36-48d0-9809-dd44e3270c31",
+   "ba75cc73-a4c9-447a-9912-1fd8ccc7031b"
+  ],
+  "entity_tag_map": [
+   {
+    "uuid": "ba81fd42-eb1e-4948-9a92-6359133e16e2",
+    "name": "Human"
+   },
+   {
+    "uuid": "fde38f18-5157-45e2-905f-d2832c8a8e91",
+    "name": "ClarkeDefense"
+   },
+   {
+    "uuid": "f46195e9-7fcb-4f69-9ba7-cb6f792f9bb7",
+    "name": "Green"
+   },
+   {
+    "uuid": "dd7bfcdd-251d-4ca5-9986-863f2b435bb9",
+    "name": "Grey"
+   },
+   {
+    "uuid": "80c7276b-b8e1-4b19-a5f3-1ea6eebb6b80",
+    "name": "SuitArmor"
+   },
+   {
+    "uuid": "eca4cc23-79f7-4511-9cf1-1a832385383d",
+    "name": "ReceiveParentActorInteractions"
+   },
+   {
+    "uuid": "bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58",
+    "name": "CanGenerateAsLoot"
+   },
+   {
+    "uuid": "59ca5e36-b9a2-4459-ad0e-5745bcf5d899",
+    "name": "Common"
+   },
+   {
+    "uuid": "3fdd9ee3-86f5-4132-9a80-b84e0c0cc759",
+    "name": "A23"
+   },
+   {
+    "uuid": "ee684f41-bb35-4fa1-8af9-256662d85365",
+    "name": "Undersuit"
+   },
+   {
+    "uuid": "1caa8797-db36-48d0-9809-dd44e3270c31",
+    "name": "Helmet"
+   },
+   {
+    "uuid": "ba75cc73-a4c9-447a-9912-1fd8ccc7031b",
+    "name": "FPS"
+   }
+  ],
+  "interactions": [
+   "Openinventoryui",
+   "Close",
+   "Accesscargogrid",
+   "Open",
+   "Lock",
+   "Unlock",
+   "Openlootingui"
+  ],
+  "ports": [
+   {
+    "name": "visor_display",
+    "display_name": "Visor",
+    "position": "VISOR_DISPLAY",
+    "size": 1,
+    "sizes": {
+     "min": 1,
+     "max": 1
+    },
+    "compatible_types": [
+     {
+      "type": "Display",
+      "sub_types": []
+     }
+    ],
+    "types": [
+     "Display"
+    ],
+    "type": "Display",
+    "sub_type": null,
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [
+     "uneditable"
+    ],
+    "editable": false,
+    "uneditable": true,
+    "equipped_item_uuid": null,
+    "ports": null
+   },
+   {
+    "name": "helmet_visor",
+    "display_name": "Visor",
+    "position": "HELMET_VISOR",
+    "size": 0,
+    "sizes": {
+     "min": 0,
+     "max": 0
+    },
+    "compatible_types": null,
+    "types": [],
+    "type": null,
+    "sub_type": null,
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   },
+   {
+    "name": "universal_necksock",
+    "display_name": "Helmets",
+    "position": "UNIVERSAL_NECKSOCK",
+    "size": 0,
+    "sizes": {
+     "min": 0,
+     "max": 0
+    },
+    "compatible_types": [
+     {
+      "type": "Char_Flair",
+      "sub_types": []
+     }
+    ],
+    "types": [
+     "Char_Flair"
+    ],
+    "type": "Char_Flair",
+    "sub_type": null,
+    "tags": [
+     "necksock"
+    ],
+    "port_tags": [
+     "necksock"
+    ],
+    "required_tags": [
+     "necksock"
+    ],
+    "flags": [],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   },
+   {
+    "name": "radar",
+    "display_name": "Radar",
+    "position": "RADAR",
+    "size": 1,
+    "sizes": {
+     "min": 1,
+     "max": 1
+    },
+    "compatible_types": [
+     {
+      "type": "FPS_Radar",
+      "sub_types": []
+     }
+    ],
+    "types": [
+     "FPS_Radar"
+    ],
+    "type": "FPS_Radar",
+    "sub_type": null,
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [
+     "uneditable"
+    ],
+    "editable": false,
+    "uneditable": true,
+    "equipped_item_uuid": null,
+    "ports": null
+   }
+  ],
+  "radiation_resistance": {
+   "maximum_radiation_capacity": 15200,
+   "radiation_dissipation_rate": 81
+  },
+  "temperature_resistance": {
+   "min": -30,
+   "max": 60,
+   "minimum": -30,
+   "maximum": 60
+  },
+  "gforce_resistance": -0.025,
+  "shops": [],
+  "images": [
+   {
+    "source": "cstone.space",
+    "original_url": "https://cstone.space/uifimages/9a26bc89-a35b-4317-adfd-ec4a285d7e72.png",
+    "thumbnail_url": "https://cstone.space/uifimages/9a26bc89-a35b-4317-adfd-ec4a285d7e72.png",
+    "original_width": 571,
+    "original_height": 890,
+    "thumbnail_width": 571,
+    "thumbnail_height": 890
+   }
+  ],
+  "uex_prices": {
+   "purchase": [
+    {
+     "price_buy": 1290,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 766,
+     "terminal_code": "ARMNPG",
+     "terminal_name": "Armor - Pyro Gateway (Nyx)",
+     "starmap_location": {
+      "uuid": "a66119fa-6d93-4e56-bcd1-c9bd2c50beb7",
+      "name": "Pyro Gateway",
+      "slug": "pyro-gateway-2",
+      "type_name": "Manmade",
+      "parent_name": "Nyx",
+      "star_system_name": "Nyx",
+      "link": "https://api.star-citizen.wiki/api/locations/a66119fa-6d93-4e56-bcd1-c9bd2c50beb7",
+      "web_url": "https://api.star-citizen.wiki/locations/a66119fa-6d93-4e56-bcd1-c9bd2c50beb7"
+     },
+     "date_updated": "2026-09-11T02:54:47+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1328,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 779,
+     "terminal_code": "CORLEV",
+     "terminal_name": "Cordry's - Levski",
+     "starmap_location": {
+      "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+      "name": "Levski",
+      "slug": "levski",
+      "type_name": "Manmade",
+      "parent_name": "Nyx",
+      "star_system_name": "Nyx",
+      "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+      "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+     },
+     "date_updated": "2026-08-31T23:58:38+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1290,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 805,
+     "terminal_code": "ARMNSG",
+     "terminal_name": "Armor - Stanton Gateway (Nyx)",
+     "starmap_location": {
+      "uuid": "6396623a-61bd-4ced-9c8b-77c47753ef8f",
+      "name": "Stanton Gateway",
+      "slug": "stanton-gateway",
+      "type_name": "Manmade",
+      "parent_name": "Nyx",
+      "star_system_name": "Nyx",
+      "link": "https://api.star-citizen.wiki/api/locations/6396623a-61bd-4ced-9c8b-77c47753ef8f",
+      "web_url": "https://api.star-citizen.wiki/locations/6396623a-61bd-4ced-9c8b-77c47753ef8f"
+     },
+     "date_updated": "2026-08-30T20:00:54+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1290,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 563,
+     "terminal_code": "FPSGA",
+     "terminal_name": "Armor - Stanton Gateway (Pyro)",
+     "starmap_location": {
+      "uuid": "a1b8a311-6465-45dc-873d-e8d06d4372df",
+      "name": "Stanton Gateway",
+      "slug": "stanton-gateway-2",
+      "type_name": "Manmade",
+      "parent_name": "Pyro",
+      "star_system_name": "Pyro",
+      "link": "https://api.star-citizen.wiki/api/locations/a1b8a311-6465-45dc-873d-e8d06d4372df",
+      "web_url": "https://api.star-citizen.wiki/locations/a1b8a311-6465-45dc-873d-e8d06d4372df"
+     },
+     "date_updated": "2026-09-07T00:07:02+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1290,
+     "price_sell": null,
+     "price_rent": null,
+     "terminal_id": 745,
+     "terminal_code": "ARMPNG",
+     "terminal_name": "Armor - Nyx Gateway (Pyro)",
+     "starmap_location": {
+      "uuid": "2cc61d92-b7bc-4533-9b97-6a32482a28f1",
+      "name": "Nyx Gateway",
+      "slug": "nyx-gateway",
+      "type_name": "Manmade",
+      "parent_name": "Pyro",
+      "star_system_name": "Pyro",
+      "link": "https://api.star-citizen.wiki/api/locations/2cc61d92-b7bc-4533-9b97-6a32482a28f1",
+      "web_url": "https://api.star-citizen.wiki/locations/2cc61d92-b7bc-4533-9b97-6a32482a28f1"
+     },
+     "date_updated": "2026-09-05T21:16:15+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1226,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 180,
+     "terminal_code": "FPEVE",
+     "terminal_name": "Armor - Everus Harbor",
+     "starmap_location": {
+      "uuid": "ab29f65e-c792-4b1f-b23d-5810cb0ef416",
+      "name": "Everus Harbor",
+      "slug": "everus-harbor",
+      "type_name": "Manmade",
+      "parent_name": "Hurston",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/ab29f65e-c792-4b1f-b23d-5810cb0ef416",
+      "web_url": "https://api.star-citizen.wiki/locations/ab29f65e-c792-4b1f-b23d-5810cb0ef416"
+     },
+     "date_updated": "2026-09-14T05:30:58+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1226,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 144,
+     "terminal_code": "TAMMA",
+     "terminal_name": "Tammany and Sons - Metro Center - Lorville",
+     "starmap_location": {
+      "uuid": "f1759f46-e3c0-4dc1-94bc-c94488b58913",
+      "name": "Lorville",
+      "slug": "lorville",
+      "type_name": "LandingZone",
+      "parent_name": "Hurston",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913",
+      "web_url": "https://api.star-citizen.wiki/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913"
+     },
+     "date_updated": "2026-09-12T05:13:44+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1290,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 326,
+     "terminal_code": "FPSNG",
+     "terminal_name": "Armor - Nyx Gateway (Stanton)",
+     "starmap_location": {
+      "uuid": "e1501a68-09e5-472e-93a4-01efcde8c8f8",
+      "name": "Nyx Gateway",
+      "slug": "nyx-gateway-2",
+      "type_name": "Manmade",
+      "parent_name": "Stanton",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/e1501a68-09e5-472e-93a4-01efcde8c8f8",
+      "web_url": "https://api.star-citizen.wiki/locations/e1501a68-09e5-472e-93a4-01efcde8c8f8"
+     },
+     "date_updated": "2026-09-09T19:58:08+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1293,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 182,
+     "terminal_code": "FPML4",
+     "terminal_name": "Armor - MIC-L4",
+     "starmap_location": {
+      "uuid": "317b7505-e562-4caf-9691-1516ab639bbf",
+      "name": "MIC-L4 Red Crossroads Station",
+      "slug": "mic-l4-red-crossroads-station",
+      "type_name": "Manmade_VisibleOnInteraction",
+      "parent_name": "Stanton",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/317b7505-e562-4caf-9691-1516ab639bbf",
+      "web_url": "https://api.star-citizen.wiki/locations/317b7505-e562-4caf-9691-1516ab639bbf"
+     },
+     "date_updated": "2026-09-09T18:57:40+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1226,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 314,
+     "terminal_code": "FPPGA",
+     "terminal_name": "Armor - Pyro Gateway (Stanton)",
+     "starmap_location": {
+      "uuid": "59b22155-405f-4785-9f73-d2028b46f5c3",
+      "name": "Pyro Gateway",
+      "slug": "pyro-gateway",
+      "type_name": "Manmade",
+      "parent_name": "Stanton",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/59b22155-405f-4785-9f73-d2028b46f5c3",
+      "web_url": "https://api.star-citizen.wiki/locations/59b22155-405f-4785-9f73-d2028b46f5c3"
+     },
+     "date_updated": "2026-09-09T03:06:48+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1290,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 294,
+     "terminal_code": "FPTGA",
+     "terminal_name": "Armor - Terra Gateway (Stanton)",
+     "starmap_location": {
+      "uuid": "a3a7fa73-42bd-40ff-958c-e5c0d300ddc8",
+      "name": "Terra Gateway",
+      "slug": "terra-gateway",
+      "type_name": "Manmade",
+      "parent_name": "Stanton",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/a3a7fa73-42bd-40ff-958c-e5c0d300ddc8",
+      "web_url": "https://api.star-citizen.wiki/locations/a3a7fa73-42bd-40ff-958c-e5c0d300ddc8"
+     },
+     "date_updated": "2026-09-08T02:01:04+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1293,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 287,
+     "terminal_code": "FPSER",
+     "terminal_name": "Armor - Seraphim",
+     "starmap_location": {
+      "uuid": "45d2d370-9fab-4e6b-b84b-e9c913bc316a",
+      "name": "Seraphim Station",
+      "slug": "seraphim-station",
+      "type_name": "Manmade",
+      "parent_name": "Crusader",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/45d2d370-9fab-4e6b-b84b-e9c913bc316a",
+      "web_url": "https://api.star-citizen.wiki/locations/45d2d370-9fab-4e6b-b84b-e9c913bc316a"
+     },
+     "date_updated": "2026-09-03T04:54:23+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    },
+    {
+     "price_buy": 1097,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 113,
+     "terminal_code": "CBA18",
+     "terminal_name": "Cubby Blast - Area 18",
+     "starmap_location": {
+      "uuid": "c6535844-c615-494e-9dc1-c2d0c6e7190a",
+      "name": "Area18",
+      "slug": "area18",
+      "type_name": "LandingZone",
+      "parent_name": "ArcCorp",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a",
+      "web_url": "https://api.star-citizen.wiki/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a"
+     },
+     "date_updated": "2026-08-29T14:54:38+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=a23-flight-helmet-woodland&tab=about"
+    }
+   ]
+  },
+  "variants": [],
+  "web_url": "https://api.star-citizen.wiki/items/a23-helmet-woodland",
+  "link": "https://api.star-citizen.wiki/api/items/9a26bc89-a35b-4317-adfd-ec4a285d7e72",
+  "updated_at": "2026-09-16T00:17:30.000000Z",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:33",
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ],
+  "deprecated_fields": {
+   "shops": "Shop data is not available in the source files anymore, there is currently no replacement.",
+   "dimension.width": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.height": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.length": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.true_dimension": "Use dimension.dimensions instead."
+  },
+  "resource": {
+   "type": "item",
+   "uuid": "9a26bc89-a35b-4317-adfd-ec4a285d7e72",
+   "slug": "a23-helmet-woodland",
+   "api_url": "https://api.star-citizen.wiki/api/items/9a26bc89-a35b-4317-adfd-ec4a285d7e72",
+   "web_url": "https://api.star-citizen.wiki/items/a23-helmet-woodland",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

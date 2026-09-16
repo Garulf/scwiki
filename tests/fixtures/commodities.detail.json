@@ -1,0 +1,75 @@
+{
+ "data": {
+  "uuid": "7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+  "key": "AceInterceptorHelmet",
+  "name": "Ace Interceptor Helmet",
+  "display_name": "Ace Interceptor Helmet (ProcessedGoods)",
+  "slug": "ace-interceptor-helmet",
+  "description": "Item Type: Racing Helmet\nDamage Reduction: 5%\nTemp. Rating: -35 / 65 \u00b0C\nRadiation Protection: 26000 REM\nRadiation Scrub Rate: 145.8 REM/s\n\nThe unique open-faced design makes the Ace Interceptor helmet a lightweight and liberating option for operating in atmosphere. It features precisely layered plating to protect the head from a variety of combat and environmental hazards and an impact resistant, anti-glare visor over the eyes. Visor is AR crosshair compatible.",
+  "tier": null,
+  "density_g_per_cc": 1,
+  "instability": null,
+  "resistance": null,
+  "volatility": null,
+  "volatility_health_decay_per_second": null,
+  "box_sizes_scu": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   24,
+   32
+  ],
+  "validate_default_cargo_box": true,
+  "has_default_cargo_containers": true,
+  "is_mineable": false,
+  "has_ship_mineables": false,
+  "has_ground_vehicle_mineables": false,
+  "has_fps_mineables": false,
+  "has_harvestables": false,
+  "has_salvage": false,
+  "signature": null,
+  "kind": null,
+  "methods": [],
+  "systems": [],
+  "locations": [],
+  "commodity_groups": [
+   "ProcessedGoods"
+  ],
+  "link": "https://api.star-citizen.wiki/api/commodities/7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+  "web_url": "https://api.star-citizen.wiki/commodities/ace-interceptor-helmet",
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/f/f0/Ace_interceptor_helmet.png?7bpnp",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/f/f0/Ace_interceptor_helmet.png/600px-Ace_interceptor_helmet.png.webp?7bpnp",
+    "original_width": 800,
+    "original_height": 800,
+    "thumbnail_width": 600,
+    "thumbnail_height": 600
+   }
+  ],
+  "systems_grouped": [],
+  "raw_versions": [],
+  "blueprints": [],
+  "items": [],
+  "uex_prices": {
+   "purchase": []
+  }
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:07:15",
+  "valid_relations": [
+   "blueprints",
+   "items"
+  ],
+  "resource": {
+   "type": "commodity",
+   "uuid": "7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+   "slug": "ace-interceptor-helmet",
+   "api_url": "https://api.star-citizen.wiki/api/commodities/7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+   "web_url": "https://api.star-citizen.wiki/commodities/ace-interceptor-helmet"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "data": {
+  "id": 45401,
+  "name": "veh2617-sabreravenex-fallback-jpeg-1920x860-260916.jpg",
+  "rsi_url": "https://robertsspaceindustries.com/i/c137211aed44f07ec3685ad0de6a0e96712e54b4/ADdPNihJzmPbNuTnFsH1DqUeqBRpXdSXVVtgJTyDDgscGKrzJuoFjReskCUzDdbtitnz9s6gmNuFeSntxaCpbzhr6/veh2617-sabreravenex-fallback-jpeg-1920x860-260916.jpg",
+  "alt": "g-banner-advanced",
+  "size": 262666,
+  "mime_type": "image/jpeg",
+  "last_modified": "2026-09-16T13:27:32+00:00",
+  "tags": [],
+  "comm_links": [
+   {
+    "id": 21332,
+    "title": "Aegis Sabre Raven EX | Star Citizen",
+    "api_url": "https://api.star-citizen.wiki/api/comm-links/21332",
+    "web_url": "https://api.star-citizen.wiki/comm-links/21332"
+   }
+  ],
+  "duplicates": [
+   {
+    "id": 45402,
+    "name": "veh2617-sabreravenex-fallback-jpeg-1920x860-260916.webp"
+   }
+  ],
+  "base_image": null,
+  "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45401",
+  "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45401/similar"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:46"
+ }
+}

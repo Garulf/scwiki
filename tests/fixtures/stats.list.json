@@ -1,0 +1,122 @@
+{
+ "data": [
+  {
+   "funds": "1044284538.22",
+   "fans": 6709737,
+   "fleet": 6709737,
+   "timestamp": "2026-09-16T20:00:07.000000Z"
+  },
+  {
+   "funds": "1043824185.11",
+   "fans": 6707934,
+   "fleet": 6707934,
+   "timestamp": "2026-09-15T20:00:06.000000Z"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2070",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 2070,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2069",
+    "label": "2069",
+    "page": 2069,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2070",
+    "label": "2070",
+    "page": 2070,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/stats?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/stats",
+  "per_page": 2,
+  "to": 2,
+  "total": 4140
+ }
+}

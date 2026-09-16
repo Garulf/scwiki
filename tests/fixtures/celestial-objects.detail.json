@@ -1,0 +1,58 @@
+{
+ "data": {
+  "id": 1695,
+  "code": "STANTON.PLANETS.STANTONIICRUSADER",
+  "system_id": 314,
+  "link": "https://api.star-citizen.wiki/api/celestial-objects/STANTON.PLANETS.STANTONIICRUSADER",
+  "web_url": "https://api.star-citizen.wiki/starmap/celestial-objects/STANTON.PLANETS.STANTONIICRUSADER",
+  "name": "Crusader",
+  "type": "PLANET",
+  "age": 0,
+  "habitable": true,
+  "fairchanceact": null,
+  "appearance": "PLANET_GAS",
+  "designation": "Stanton II",
+  "distance": 1.28,
+  "latitude": 0,
+  "longitude": -160,
+  "axial_tilt": 0,
+  "orbit_period": 534.63,
+  "info_url": null,
+  "description": {
+   "en_EN": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+   "de_DE": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+   "zh_CN": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+   "fr_FR": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner."
+  },
+  "sensor": {
+   "population": 4,
+   "economy": 8,
+   "danger": 5
+  },
+  "size": 74500,
+  "parent_id": 1691,
+  "affiliation": [
+   {
+    "id": 1,
+    "name": "UEE",
+    "code": "uee",
+    "color": "#48bbd4"
+   }
+  ],
+  "sub_type": {
+   "id": 23,
+   "name": "Gas Giant",
+   "type": "PLANET"
+  },
+  "jumppoints": null,
+  "time_modified": "2022-02-22T03:15:03.000000Z"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:43",
+  "valid_relations": [
+   "affiliation",
+   "starsystem",
+   "jumppoints"
+  ]
+ }
+}

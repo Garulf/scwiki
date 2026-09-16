@@ -1,0 +1,53 @@
+{
+ "data": {
+  "id": 422,
+  "code": "TAMSA",
+  "system_api_url": "https://api.star-citizen.wiki/api/starsystems/TAMSA",
+  "name": "Tamsa",
+  "status": "P",
+  "type": "SINGLE_STAR",
+  "web_url": "https://api.star-citizen.wiki/starmap/systems/TAMSA",
+  "position": {
+   "x": -18.82,
+   "y": -70.57,
+   "z": 15.03
+  },
+  "frost_line": null,
+  "habitable_zone_inner": null,
+  "habitable_zone_outer": null,
+  "info_url": null,
+  "description": {
+   "en_EN": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act.",
+   "de_DE": "Ein beliebtes Urlaubsziel f\u00fcr Banu and Humans. Die Banu haben Yulins einzigartige Planetenmischung in ein Unterhaltungsmekka verwandelt, das eine Vielzahl von M\u00f6glichkeiten f\u00fcr Laster und Unterhaltung bietet, aber es gibt immer noch jede Menge Handel und Gesch\u00e4fte f\u00fcr diejenigen, die es w\u00fcnschen.",
+   "zh_CN": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act.",
+   "fr_FR": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act."
+  },
+  "aggregated": {
+   "size": 303.57,
+   "population": 0,
+   "economy": 0.23,
+   "danger": 0,
+   "stars": 0,
+   "planets": 2,
+   "moons": 0,
+   "stations": 0
+  },
+  "affiliation": [
+   {
+    "id": 1,
+    "name": "UEE",
+    "code": "uee",
+    "color": "#48bbd4"
+   }
+  ],
+  "updated_at": "2025-08-27T21:37:00.000000Z"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:45",
+  "valid_relations": [
+   "affiliation",
+   "celestialObjects",
+   "jumppoints"
+  ]
+ }
+}

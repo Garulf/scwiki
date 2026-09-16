@@ -1,0 +1,248 @@
+{
+ "data": [
+  {
+   "uuid": "280f47b7-8434-410c-b854-380768fdccec",
+   "key": "BP_CRAFT_AMRS_LaserCannon_S1",
+   "category_uuid": "61e576d2-f8b4-46b1-98e6-9205bb5de686",
+   "output_item_uuid": "26838ca7-418a-47d2-8429-7339ebbb8993",
+   "output_name": "Omnisky III Cannon",
+   "output_class": "amrs_lasercannon_s1",
+   "craft_time_seconds": 540,
+   "craft_time_label": "9 minutes",
+   "is_available_by_default": false,
+   "game_version": "4.10.0-LIVE.12519617",
+   "ingredient_count": 3,
+   "unlocking_missions_count": 1,
+   "ingredients": [
+    {
+     "name": "Agricium",
+     "kind": "resource",
+     "resource_type_uuid": "dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "item_uuid": null,
+     "quantity_scu": 0.36,
+     "quantity": null,
+     "link": "https://api.star-citizen.wiki/api/commodities/fc1ec740-3047-48d8-81f0-396f4c9a90ef",
+     "web_url": "https://api.star-citizen.wiki/commodities/fc1ec740-3047-48d8-81f0-396f4c9a90ef"
+    },
+    {
+     "name": "Hadanite",
+     "kind": "item",
+     "resource_type_uuid": null,
+     "item_uuid": "125dd723-95ad-488d-830f-62c954445ca1",
+     "quantity_scu": null,
+     "quantity": 7,
+     "link": "https://api.star-citizen.wiki/api/items/125dd723-95ad-488d-830f-62c954445ca1",
+     "web_url": "https://api.star-citizen.wiki/items/125dd723-95ad-488d-830f-62c954445ca1"
+    },
+    {
+     "name": "Dolivine",
+     "kind": "item",
+     "resource_type_uuid": null,
+     "item_uuid": "20094ded-ad04-46a3-b734-9e37aa3154b3",
+     "quantity_scu": null,
+     "quantity": 7,
+     "link": "https://api.star-citizen.wiki/api/items/20094ded-ad04-46a3-b734-9e37aa3154b3",
+     "web_url": "https://api.star-citizen.wiki/items/20094ded-ad04-46a3-b734-9e37aa3154b3"
+    }
+   ],
+   "dismantle_returns": [
+    {
+     "name": "Agricium",
+     "resource_type_uuid": "dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "quantity_scu": 0.18,
+     "link": "https://api.star-citizen.wiki/api/commodities/dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "web_url": "https://api.star-citizen.wiki/commodities/dc6fbcbb-5990-4ed5-82ee-93152dab7845"
+    }
+   ],
+   "output": {
+    "uuid": "26838ca7-418a-47d2-8429-7339ebbb8993",
+    "name": "Omnisky III Cannon",
+    "class": "amrs_lasercannon_s1",
+    "type": "WeaponGun",
+    "type_label": "Weapon Gun",
+    "sub_type": "Gun",
+    "subtype": "Gun",
+    "grade": "1",
+    "item_web_url": "https://api.star-citizen.wiki/items/26838ca7-418a-47d2-8429-7339ebbb8993"
+   },
+   "web_url": "https://api.star-citizen.wiki/blueprints/omnisky-iii-cannon",
+   "output_item_web_url": "https://api.star-citizen.wiki/items/26838ca7-418a-47d2-8429-7339ebbb8993",
+   "link": "https://api.star-citizen.wiki/api/blueprints/280f47b7-8434-410c-b854-380768fdccec"
+  },
+  {
+   "uuid": "3e1831e2-fe5d-4383-9709-d1125cb2f174",
+   "key": "BP_CRAFT_AMRS_LaserCannon_S2",
+   "category_uuid": "3b758fdc-250d-4a15-bf4e-118d4a5b66bd",
+   "output_item_uuid": "1893e596-acaf-49bc-b367-e43e99c2925f",
+   "output_name": "Omnisky VI Cannon",
+   "output_class": "amrs_lasercannon_s2",
+   "craft_time_seconds": 960,
+   "craft_time_label": "16 minutes",
+   "is_available_by_default": false,
+   "game_version": "4.10.0-LIVE.12519617",
+   "ingredient_count": 3,
+   "unlocking_missions_count": 1,
+   "ingredients": [
+    {
+     "name": "Agricium",
+     "kind": "resource",
+     "resource_type_uuid": "dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "item_uuid": null,
+     "quantity_scu": 0.64,
+     "quantity": null,
+     "link": "https://api.star-citizen.wiki/api/commodities/fc1ec740-3047-48d8-81f0-396f4c9a90ef",
+     "web_url": "https://api.star-citizen.wiki/commodities/fc1ec740-3047-48d8-81f0-396f4c9a90ef"
+    },
+    {
+     "name": "Hadanite",
+     "kind": "item",
+     "resource_type_uuid": null,
+     "item_uuid": "125dd723-95ad-488d-830f-62c954445ca1",
+     "quantity_scu": null,
+     "quantity": 13,
+     "link": "https://api.star-citizen.wiki/api/items/125dd723-95ad-488d-830f-62c954445ca1",
+     "web_url": "https://api.star-citizen.wiki/items/125dd723-95ad-488d-830f-62c954445ca1"
+    },
+    {
+     "name": "Dolivine",
+     "kind": "item",
+     "resource_type_uuid": null,
+     "item_uuid": "20094ded-ad04-46a3-b734-9e37aa3154b3",
+     "quantity_scu": null,
+     "quantity": 13,
+     "link": "https://api.star-citizen.wiki/api/items/20094ded-ad04-46a3-b734-9e37aa3154b3",
+     "web_url": "https://api.star-citizen.wiki/items/20094ded-ad04-46a3-b734-9e37aa3154b3"
+    }
+   ],
+   "dismantle_returns": [
+    {
+     "name": "Agricium",
+     "resource_type_uuid": "dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "quantity_scu": 0.32,
+     "link": "https://api.star-citizen.wiki/api/commodities/dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+     "web_url": "https://api.star-citizen.wiki/commodities/dc6fbcbb-5990-4ed5-82ee-93152dab7845"
+    }
+   ],
+   "output": {
+    "uuid": "1893e596-acaf-49bc-b367-e43e99c2925f",
+    "name": "Omnisky VI Cannon",
+    "class": "amrs_lasercannon_s2",
+    "type": "WeaponGun",
+    "type_label": "Weapon Gun",
+    "sub_type": "Gun",
+    "subtype": "Gun",
+    "grade": "1",
+    "item_web_url": "https://api.star-citizen.wiki/items/1893e596-acaf-49bc-b367-e43e99c2925f"
+   },
+   "web_url": "https://api.star-citizen.wiki/blueprints/omnisky-vi-cannon",
+   "output_item_web_url": "https://api.star-citizen.wiki/items/1893e596-acaf-49bc-b367-e43e99c2925f",
+   "link": "https://api.star-citizen.wiki/api/blueprints/3e1831e2-fe5d-4383-9709-d1125cb2f174"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=803",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 803,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=802",
+    "label": "802",
+    "page": 802,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=803",
+    "label": "803",
+    "page": 803,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/blueprints?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/blueprints",
+  "per_page": 2,
+  "to": 2,
+  "total": 1606
+ }
+}

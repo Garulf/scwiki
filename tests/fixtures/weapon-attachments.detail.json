@@ -1,0 +1,395 @@
+{
+ "data": {
+  "uuid": "6bbaa189-c154-4524-b2c1-6df305bb9533",
+  "slug": "250-e-laser-pointer",
+  "name": "250-E Laser Pointer",
+  "class_name": "nvtc_ubarrel_lasr_s1",
+  "classification": "FPS.WeaponAttachment.BottomAttachment",
+  "classification_label": "Bottom Attachment",
+  "description": {
+   "en_EN": "The 250-E is an intuitive aiming aid that produces a laser visible to you and others. NV-TAC built the attachment to be lightweight yet durable so it won't add extra weight to your weapon.",
+   "de_DE": "Gr\u00f6\u00dfe: S1\nStreuung: -12,5%\n\nDer 250-E ist eine intuitive Zielhilfe, der einen Laser erzeugt, der sowohl f\u00fcr dich als auch f\u00fcr andere sichtbar ist. NV-TAC hat das Zubeh\u00f6r so konstruiert, dass es leicht, aber dennoch robust ist, sodass er deine Waffe nicht zus\u00e4tzlich beschwert.",
+   "zh_CN": "\u5236\u9020\u5546\uff1aNV\u88c5\u5907 (NV-TAC)\n\u7c7b\u578b\uff1a\u6fc0\u5149\u6307\u793a\u5668\n\u9644\u4ef6\u6302\u70b9\uff1a\u4e0b\u6302\n\u5c3a\u5bf8\uff1a1\n\n\u6563\u5e03\uff1a-12.5%\n\n250-E\u662f\u4e00\u79cd\u76f4\u5c04\u5f0f\u7784\u51c6\u8f85\u52a9\u88c5\u7f6e\uff0c\u53ef\u4ea7\u751f\u60a8\u548c\u4ed6\u4eba\u90fd\u80fd\u770b\u5230\u7684\u6fc0\u5149\u3002NV\u88c5\u5907\u5c06\u8be5\u9644\u4ef6\u8bbe\u8ba1\u5f97\u65e2\u8f7b\u4fbf\u53c8\u8010\u7528\uff0c\u56e0\u6b64\u4e0d\u4f1a\u589e\u52a0\u6b66\u5668\u7684\u989d\u5916\u91cd\u91cf\u3002",
+   "fr_FR": "Type d'article : Pointeur laser\nFabricant : NV-TAC\nPoint d'attache : Sous-canon\nTaille : 1\n\nLe 250-E est une aide de vis\u00e9e intuitive qui produit un laser visible pour vous et pour les autres. NV-TAC a con\u00e7u le montage pour \u00eatre l\u00e9ger tout en restant durable afin de ne pas ajouter de poids suppl\u00e9mentaire \u00e0 votre arme."
+  },
+  "size": 1,
+  "mass": 0.1,
+  "rarity": "Common",
+  "event_source": [],
+  "is_base_variant": true,
+  "is_craftable": false,
+  "is_lootable": true,
+  "description_data": [
+   {
+    "name": "Attachment Point",
+    "value": "Underbarrel",
+    "type": "Underbarrel"
+   },
+   {
+    "name": "Manufacturer",
+    "value": "NV-TAC",
+    "type": "NV-TAC"
+   },
+   {
+    "name": "Size",
+    "value": "1",
+    "type": "1"
+   },
+   {
+    "name": "Type",
+    "value": "Laser Pointer",
+    "type": "Laser Pointer"
+   }
+  ],
+  "manufacturer_description": "NV-TAC",
+  "manufacturer": {
+   "name": "NV-TAC",
+   "code": "NVTC",
+   "uuid": "f113387e-0905-489a-829d-8cebfdc19e66",
+   "link": "https://api.star-citizen.wiki/api/manufacturers/NVTC"
+  },
+  "type": "WeaponAttachment",
+  "type_label": "Weapon Attachment",
+  "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=WeaponAttachment",
+  "sub_type": "BottomAttachment",
+  "sub_type_label": "Bottom Attachment",
+  "position": "Underbarrel",
+  "weapon_modifier": {
+   "activate_on_attach": 1,
+   "ignore_wear": 0,
+   "spread": {
+    "min_multiplier": 0.885,
+    "min_change": -0.11,
+    "max_multiplier": 0.885,
+    "max_change": -0.11,
+    "first_attack_multiplier": 0.885,
+    "first_attack_change": -0.11,
+    "per_attack_multiplier": 0.885,
+    "per_attack_change": -0.11,
+    "decay_multiplier": 1,
+    "decay_change": 0
+   },
+   "fire_rate_multiplier": 1,
+   "damage_multiplier": 1,
+   "damage_over_time_multiplier": null,
+   "projectile_speed_multiplier": 1,
+   "ammo_cost_multiplier": 1,
+   "heat_generation_multiplier": 1,
+   "sound_radius_multiplier": 1,
+   "charge_time_multiplier": 1
+  },
+  "laser_pointer": {
+   "range": 20,
+   "color": null,
+   "color_css": null
+  },
+  "dimension": {
+   "width": 0.75,
+   "height": 0.75,
+   "length": 0.75,
+   "volume": 0.0001,
+   "volume_converted": 110,
+   "volume_converted_unit": "\u00b5SCU",
+   "true_dimension": {
+    "width": 0.042,
+    "height": 0.038,
+    "length": 0.058
+   },
+   "dimensions": {
+    "width": 0.042,
+    "height": 0.038,
+    "length": 0.058
+   },
+   "cargo_dimension": {
+    "width": 0.04,
+    "height": 0.04,
+    "length": 0.07
+   },
+   "ui_dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75
+   }
+  },
+  "tags": [],
+  "required_tags": [],
+  "entity_tags": [
+   "7ccfbd18-9b22-436f-a746-e28265c1e965",
+   "70b78947-4637-4852-bf01-4d6bb1f2b363",
+   "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+   "c069452f-578b-42d2-ab27-af804b014dc9",
+   "774ce8f9-0a9a-45a8-ae7c-be28f30999e1",
+   "684c3776-420b-4e54-abe8-ea520a551183",
+   "bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58",
+   "59ca5e36-b9a2-4459-ad0e-5745bcf5d899"
+  ],
+  "entity_tag_map": [
+   {
+    "uuid": "7ccfbd18-9b22-436f-a746-e28265c1e965",
+    "name": "Underbarrel"
+   },
+   {
+    "uuid": "70b78947-4637-4852-bf01-4d6bb1f2b363",
+    "name": "Attachment"
+   },
+   {
+    "uuid": "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+    "name": "Stackable"
+   },
+   {
+    "uuid": "c069452f-578b-42d2-ab27-af804b014dc9",
+    "name": "nvtc_ubarrel_lasr_s1"
+   },
+   {
+    "uuid": "774ce8f9-0a9a-45a8-ae7c-be28f30999e1",
+    "name": "UnderBarrel"
+   },
+   {
+    "uuid": "684c3776-420b-4e54-abe8-ea520a551183",
+    "name": "S1"
+   },
+   {
+    "uuid": "bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58",
+    "name": "CanGenerateAsLoot"
+   },
+   {
+    "uuid": "59ca5e36-b9a2-4459-ad0e-5745bcf5d899",
+    "name": "Common"
+   }
+  ],
+  "interactions": [
+   "Carry",
+   "Drop",
+   "Inspect",
+   "Place",
+   "Store",
+   "Offhandstore",
+   "Equiptoweapon"
+  ],
+  "shops": [],
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/4/42/250-E_-_Shop_display.jpg?ckeca",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/4/42/250-E_-_Shop_display.jpg/600px-250-E_-_Shop_display.jpg.webp?ckeca",
+    "original_width": 2256,
+    "original_height": 1269,
+    "thumbnail_width": 600,
+    "thumbnail_height": 338
+   }
+  ],
+  "uex_prices": {
+   "purchase": [
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 109,
+     "terminal_code": "COLEV",
+     "terminal_name": "Conscientious Objects - Levski",
+     "starmap_location": {
+      "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+      "name": "Levski",
+      "slug": "levski",
+      "type_name": "Manmade",
+      "parent_name": "Nyx",
+      "star_system_name": "Nyx",
+      "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+      "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+     },
+     "date_updated": "2026-09-01T00:12:27+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 337,
+     "terminal_code": "ZEPHY",
+     "terminal_name": "Shop Terminal - Zephyr",
+     "starmap_location": {
+      "uuid": "2f26aee5-8a5f-48cd-8226-3fbdea6df3b6",
+      "name": "Zephyr",
+      "slug": "zephyr",
+      "type_name": "Outpost",
+      "parent_name": "Hurston",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/2f26aee5-8a5f-48cd-8226-3fbdea6df3b6",
+      "web_url": "https://api.star-citizen.wiki/locations/2f26aee5-8a5f-48cd-8226-3fbdea6df3b6"
+     },
+     "date_updated": "2026-09-12T12:40:15+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 351,
+     "terminal_code": "FROST",
+     "terminal_name": "Frostbite",
+     "starmap_location": {
+      "uuid": "1b236025-3b0d-489b-a3c1-52bec07693c6",
+      "name": "Frostbite",
+      "slug": "frostbite",
+      "type_name": "Outpost",
+      "parent_name": "microTech",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/1b236025-3b0d-489b-a3c1-52bec07693c6",
+      "web_url": "https://api.star-citizen.wiki/locations/1b236025-3b0d-489b-a3c1-52bec07693c6"
+     },
+     "date_updated": "2026-09-04T21:55:10+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 143,
+     "terminal_code": "SKUTT",
+     "terminal_name": "Skutters - GrimHEX",
+     "starmap_location": {
+      "uuid": "8cda0b9b-22a8-43fe-ac33-df7a1ba9434d",
+      "name": "Grim HEX",
+      "slug": "grim-hex",
+      "type_name": "Manmade",
+      "parent_name": "Yela",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/8cda0b9b-22a8-43fe-ac33-df7a1ba9434d",
+      "web_url": "https://api.star-citizen.wiki/locations/8cda0b9b-22a8-43fe-ac33-df7a1ba9434d"
+     },
+     "date_updated": "2026-09-03T19:04:39+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 288,
+     "terminal_code": "LFSER",
+     "terminal_name": "Live Fire Weapons - Seraphim",
+     "starmap_location": {
+      "uuid": "45d2d370-9fab-4e6b-b84b-e9c913bc316a",
+      "name": "Seraphim Station",
+      "slug": "seraphim-station",
+      "type_name": "Manmade",
+      "parent_name": "Crusader",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/45d2d370-9fab-4e6b-b84b-e9c913bc316a",
+      "web_url": "https://api.star-citizen.wiki/locations/45d2d370-9fab-4e6b-b84b-e9c913bc316a"
+     },
+     "date_updated": "2026-09-03T04:33:47+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 113,
+     "terminal_code": "CBA18",
+     "terminal_name": "Cubby Blast - Area 18",
+     "starmap_location": {
+      "uuid": "c6535844-c615-494e-9dc1-c2d0c6e7190a",
+      "name": "Area18",
+      "slug": "area18",
+      "type_name": "LandingZone",
+      "parent_name": "ArcCorp",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a",
+      "web_url": "https://api.star-citizen.wiki/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a"
+     },
+     "date_updated": "2026-08-29T15:09:43+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 265,
+     "terminal_code": "FPAST",
+     "terminal_name": "FPS Shop - Astor's Clearing",
+     "starmap_location": {
+      "uuid": "36b54755-ecdf-45bc-9970-d976064dc5a8",
+      "name": "Astor's Clearing",
+      "slug": "astors-clearing",
+      "type_name": "Outpost",
+      "parent_name": "microTech",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/36b54755-ecdf-45bc-9970-d976064dc5a8",
+      "web_url": "https://api.star-citizen.wiki/locations/36b54755-ecdf-45bc-9970-d976064dc5a8"
+     },
+     "date_updated": "2026-08-27T20:21:58+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    },
+    {
+     "price_buy": 280,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 266,
+     "terminal_code": "FPDUN",
+     "terminal_name": "FPS Shop - Dunboro",
+     "starmap_location": {
+      "uuid": "43b2fb8b-1713-481f-8a90-db577cdd8d82",
+      "name": "Dunboro",
+      "slug": "dunboro",
+      "type_name": "Outpost",
+      "parent_name": "microTech",
+      "star_system_name": "Stanton",
+      "link": "https://api.star-citizen.wiki/api/locations/43b2fb8b-1713-481f-8a90-db577cdd8d82",
+      "web_url": "https://api.star-citizen.wiki/locations/43b2fb8b-1713-481f-8a90-db577cdd8d82"
+     },
+     "date_updated": "2026-08-27T17:24:55+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=250-e-laser-pointer&tab=about"
+    }
+   ]
+  },
+  "variants": [],
+  "web_url": "https://api.star-citizen.wiki/items/250-e-laser-pointer",
+  "link": "https://api.star-citizen.wiki/api/items/6bbaa189-c154-4524-b2c1-6df305bb9533",
+  "updated_at": "2026-09-16T00:07:36.000000Z",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:39",
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ],
+  "deprecated_fields": {
+   "shops": "Shop data is not available in the source files anymore, there is currently no replacement.",
+   "dimension.width": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.height": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.length": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.true_dimension": "Use dimension.dimensions instead.",
+   "weapon_modifier": {
+    "fire_rate_multiplier": "use `base.fire_rate_multiplier` instead.",
+    "damage_multiplier": "use `base.damage_multiplier` instead.",
+    "damage_over_time_multiplier": "use `base.damage_over_time_multiplier` instead.",
+    "projectile_speed_multiplier": "use `base.projectile_speed_multiplier` instead.",
+    "ammo_cost_multiplier": "use `base.ammo_cost_multiplier` instead.",
+    "heat_generation_multiplier": "use `base.heat_generation_multiplier` instead.",
+    "sound_radius_multiplier": "use `base.sound_radius_multiplier` instead.",
+    "charge_time_multiplier": "use `base.charge_time_multiplier` instead."
+   }
+  },
+  "resource": {
+   "type": "item",
+   "uuid": "6bbaa189-c154-4524-b2c1-6df305bb9533",
+   "slug": "250-e-laser-pointer",
+   "api_url": "https://api.star-citizen.wiki/api/items/6bbaa189-c154-4524-b2c1-6df305bb9533",
+   "web_url": "https://api.star-citizen.wiki/items/250-e-laser-pointer",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

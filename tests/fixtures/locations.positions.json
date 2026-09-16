@@ -1,0 +1,260 @@
+{
+ "data": [
+  {
+   "uuid": "72898c6c-5489-4ec4-afc4-560d7ddafc49",
+   "name": "\"The Pit\"",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "452de0e6-e31d-4e2c-b249-1c4244cb713b",
+   "hidden": false,
+   "qt_valid": true,
+   "x": 18703666265.838036,
+   "y": -22121582018.84453,
+   "z": 204996.612269
+  },
+  {
+   "uuid": "6fa506b1-43f8-479c-b103-519bc5a41fde",
+   "name": "\"Wheeler's\"",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "452de0e6-e31d-4e2c-b249-1c4244cb713b",
+   "hidden": false,
+   "qt_valid": true,
+   "x": 18703553802.020935,
+   "y": -22121860033.587746,
+   "z": -57123.427778
+  },
+  {
+   "uuid": "c0c47e3f-6a2d-41b4-9af5-6eecee5c216e",
+   "name": "<= UNINITIALIZED =>",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "ee63a520-43df-4e1c-8af7-8b8df06b3dd2",
+   "hidden": true,
+   "qt_valid": true,
+   "x": -19022962101.781075,
+   "y": -2613687302.0371823,
+   "z": 28947.572544
+  },
+  {
+   "uuid": "ab7a3bf6-66ec-4981-96a2-5f18696f8f5d",
+   "name": "<= UNINITIALIZED =>",
+   "type": "PointOfInterest",
+   "system": "stanton",
+   "parent_uuid": "ee63a520-43df-4e1c-8af7-8b8df06b3dd2",
+   "hidden": true,
+   "qt_valid": true,
+   "x": -19023543447.614876,
+   "y": -2613860469.482847,
+   "z": -1818.643433
+  },
+  {
+   "uuid": "1d21486a-f80c-44b0-a88b-c642efb42b8c",
+   "name": "<= UNINITIALIZED =>",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "e658b2b1-fae7-4945-89b8-b332f235d59b",
+   "hidden": true,
+   "qt_valid": true,
+   "x": -18930466400.49229,
+   "y": -2609872861.172468,
+   "z": 1905.514007
+  },
+  {
+   "uuid": "7237311b-a1a8-4f01-9658-b8d9911b3ab7",
+   "name": "<= UNINITIALIZED =>",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "b41a1bc9-5bca-489b-8273-de90f18ec60d",
+   "hidden": true,
+   "qt_valid": true,
+   "x": -18987481057.5835,
+   "y": -2708824745.281226,
+   "z": 130356.376438
+  },
+  {
+   "uuid": "0b8b226a-076f-44fb-a522-dee6b0c4be4c",
+   "name": "ARC L1",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 16729134637.384644,
+   "y": -19937006924.891357,
+   "z": 8076.625
+  },
+  {
+   "uuid": "a8750e45-537e-481d-8a53-a24f8b42fa08",
+   "name": "ARC L1-A",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "0b8b226a-076f-44fb-a522-dee6b0c4be4c",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 16729234302.711197,
+   "y": -19942034596.84523,
+   "z": 2238211.5486703995
+  },
+  {
+   "uuid": "6c9dd307-7b70-451f-bb38-9e70c0177f46",
+   "name": "ARC L2",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 20446718503.390137,
+   "y": -24367450990.706055,
+   "z": 8076.625
+  },
+  {
+   "uuid": "c8307d0e-20c7-46ac-b2b9-f145d8d86bb5",
+   "name": "ARC L2-A",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "6c9dd307-7b70-451f-bb38-9e70c0177f46",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 20450988221.75142,
+   "y": -24368039338.8374,
+   "z": -294762.3924822223
+  },
+  {
+   "uuid": "8e1e3499-2188-4a1d-97eb-5cd45f66f908",
+   "name": "ARC L3",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": true,
+   "qt_valid": false,
+   "x": -25043446883.50293,
+   "y": 14458841787.628052,
+   "z": 8076.625
+  },
+  {
+   "uuid": "1820b8fc-e7c1-49f0-9020-5c8c5f7aae4c",
+   "name": "ARC L3-A",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "8e1e3499-2188-4a1d-97eb-5cd45f66f908",
+   "hidden": true,
+   "qt_valid": false,
+   "x": -25045525519.9715,
+   "y": 14463233811.823402,
+   "z": -1872135.0455020897
+  },
+  {
+   "uuid": "ba1492c3-5e0a-4e7e-83e8-f55aed92a756",
+   "name": "ARC L4",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 28478354915.65576,
+   "y": 5021502482.911743,
+   "z": 8076.625
+  },
+  {
+   "uuid": "94fb0b94-8604-4302-8897-45fed6087b4b",
+   "name": "ARC L4-A",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "ba1492c3-5e0a-4e7e-83e8-f55aed92a756",
+   "hidden": true,
+   "qt_valid": false,
+   "x": 28476148192.11528,
+   "y": 5018907334.430329,
+   "z": 931459.2270587264
+  },
+  {
+   "uuid": "9320ba84-f110-4589-907f-e85d76e05c44",
+   "name": "ARC L5",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": true,
+   "qt_valid": false,
+   "x": -9890422516.169678,
+   "y": -27173732225.140015,
+   "z": 8076.625
+  },
+  {
+   "uuid": "63bf3acd-7678-47b5-92cb-450f6cb73c4f",
+   "name": "ARC L5-A",
+   "type": "Asteroid",
+   "system": "stanton",
+   "parent_uuid": "9320ba84-f110-4589-907f-e85d76e05c44",
+   "hidden": true,
+   "qt_valid": false,
+   "x": -9895738186.718481,
+   "y": -27175147516.677383,
+   "z": 904123.9667050694
+  },
+  {
+   "uuid": "d6961b07-6b08-4a44-b658-9610bb3bc49a",
+   "name": "ARC-L1 Wide Forest Clinic",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "59485d8c-7947-4e00-871c-d35f6451aab8",
+   "hidden": true,
+   "qt_valid": true,
+   "x": 16729219351.97119,
+   "y": -19942049404.425076,
+   "z": 2240250.7449541306
+  },
+  {
+   "uuid": "59485d8c-7947-4e00-871c-d35f6451aab8",
+   "name": "ARC-L1 Wide Forest Station",
+   "type": "Manmade_VisibleOnInteraction",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": false,
+   "qt_valid": true,
+   "x": 16729220034.957521,
+   "y": -19942048185.734924,
+   "z": 2239765.2149551306
+  },
+  {
+   "uuid": "62db4948-277a-4bc5-b6c9-d376eaf76c86",
+   "name": "ARC-L2 Lively Pathway Clinic",
+   "type": "Outpost",
+   "system": "stanton",
+   "parent_uuid": "45b909df-7b0c-40c9-ab83-a7cd7d3a980f",
+   "hidden": true,
+   "qt_valid": true,
+   "x": 20451005218.08237,
+   "y": -24368054788.329296,
+   "z": -293342.9792432935
+  },
+  {
+   "uuid": "45b909df-7b0c-40c9-ab83-a7cd7d3a980f",
+   "name": "ARC-L2 Lively Pathway Station",
+   "type": "Manmade_VisibleOnInteraction",
+   "system": "stanton",
+   "parent_uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "hidden": false,
+   "qt_valid": true,
+   "x": 20451005907.884228,
+   "y": -24368053520.67112,
+   "z": -293845.4529822935
+  }
+ ],
+ "connections": [
+  {
+   "entry_uuid": "63105afc-38df-48cc-b570-8eba703a57d7",
+   "exit_uuid": "80bac534-3e84-4a2d-97c2-3edefa2d5bef",
+   "entry_system": "nyx",
+   "exit_system": "pyro",
+   "fuel_cost": 0.24
+  },
+  {
+   "entry_uuid": "5de4be76-7d6c-47e3-ab7b-9d344d27f506",
+   "exit_uuid": "f497eb74-7875-42e6-9694-632cb4a76f8c",
+   "entry_system": "pyro",
+   "exit_system": "stanton",
+   "fuel_cost": 0.24
+  }
+ ]
+}

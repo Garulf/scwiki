@@ -1,0 +1,95 @@
+{
+ "data": {
+  "uuid": "f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+  "slug": "aberdeen",
+  "name": "Aberdeen",
+  "description": "This moon was named after scientist Aberdeen Hurston who was credited with designing the company's first antimatter warhead. \n\nPotential Ship Mineables:\nAluminum\nTitanium\nOuratite\nQuantainium\n\n\nPotential Hand Mineables:\nAphorite\nDolivine\nHadanite\nJanalite (Caves only)\n\nPotential Harvestables:\nRanta Dung (Caves)\nAmioshi Plague (Caves)\nBluemoon Fungus (Caves)",
+  "size": 274000,
+  "respawn_location_type": "None",
+  "child_count": 37,
+  "has_resources": true,
+  "mission_count": 414,
+  "is_scannable": false,
+  "hide_in_starmap": false,
+  "hide_in_world": false,
+  "block_travel": false,
+  "quantum_travel": {
+   "arrival_radius": 437700,
+   "adoption_radius": 1096000,
+   "obstruction_radius": 279048,
+   "sub_point_radius_multiplier": 1.5,
+   "arrival_point_detection_offset": 10000,
+   "obstruction_radius_formatted": "279 km",
+   "arrival_radius_formatted": "438 km",
+   "adoption_radius_formatted": "1\u00a0096 km"
+  },
+  "asteroid_ring": null,
+  "system": "Stanton System",
+  "star": {
+   "uuid": "34ff378f-faee-47bb-b5fe-f505e665c5ca",
+   "name": "Stanton",
+   "type_name": "Star",
+   "slug": "stanton"
+  },
+  "parent": {
+   "uuid": "551af60b-7727-4936-acc7-763d25d7a1de",
+   "name": "Hurston",
+   "type_name": "Planet",
+   "slug": "hurston"
+  },
+  "type": {
+   "uuid": "4af1132e-d980-482d-823f-f713a196b9aa",
+   "name": "Moon",
+   "classification": "Moon",
+   "spawn_nav_points": true,
+   "valid_quantum_travel_destination": true
+  },
+  "jurisdiction": null,
+  "affiliation": null,
+  "amenities": [],
+  "tag": {
+   "uuid": "04a7053f-af5f-4bb4-964d-27459640fb7b",
+   "name": "Stanton1b"
+  },
+  "designation": "Stanton Ib",
+  "radar_contact_type": {
+   "uuid": null,
+   "name": null,
+   "display_name": null,
+   "tag_uuid": null,
+   "tag_name": null,
+   "is_object_of_interest": null
+  },
+  "link": "https://api.star-citizen.wiki/api/locations/f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+  "web_url": "https://api.star-citizen.wiki/locations/aberdeen",
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/4/47/Aberdeen-4.3.jpg?4lza5",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/4/47/Aberdeen-4.3.jpg/600px-Aberdeen-4.3.jpg.webp?4lza5",
+    "original_width": 1920,
+    "original_height": 1080,
+    "thumbnail_width": 600,
+    "thumbnail_height": 338
+   }
+  ],
+  "updated_at": "2026-08-27T09:50:53+00:00",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:42",
+  "valid_relations": [
+   "children",
+   "resources",
+   "missions"
+  ],
+  "resource": {
+   "type": "location",
+   "uuid": "f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+   "slug": "aberdeen",
+   "api_url": "https://api.star-citizen.wiki/api/locations/f8f07f5b-1c0e-47c9-aa50-46963065bf18",
+   "web_url": "https://api.star-citizen.wiki/locations/aberdeen",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

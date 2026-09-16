@@ -1,0 +1,727 @@
+{
+ "data": {
+  "uuid": "1aad8334-8d0a-4dd1-bcca-bd195bc013a7",
+  "slug": "a03-canuto-sniper-rifle",
+  "name": "A03 \"Canuto\" Sniper Rifle",
+  "class_name": "gmni_sniper_ballistic_01_arctic01",
+  "classification": "FPS.Weapon.Medium",
+  "classification_label": "Medium Weapon",
+  "description": {
+   "en_EN": "Devastate at distance with the A03 sniper rifle. Masterfully designed by Gemini's Tevarin co-founder Clem, the weapon balances a stylish and ergonomic design with a powerful ballistic punch. The A03 delivers an impressive rate of fire for a sniper rifle that sacrifices accuracy for urgency when successive shots are required. Considering its renowned design and unique features, it's easy to see why the A03 has become a favorite of security professionals across the empire.",
+   "de_DE": "Typ (En): Sniper Rifle\nTyp (De): Scharfsch\u00fctzengewehr\n\nMagazinkapazit\u00e4t: 15 Schuss\nSchussrate: 120 Schuss/min\nEffektive Reichweite: 80 m\n\nMit dem A03-Scharfsch\u00fctzengewehr aus der Ferne eliminieren. Die Waffe wurde meisterhaft von Geminis Tevarin-Mitbegr\u00fcnder Clem entworfen und vereint ein stilvolles und ergonomisches Design mit einem kraftvollen ballistischen Schlag. Das A03 bietet eine beeindruckende Schussrate f\u00fcr ein Scharfsch\u00fctzengewehr, bei dem Genauigkeit zugunsten der Dringlichkeit geopfert wird, wenn aufeinanderfolgende Sch\u00fcsse erforderlich sind. Angesichts seines renommierten Designs und seiner einzigartigen Funktionen ist es leicht zu verstehen, warum der A03 zu einem Favoriten von Sicherheitsexperten im ganzen Imperium geworden ist.",
+   "zh_CN": "\u5236\u9020\u5546\uff1a\u53cc\u5b50\u5ea7 (Gemini)\n\u7269\u54c1\u7c7b\u578b\uff1a\u72d9\u51fb\u6b65\u67aa\n\u5206\u7c7b\uff1a\u5b9e\u5f39\n\n\u5f39\u5323\u5bb9\u91cf\uff1a15\n\u5c04\u901f\uff1a120 rpm\n\u6709\u6548\u5c04\u7a0b\uff1a80 m\n\n\u9644\u4ef6\uff1a\u7784\u5177(S3)\uff0c\u67aa\u7ba1 (S2)\uff0c\u4e0b\u6302 (S2)\n\n\u4ece\u8fdc\u5904\u7528\u8fd9\u628aA03\u72d9\u51fb\u67aa\u6bc1\u706d\u654c\u4eba\u3002\u8fd9\u6b3e\u6b66\u5668\u7531\u53cc\u5b50\u5ea7\u7684\u5854\u7ef4\u56e0\u8054\u5408\u521b\u59cb\u4eba\u514b\u83b1\u59c6\u7cbe\u5fc3\u8bbe\u8ba1\uff0c\u5728\u65f6\u5c1a\uff0c\u7b26\u5408\u4eba\u4f53\u5de5\u7a0b\u5b66\u7684\u8bbe\u8ba1\u548c\u5f3a\u5927\u7684\u5b9e\u5f39\u51b2\u51fb\u529b\u4e2d\u95f4\u53d6\u5f97\u5e73\u8861\u3002A03\u7684\u5c04\u901f\u4ee4\u4eba\u5370\u8c61\u6df1\u523b\uff0c\u5728\u8fde\u7eed\u5c04\u51fb\u65f6\u4e3a\u6b64\u727a\u7272\u4e86\u7cbe\u51c6\u5ea6\u3002\u8003\u8651\u5230\u5b83\u6709\u540d\u7684\u8bbe\u8ba1\u548c\u72ec\u7279\u7684\u529f\u80fd\uff0c\u4e0d\u96be\u77e5\u9053\u4e3a\u4ec0\u4e48A03\u5df2\u7ecf\u6210\u4e3a\u5168\u5e1d\u56fd\u5b89\u5168\u4e13\u4e1a\u4eba\u5458\u7684\u6700\u7231\u4e4b\u4e00\u3002",
+   "fr_FR": "Type d'article : Sniper\nFabricant : Gemini\nClasse : Balistique\n\nCapacit\u00e9 du chargeur : 15\nCadence de tir : 120 cpm\nPort\u00e9e effective : 80 m\n\nD\u00e9vaster \u00e0 distance avec le sniper A03. Con\u00e7ue de main de ma\u00eetre par Clem, co-fondateur de Tevarin de Gemini, l'arme \u00e9quilibre un design \u00e9l\u00e9gant et ergonomique avec un puissant coup de poing balistique. L'A03 offre une cadence de tir impressionnante pour un fusil de pr\u00e9cision qui sacrifie la pr\u00e9cision au profit de l'urgence lorsque des tirs successifs sont n\u00e9cessaires. Compte tenu de son design renomm\u00e9 et de ses caract\u00e9ristiques uniques, il est facile de comprendre pourquoi l'A03 est devenu l'un des favoris des professionnels de la s\u00e9curit\u00e9 \u00e0 travers l'empire."
+  },
+  "size": 3,
+  "mass": 4.65,
+  "rarity": "Uncommon",
+  "event_source": [],
+  "is_base_variant": false,
+  "is_craftable": true,
+  "is_lootable": false,
+  "blueprint": [
+   {
+    "uuid": "6180c2b5-0f14-45d7-afbb-49dac80fb317",
+    "name": "A03 \"Canuto\" Sniper Rifle",
+    "link": "https://api.star-citizen.wiki/api/blueprints/6180c2b5-0f14-45d7-afbb-49dac80fb317"
+   }
+  ],
+  "description_data": [
+   {
+    "name": "Attachments",
+    "value": "Optics (S3), Barrel (S2), Underbarrel (S2)",
+    "type": "Optics (S3), Barrel (S2), Underbarrel (S2)"
+   },
+   {
+    "name": "Class",
+    "value": "Ballistic",
+    "type": "Ballistic"
+   },
+   {
+    "name": "Effective Range",
+    "value": "80 m",
+    "type": "80 m"
+   },
+   {
+    "name": "Item Type",
+    "value": "Sniper Rifle",
+    "type": "Sniper Rifle"
+   },
+   {
+    "name": "Magazine Size",
+    "value": "15",
+    "type": "15"
+   },
+   {
+    "name": "Manufacturer",
+    "value": "Gemini",
+    "type": "Gemini"
+   },
+   {
+    "name": "Rate Of Fire",
+    "value": "120 rpm",
+    "type": "120 rpm"
+   }
+  ],
+  "manufacturer_description": "Gemini",
+  "manufacturer": {
+   "name": "Gemini",
+   "code": "GMNI",
+   "uuid": "b33050cd-6ca9-4c57-baf8-f4114eb85237",
+   "link": "https://api.star-citizen.wiki/api/manufacturers/GMNI"
+  },
+  "type": "WeaponPersonal",
+  "type_label": "FPS Weapon",
+  "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=WeaponPersonal",
+  "sub_type": "Medium",
+  "sub_type_label": "Medium",
+  "personal_weapon": {
+   "class": "Ballistic",
+   "type": "Sniper Rifle",
+   "magazine_type": "",
+   "magazine_size": 15,
+   "effective_range": 1600,
+   "capacity": 15,
+   "range": 1600,
+   "damage_per_shot": 42.5,
+   "pellets_per_shot": 1,
+   "rof": 225,
+   "rpm": 225,
+   "damages": [
+    {
+     "type": "impact",
+     "name": "physical",
+     "damage": 42.5
+    }
+   ],
+   "modes": [
+    {
+     "mode": "Single",
+     "localised": "[SEMI]",
+     "type": "single",
+     "rpm": 225,
+     "ammo_per_shot": 1,
+     "pellets_per_shot": 1,
+     "damage_per_second": 159.4,
+     "heat_per_shot": 0,
+     "wear_per_shot": 0.13,
+     "heat_per_second": null,
+     "wear_per_second": null,
+     "fire_during_spin_up": null,
+     "shot_count": null,
+     "cooldown_time": null,
+     "sequence_mode": null,
+     "charge_up_time": null,
+     "charge_down_time": null,
+     "full_damage_range": null,
+     "zero_damage_range": null,
+     "hit_type": null,
+     "hit_radius": null,
+     "min_energy_draw": null,
+     "max_energy_draw": null,
+     "healing_mode": null,
+     "healing_per_second": null,
+     "ammo_per_mscu": null,
+     "medical_ammo_type": null,
+     "external_healing": null,
+     "toggle": null,
+     "max_distance": null,
+     "max_sensor_distance": null,
+     "auto_dosage_modifier": null,
+     "healing_break_time": null,
+     "max_dose_for_auto_adjustment": null,
+     "battery_drain_per_second": null,
+     "material_efficiency": null,
+     "max_health_repair_rate": null,
+     "max_damage_map_repair_rate": null,
+     "health_to_ammo_ratio": null,
+     "ramp_up_time": null,
+     "ramp_down_time": null,
+     "max_vehicle_damage_ratio": null,
+     "repaired_material_ratio": null,
+     "salvage_can_fire_on_full": null,
+     "damage_threshold": null,
+     "minimum_distance": null,
+     "maximum_distance": null,
+     "beam_radius": null,
+     "collection_rate": null,
+     "energy_draw": null,
+     "mining_extractor_tag": null,
+     "toggle_mode": null
+    }
+   ],
+   "fire_mode": "Single",
+   "damage": {
+    "dps_total": 159.4,
+    "alpha_total": 42.5,
+    "max": 637.5,
+    "maximum": 637.5,
+    "dps": {
+     "physical": 159.4,
+     "energy": 0,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    },
+    "alpha": {
+     "physical": 42.5,
+     "energy": 0,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    }
+   },
+   "spread": {
+    "min": 7,
+    "max": 15,
+    "minimum": 7,
+    "maximum": 15,
+    "first_attack": 4.5,
+    "per_attack": 4.5,
+    "decay": 4
+   },
+   "ads_spread": {
+    "min": null,
+    "max": null,
+    "minimum": null,
+    "maximum": null,
+    "first_attack": 4.5,
+    "per_attack": 4.5,
+    "decay": 4
+   },
+   "ammunition": {
+    "uuid": "80ac0b57-4f1d-4ff4-8428-09461e8c584e",
+    "size": 1,
+    "lifetime": 2,
+    "speed": 800,
+    "range": 1600,
+    "capacity": 15,
+    "initial_capacity": 15,
+    "damage_falloff_level_1": 0,
+    "damage_falloff_level_2": 0,
+    "damage_falloff_level_3": 0,
+    "max_penetration_thickness": 0.5,
+    "penetration": {
+     "base_distance": 0,
+     "near_radius": 0.5,
+     "far_radius": 5,
+     "angle": null
+    },
+    "impact_damage": [
+     {
+      "type": "impact",
+      "name": "Physical",
+      "damage": 42.5
+     }
+    ],
+    "impact_damage_map": {
+     "physical": 42.5
+    },
+    "damage_drop_min_distance": {
+     "stun": 0,
+     "energy": 0,
+     "thermal": 0,
+     "physical": 150,
+     "distortion": 0,
+     "biochemical": 0,
+     "total": 150
+    },
+    "damage_drop_per_meter": {
+     "stun": 0,
+     "energy": 0,
+     "thermal": 0,
+     "physical": 0.02,
+     "distortion": 0,
+     "biochemical": 0,
+     "total": 0.02
+    },
+    "damage_drop_min_damage": {
+     "stun": 0,
+     "energy": 0,
+     "thermal": 0,
+     "physical": 35,
+     "distortion": 0,
+     "biochemical": 0,
+     "total": 35
+    },
+    "bullet_impulse_falloff": {
+     "min_distance": 1,
+     "drop_falloff": 0.005,
+     "max_falloff": 0.3715
+    },
+    "conversion_rate": 1,
+    "impulse_scale": 1,
+    "bullet_type": 2,
+    "damage_falloffs": {
+     "min_distance": {
+      "Stun": 0,
+      "Energy": 0,
+      "Thermal": 0,
+      "Physical": 150,
+      "Distortion": 0,
+      "Biochemical": 0
+     },
+     "per_meter": {
+      "Stun": 0,
+      "Energy": 0,
+      "Thermal": 0,
+      "Physical": 0.02,
+      "Distortion": 0,
+      "Biochemical": 0
+     },
+     "min_damage": {
+      "Stun": 0,
+      "Energy": 0,
+      "Thermal": 0,
+      "Physical": 35,
+      "Distortion": 0,
+      "Biochemical": 0
+     }
+    }
+   }
+  },
+  "ammunition": {
+   "uuid": "80ac0b57-4f1d-4ff4-8428-09461e8c584e",
+   "size": 1,
+   "lifetime": 2,
+   "speed": 800,
+   "range": 1600,
+   "capacity": 15,
+   "initial_capacity": 15,
+   "damage_falloff_level_1": 0,
+   "damage_falloff_level_2": 0,
+   "damage_falloff_level_3": 0,
+   "max_penetration_thickness": 0.5,
+   "penetration": {
+    "base_distance": 0,
+    "near_radius": 0.5,
+    "far_radius": 5,
+    "angle": null
+   },
+   "impact_damage": [
+    {
+     "type": "impact",
+     "name": "Physical",
+     "damage": 42.5
+    }
+   ],
+   "impact_damage_map": {
+    "physical": 42.5
+   },
+   "damage_drop_min_distance": {
+    "stun": 0,
+    "energy": 0,
+    "thermal": 0,
+    "physical": 150,
+    "distortion": 0,
+    "biochemical": 0,
+    "total": 150
+   },
+   "damage_drop_per_meter": {
+    "stun": 0,
+    "energy": 0,
+    "thermal": 0,
+    "physical": 0.02,
+    "distortion": 0,
+    "biochemical": 0,
+    "total": 0.02
+   },
+   "damage_drop_min_damage": {
+    "stun": 0,
+    "energy": 0,
+    "thermal": 0,
+    "physical": 35,
+    "distortion": 0,
+    "biochemical": 0,
+    "total": 35
+   },
+   "bullet_impulse_falloff": {
+    "min_distance": 1,
+    "drop_falloff": 0.005,
+    "max_falloff": 0.3715
+   },
+   "conversion_rate": 1,
+   "impulse_scale": 1,
+   "bullet_type": 2,
+   "damage_falloffs": {
+    "min_distance": {
+     "Stun": 0,
+     "Energy": 0,
+     "Thermal": 0,
+     "Physical": 150,
+     "Distortion": 0,
+     "Biochemical": 0
+    },
+    "per_meter": {
+     "Stun": 0,
+     "Energy": 0,
+     "Thermal": 0,
+     "Physical": 0.02,
+     "Distortion": 0,
+     "Biochemical": 0
+    },
+    "min_damage": {
+     "Stun": 0,
+     "Energy": 0,
+     "Thermal": 0,
+     "Physical": 35,
+     "Distortion": 0,
+     "Biochemical": 0
+    }
+   }
+  },
+  "dimension": {
+   "width": 0.75,
+   "height": 0.75,
+   "length": 1.5,
+   "volume": 0.019,
+   "volume_converted": 19000,
+   "volume_converted_unit": "\u00b5SCU",
+   "true_dimension": {
+    "width": 0.072,
+    "height": 0.238,
+    "length": 1.184
+   },
+   "dimensions": {
+    "width": 0.072,
+    "height": 0.238,
+    "length": 1.184
+   },
+   "cargo_dimension": {
+    "width": 0.06,
+    "height": 0.34,
+    "length": 1
+   },
+   "ui_dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 1.5
+   }
+  },
+  "tags": [
+   "stocked",
+   "gmni_sniper_ballistic_01",
+   "Color_arctic"
+  ],
+  "required_tags": [],
+  "entity_tags": [
+   "25992b0c-49d9-490f-96f9-4eb12d137475",
+   "096dee56-09f4-4682-90bd-b05440bf8098",
+   "a0191226-abf0-4677-b249-c3111aa7222f",
+   "077071be-c789-4dce-a10e-f53d57c9477c",
+   "6a0aa2f5-0d62-4270-99d2-dc108d1971a6",
+   "e00c2c31-1a12-40ef-9bc8-7304bfa63e49",
+   "0436bd92-db4f-4c46-9ba9-75801569d825",
+   "6ded920f-3e6e-4638-a070-b7c6a6811a7a",
+   "386f5ab5-4bde-49ef-a1dd-a8a2b7d1060d",
+   "1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d",
+   "9a46e2f3-6651-4283-8447-c01e6dd778e8",
+   "cdacf581-ce4c-479f-bc4a-f7d34e7d955f"
+  ],
+  "entity_tag_map": [
+   {
+    "uuid": "25992b0c-49d9-490f-96f9-4eb12d137475",
+    "name": "Gemini"
+   },
+   {
+    "uuid": "096dee56-09f4-4682-90bd-b05440bf8098",
+    "name": "Sniper"
+   },
+   {
+    "uuid": "a0191226-abf0-4677-b249-c3111aa7222f",
+    "name": "Weapon"
+   },
+   {
+    "uuid": "077071be-c789-4dce-a10e-f53d57c9477c",
+    "name": "LootableFromSuit"
+   },
+   {
+    "uuid": "6a0aa2f5-0d62-4270-99d2-dc108d1971a6",
+    "name": "A03"
+   },
+   {
+    "uuid": "e00c2c31-1a12-40ef-9bc8-7304bfa63e49",
+    "name": "SniperRifle"
+   },
+   {
+    "uuid": "0436bd92-db4f-4c46-9ba9-75801569d825",
+    "name": "Stocked"
+   },
+   {
+    "uuid": "6ded920f-3e6e-4638-a070-b7c6a6811a7a",
+    "name": "S3"
+   },
+   {
+    "uuid": "386f5ab5-4bde-49ef-a1dd-a8a2b7d1060d",
+    "name": "Ballistic"
+   },
+   {
+    "uuid": "1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d",
+    "name": "Crosshair"
+   },
+   {
+    "uuid": "9a46e2f3-6651-4283-8447-c01e6dd778e8",
+    "name": "Uncommon"
+   },
+   {
+    "uuid": "cdacf581-ce4c-479f-bc4a-f7d34e7d955f",
+    "name": "PromotionalItem"
+   }
+  ],
+  "interactions": [
+   "Shiptransformdeploy",
+   "Shiptransformretract",
+   "Shiptransformcycle",
+   "Retractlandinggear",
+   "Poweron",
+   "Poweroff",
+   "Startgrinder",
+   "Stopgrinder"
+  ],
+  "ports": [
+   {
+    "name": "magazine_attach",
+    "display_name": "Magazine Attach",
+    "position": "magazine_well",
+    "size": 1,
+    "sizes": {
+     "min": 1,
+     "max": 1
+    },
+    "compatible_types": [
+     {
+      "type": "WeaponAttachment",
+      "sub_types": [
+       "Magazine"
+      ]
+     }
+    ],
+    "types": [
+     "WeaponAttachment.Magazine"
+    ],
+    "type": "WeaponAttachment",
+    "sub_type": "Magazine",
+    "tags": [
+     "gmni_sniper_ballistic_01"
+    ],
+    "port_tags": [
+     "gmni_sniper_ballistic_01"
+    ],
+    "required_tags": [
+     "gmni_sniper_ballistic_01"
+    ],
+    "flags": [],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": "c12a76b1-80b2-4db5-9648-20a1cd0f4d67",
+    "ports": null
+   },
+   {
+    "name": "optics_attach",
+    "display_name": "Optics Attach",
+    "position": "optics",
+    "size": 3,
+    "sizes": {
+     "min": 1,
+     "max": 3
+    },
+    "compatible_types": [
+     {
+      "type": "WeaponAttachment",
+      "sub_types": [
+       "IronSight"
+      ]
+     }
+    ],
+    "types": [
+     "WeaponAttachment.IronSight"
+    ],
+    "type": "WeaponAttachment",
+    "sub_type": "IronSight",
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [
+     "inventory"
+    ],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": "278fafef-c4e3-44d5-9b85-a225f6e97cb2",
+    "ports": null
+   },
+   {
+    "name": "barrel_attach",
+    "display_name": "Barrel Attach",
+    "position": "barrel",
+    "size": 2,
+    "sizes": {
+     "min": 2,
+     "max": 2
+    },
+    "compatible_types": [
+     {
+      "type": "WeaponAttachment",
+      "sub_types": [
+       "Barrel"
+      ]
+     }
+    ],
+    "types": [
+     "WeaponAttachment.Barrel"
+    ],
+    "type": "WeaponAttachment",
+    "sub_type": "Barrel",
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [
+     "FPS_Barrel",
+     "ballistic_attach"
+    ],
+    "flags": [
+     "inventory"
+    ],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   },
+   {
+    "name": "underbarrel_attach",
+    "display_name": "Underbarrel Attach",
+    "position": "underbarrel",
+    "size": 2,
+    "sizes": {
+     "min": 1,
+     "max": 2
+    },
+    "compatible_types": [
+     {
+      "type": "WeaponAttachment",
+      "sub_types": [
+       "BottomAttachment"
+      ]
+     }
+    ],
+    "types": [
+     "WeaponAttachment.BottomAttachment"
+    ],
+    "type": "WeaponAttachment",
+    "sub_type": "BottomAttachment",
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [
+     "inventory"
+    ],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   },
+   {
+    "name": "item_grab",
+    "display_name": "Item Grab",
+    "position": "ITEM_GRAB",
+    "size": 0,
+    "sizes": {
+     "min": 0,
+     "max": 0
+    },
+    "compatible_types": null,
+    "types": [],
+    "type": null,
+    "sub_type": null,
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   }
+  ],
+  "shops": [],
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/8/85/A03_Canuto_-_InGame_Cutout_-_Mesh_BG.jpg?czaye",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/8/85/A03_Canuto_-_InGame_Cutout_-_Mesh_BG.jpg/600px-A03_Canuto_-_InGame_Cutout_-_Mesh_BG.jpg.webp?czaye",
+    "original_width": 3840,
+    "original_height": 2160,
+    "thumbnail_width": 600,
+    "thumbnail_height": 338
+   }
+  ],
+  "uex_prices": {
+   "purchase": []
+  },
+  "base_variant": {
+   "uuid": "6b1fb5e8-f9ec-49bc-befb-c81b7c08c5ea",
+   "name": "A03 Sniper Rifle",
+   "class_name": "gmni_sniper_ballistic_01",
+   "type": "WeaponPersonal",
+   "type_label": "FPS Weapon",
+   "sub_type": "Medium",
+   "sub_type_label": "Medium",
+   "classification": "FPS.Weapon.Medium",
+   "classification_label": "Medium Weapon",
+   "is_base_variant": true,
+   "variant_name": null,
+   "manufacturer": {
+    "name": "Gemini",
+    "code": "GMNI",
+    "uuid": "b33050cd-6ca9-4c57-baf8-f4114eb85237",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/GMNI"
+   },
+   "link": "https://api.star-citizen.wiki/api/items/6b1fb5e8-f9ec-49bc-befb-c81b7c08c5ea",
+   "web_url": "https://api.star-citizen.wiki/items/a03-sniper-rifle",
+   "size": 3,
+   "updated_at": "2026-09-01T00:21:23.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  "variants": [],
+  "web_url": "https://api.star-citizen.wiki/items/a03-canuto-sniper-rifle",
+  "link": "https://api.star-citizen.wiki/api/items/1aad8334-8d0a-4dd1-bcca-bd195bc013a7",
+  "updated_at": "2026-08-27T09:49:52.000000Z",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:32",
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ],
+  "deprecated_fields": {
+   "shops": "Shop data is not available in the source files anymore, there is currently no replacement.",
+   "dimension.width": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.height": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.length": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.true_dimension": "Use dimension.dimensions instead.",
+   "personal_weapon": {
+    "rof": "Use rpm instead",
+    "effective_range": "Use range instead",
+    "magazine_size": "Use capacity instead",
+    "damage_per_shot": "Use damage.alpha_total instead"
+   },
+   "ammunition": {
+    "impact_damage": "Use impact_damage_map instead.",
+    "detonation_damage": "Use detonation_damage_map instead."
+   }
+  },
+  "resource": {
+   "type": "item",
+   "uuid": "1aad8334-8d0a-4dd1-bcca-bd195bc013a7",
+   "slug": "a03-canuto-sniper-rifle",
+   "api_url": "https://api.star-citizen.wiki/api/items/1aad8334-8d0a-4dd1-bcca-bd195bc013a7",
+   "web_url": "https://api.star-citizen.wiki/items/a03-canuto-sniper-rifle",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

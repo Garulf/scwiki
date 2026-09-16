@@ -1,0 +1,4932 @@
+{
+ "data": [
+  {
+   "uuid": "97648869-5fa5-42da-b804-4d9314289539",
+   "name": "Avenger Stalker",
+   "game_name": "Aegis Avenger Stalker",
+   "slug": "aegs-avenger-stalker",
+   "class_name": "AEGS_Avenger_Stalker",
+   "port_tags": [
+    "AEGS_Avenger_Base"
+   ],
+   "sizes": {
+    "length": 20,
+    "beam": 15,
+    "height": 6.5
+   },
+   "dimension": {
+    "length": 20,
+    "width": 15,
+    "height": 6.5
+   },
+   "emission": {
+    "ir": 6835,
+    "em_idle": 16527,
+    "em_max": 32477
+   },
+   "mass": 48986,
+   "mass_hull": 48986,
+   "mass_loadout": 6331,
+   "mass_total": 55317,
+   "cargo_capacity": 0,
+   "ore_capacity": null,
+   "cargo_grids": [],
+   "vehicle_inventory": 710000,
+   "inventory_containers": [
+    {
+     "uuid": "7a3e597b-cbc1-4168-9cb0-e13a55cb4309",
+     "width": 2,
+     "height": 2,
+     "length": 2,
+     "volume": 8,
+     "scu": 0.71,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    }
+   ],
+   "crew": {
+    "min": 1,
+    "max": 1,
+    "weapon": null,
+    "operation": null
+   },
+   "max_medical_tier": null,
+   "seating": {
+    "crew_stations": 1,
+    "ejection_seats": 1,
+    "escape_pods": null,
+    "jump_seats": null,
+    "beds": 1,
+    "medical_beds": null
+   },
+   "health": 11900,
+   "shield_hp": 4488,
+   "shield_face_type": "Bubble",
+   "shield": {
+    "hp": 4488,
+    "regeneration": 852,
+    "regeneration_time": 5.27,
+    "face_type": "Bubble",
+    "max_reallocation": 1,
+    "reconfiguration_cooldown": 2.5,
+    "max_electrical_charge_damage_rate": 100,
+    "resistance": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.25
+     },
+     "energy": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "distortion": {
+      "minimum": 0.75,
+      "maximum": 0.95
+     },
+     "thermal": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "biochemical": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "stun": {
+      "minimum": 0,
+      "maximum": 0
+     }
+    },
+    "absorption": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.45
+     },
+     "energy": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "distortion": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "thermal": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "biochemical": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "stun": {
+      "minimum": 1,
+      "maximum": 1
+     }
+    }
+   },
+   "speed": {
+    "scm": 262,
+    "max": 1425,
+    "boost_forward": 610,
+    "boost_backward": 280,
+    "zero_to_scm": 2.54,
+    "zero_to_max": 13.83,
+    "scm_to_zero": 304.65,
+    "max_to_zero": 1656.98
+   },
+   "afterburner": {
+    "pitch_boost_multiplier": 1.2,
+    "roll_boost_multiplier": 1.2,
+    "yaw_boost_multiplier": 1.2,
+    "capacitor": 20,
+    "idle_cost": 1,
+    "linear_cost": 0,
+    "angular_cost": 0,
+    "regen_per_second": 0.75,
+    "regen_delay_after_use": 0.2,
+    "pre_delay_time": 0,
+    "ramp_up_time": 0.4,
+    "ramp_down_time": 0.2,
+    "regen_time": 26.9,
+    "regen_delay": 0.2
+   },
+   "fuel": {
+    "capacity": 1.2,
+    "intake_rate": 0,
+    "usage": {
+     "main": 32.46,
+     "retro": 0.27,
+     "vtol": 0,
+     "maneuvering": 25.36
+    }
+   },
+   "propulsion": {
+    "thrusters": [
+     {
+      "type": "Main",
+      "count": 1,
+      "capacity": 5.05,
+      "g": 10.51
+     },
+     {
+      "type": "Maneuver",
+      "count": 8,
+      "capacity": 8.12,
+      "g": 16.9
+     },
+     {
+      "type": "Retro",
+      "count": 2,
+      "capacity": 0.04,
+      "g": 0.09
+     }
+    ],
+    "thrust_capacity": {
+     "main": 5047832,
+     "retro": 41981.96,
+     "vtol": 0,
+     "maneuvering": 8116512
+    }
+   },
+   "quantum": {
+    "quantum_speed": 189309100,
+    "quantum_spool_time": 4.6,
+    "quantum_fuel_capacity": 0.6,
+    "quantum_range": 61224489796,
+    "port_olisar_to_arccorp_time": 221,
+    "port_olisar_to_arccorp_fuel": 411
+   },
+   "no_fuel_params": {
+    "linear_acceleration_modifier": 0.1,
+    "angular_acceleration_modifier": 0.1,
+    "angular_velocity_modifier": 0.1,
+    "legacy_max_speed": 20
+   },
+   "agility": {
+    "pitch": 53,
+    "yaw": 48,
+    "roll": 190,
+    "pitch_boosted": 63.6,
+    "yaw_boosted": 57.6,
+    "roll_boosted": 228,
+    "acceleration": {
+     "vtol": 0
+    }
+   },
+   "armor": {
+    "uuid": "b3b23908-e9ab-4c46-93ed-ecd20aaf65c3",
+    "health": 1232,
+    "signal_infrared": 1.1,
+    "signal_electromagnetic": 1.1,
+    "signal_cross_section": 1.1,
+    "damage_physical": 0.8,
+    "damage_energy": 0.65,
+    "damage_distortion": 1,
+    "damage_thermal": 1,
+    "damage_biochemical": 1,
+    "damage_stun": 1,
+    "signal_multiplier": {
+     "cross_section": 1.1,
+     "cross_section_change": 0.1,
+     "infrared": 1.1,
+     "infrared_change": 0.1,
+     "electromagnetic": 1.1,
+     "electromagnetic_change": 0.1
+    },
+    "damage_multiplier": {
+     "physical": 0.8,
+     "physical_change": -0.2,
+     "energy": 0.65,
+     "energy_change": -0.35,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "resistance_multiplier": {
+     "physical": 0.9,
+     "physical_change": -0.1,
+     "energy": 1.35,
+     "energy_change": 0.35,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "penetration_resistance": {
+     "base": 1,
+     "physical": 1,
+     "energy": 1,
+     "distortion": 0,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "deflection": {
+     "physical": 11,
+     "energy": 9,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    },
+    "signal_multipliers": {
+     "cross_section": 1.1,
+     "infrared": 1.1,
+     "electromagnetic": 1.1
+    },
+    "damage_multipliers": {
+     "physical": 0.8,
+     "energy": 0.65,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "resistance_multipliers": {
+     "physical": 0.9,
+     "energy": 1.35,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    }
+   },
+   "weaponry": {
+    "pilot_dps": 2359.6,
+    "pilot_alpha": 500.7,
+    "pilot_sustained_dps": 1455.5,
+    "fixed_weapons": {
+     "dps_total": 2359.6,
+     "sustained_dps_total": 1455.5,
+     "alpha_total": 500.7,
+     "weapons": [
+      {
+       "name": "Revenant Gatling",
+       "dps": 1266,
+       "sustained_dps": 874.9,
+       "alpha": 63.3
+      },
+      {
+       "name": "Omnisky IX Cannon",
+       "dps": 546.8,
+       "sustained_dps": 290.3,
+       "alpha": 218.7
+      },
+      {
+       "name": "Omnisky IX Cannon",
+       "dps": 546.8,
+       "sustained_dps": 290.3,
+       "alpha": 218.7
+      }
+     ]
+    },
+    "missiles": {
+     "count": 4,
+     "damage": {
+      "physical": 6280,
+      "energy": 0,
+      "distortion": 0,
+      "thermal": 0,
+      "biochemical": 0,
+      "stun": 0,
+      "total": 6280
+     }
+    },
+    "total_missile_damage": 6280
+   },
+   "manufacturer": {
+    "name": "Aegis Dynamics",
+    "code": "AEGS",
+    "uuid": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/AEGS"
+   },
+   "size_class": 2,
+   "cross_section": {
+    "length": 5923,
+    "width": 2028,
+    "height": 8114
+   },
+   "cross_section_max": 8114,
+   "is_vehicle": false,
+   "is_gravlev": false,
+   "is_spaceship": true,
+   "is_power_suit": false,
+   "signature": {
+    "ir_quantum": 6835,
+    "ir_shields": 6835,
+    "em_quantum": 32477,
+    "em_shields": 16527,
+    "em_groups_quantum": {
+     "Radar": 1980,
+     "Cooler": 3278,
+     "WeaponGun": 1671,
+     "PowerPlant": 8704,
+     "QuantumDrive": 16500,
+     "LifeSupportGenerator": 344
+    },
+    "em_groups_shields": {
+     "Radar": 1980,
+     "Cooler": 3278,
+     "Shield": 550,
+     "WeaponGun": 1671,
+     "PowerPlant": 8704,
+     "LifeSupportGenerator": 344
+    },
+    "em_segment_groups_quantum": {
+     "Radar": 5,
+     "Cooler": 6,
+     "Shield": 2,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    },
+    "em_segment_groups_shields": {
+     "Radar": 5,
+     "Cooler": 6,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    },
+    "em_per_segment": 375
+   },
+   "cooling": {
+    "generation_segments": 68,
+    "usage_shields_pct": 0.43,
+    "usage_quantum_pct": 0.43,
+    "used_segments_shields": 29.1,
+    "used_segments_quantum": 29.1,
+    "used_segments_shields_grouped": {
+     "Radar": 5,
+     "Shield": 2,
+     "PowerPlant": 21.1,
+     "LifeSupportGenerator": 1
+    },
+    "used_segments_quantum_grouped": {
+     "Radar": 5,
+     "PowerPlant": 19.1,
+     "QuantumDrive": 4,
+     "LifeSupportGenerator": 1
+    }
+   },
+   "power": {
+    "generation_segments": 14,
+    "used_segments_shields": 21.1,
+    "used_segments_quantum": 19.1,
+    "used_segments_grouped": {
+     "Radar": 5,
+     "Cooler": 6,
+     "Shield": 2,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    }
+   },
+   "power_pools": {
+    "Shield": {
+     "type": null,
+     "item_type": "Shield",
+     "size": 2
+    },
+    "WeaponGun": {
+     "type": null,
+     "item_type": "WeaponGun",
+     "size": 4
+    },
+    "TowingBeam": {
+     "type": null,
+     "item_type": "TowingBeam",
+     "size": -1
+    },
+    "SalvageHead": {
+     "type": null,
+     "item_type": "SalvageHead",
+     "size": -1
+    },
+    "TractorBeam": {
+     "type": null,
+     "item_type": "TractorBeam",
+     "size": -1
+    },
+    "WeaponMining": {
+     "type": null,
+     "item_type": "WeaponMining",
+     "size": -1
+    },
+    "FlightController": {
+     "type": null,
+     "item_type": "FlightController",
+     "size": -1
+    }
+   },
+   "penetration_multiplier": {
+    "fuse": 1,
+    "components": 0.4
+   },
+   "relay_network": {
+    "total_fuses": 2,
+    "relays": [
+     {
+      "hardpoint": "hardpoint_relay",
+      "class_name": "RELAY_2slot_slim",
+      "fuse_slots": 2,
+      "room": "animated_interiormod",
+      "connection_count": 51,
+      "connected_hardpoints": [
+       {
+        "category": "Crew Stations",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_seat_access",
+          "item_name": "Access",
+          "class_name": "AEGS_Avenger_SCItem_SeatAccess",
+          "type": "SeatAccess",
+          "uuid": "77ff37c9-4ed4-451f-98f9-e6c3acf6ce86"
+         },
+         {
+          "hardpoint": "hardpoint_seat_pilot",
+          "item_name": "TRGT. STATUS",
+          "class_name": "AEGS_Avenger_SCItem_Seat_Pilot",
+          "type": "Seat",
+          "uuid": "dceb7d31-a847-4903-981a-645ad1ceebf2"
+         },
+         {
+          "hardpoint": "hardpoint_dashboard_pilot",
+          "item_name": "Aegis Avenger Stalker",
+          "class_name": "AEGS_Avenger_SCItem_Dashboard_Pilot",
+          "type": "SeatDashboard",
+          "uuid": "2057a35e-7531-4cd8-a80a-af8e9651dcbc"
+         }
+        ]
+       },
+       {
+        "category": "Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_self_destruct_pilot",
+          "item_name": "Self Destruct Unit",
+          "class_name": "VHCL_SelfDestruct_10s",
+          "type": "SelfDestruct",
+          "uuid": "e5512d65-5462-4270-8095-212efe3fcf99"
+         }
+        ]
+       },
+       {
+        "category": "Controllers",
+        "count": 11,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_door",
+          "item_name": "SECURITY",
+          "class_name": "Controller_Door",
+          "type": "DoorController",
+          "uuid": "4a9ebf31-a405-4b68-9886-b4a47bd1b61d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_light",
+          "item_name": "LIGHTS",
+          "class_name": "Controller_Light",
+          "type": "LightController",
+          "uuid": "056628be-ecee-41b9-9dd2-bb32215e6e34"
+         },
+         {
+          "hardpoint": "hardpoint_controller_comms",
+          "item_name": "COMMS",
+          "class_name": "Controller_Comms",
+          "type": "CommsController",
+          "uuid": "ae1a186e-0f8c-4deb-8079-bfb54df4a8a7"
+         },
+         {
+          "hardpoint": "hardpoint_controller_energy",
+          "item_name": "POWER",
+          "class_name": "Controller_Energy",
+          "type": "EnergyController",
+          "uuid": "61cc7bf5-6666-40f7-8c0a-ee8a8092f51e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_cooler",
+          "item_name": "HEAT",
+          "class_name": "Controller_Cooler",
+          "type": "CoolerController",
+          "uuid": "b935e5d8-dead-47c5-8937-382c3aa11682"
+         },
+         {
+          "hardpoint": "hardpoint_controller_shield",
+          "item_name": "SHIELDS",
+          "class_name": "Controller_Shield_AEGS_Avenger",
+          "type": "ShieldController",
+          "uuid": "803d7e77-99c5-4119-bbcc-edd2a9262af6"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon",
+          "type": "WeaponController",
+          "uuid": "c78851f1-ded8-4e8d-91ec-905e3dae075e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_missile",
+          "item_name": "MISSILES",
+          "class_name": "Controller_Missile",
+          "type": "MissileController",
+          "uuid": "4750556e-1afc-45be-86f7-f7adbc1fb7aa"
+         },
+         {
+          "hardpoint": "hardpoint_controller_capacitor_assignment",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_CapacitorAssignment",
+          "type": "CapacitorAssignmentController",
+          "uuid": "0219b443-6f28-4aa2-bcc3-cfbff843729d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_fuel",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_Fuel",
+          "type": "FuelController",
+          "uuid": "9925488b-127a-4fc3-b7bb-9e4f5a46bbbd"
+         },
+         {
+          "hardpoint": "hardpoint_air_traffic_controller",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_ShipATCDataManager",
+          "type": "AirTrafficController",
+          "uuid": "c5e6a094-29ac-4715-9ded-919a03664cb1"
+         }
+        ]
+       },
+       {
+        "category": "Power Plants",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_power_plant",
+          "item_name": "PowerBolt",
+          "class_name": "POWR_LPLT_S01_PowerBolt_SCItem",
+          "type": "PowerPlant",
+          "uuid": "4a4a2a9c-040f-4f36-befe-7101b230fa53"
+         }
+        ]
+       },
+       {
+        "category": "Coolers",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_cooler_left",
+          "item_name": "Bracer",
+          "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+          "type": "Cooler",
+          "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+         },
+         {
+          "hardpoint": "hardpoint_cooler_right",
+          "item_name": "Bracer",
+          "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+          "type": "Cooler",
+          "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+         }
+        ]
+       },
+       {
+        "category": "Shields",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_shield_generator_left",
+          "item_name": "Shimmer",
+          "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+          "type": "Shield",
+          "uuid": "ecc8d200-548c-4de0-a60e-d1e316515170"
+         },
+         {
+          "hardpoint": "hardpoint_shield_generator_right",
+          "item_name": "Shimmer",
+          "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+          "type": "Shield",
+          "uuid": "ecc8d200-548c-4de0-a60e-d1e316515170"
+         }
+        ]
+       },
+       {
+        "category": "Armor",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_armor",
+          "item_name": "Avenger Stalker Ship Armor",
+          "class_name": "ARMR_AEGS_Avenger_Stalker",
+          "type": "Armor",
+          "uuid": "b3b23908-e9ab-4c46-93ed-ecd20aaf65c3"
+         }
+        ]
+       },
+       {
+        "category": "Flight Controller",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_flight",
+          "item_name": "Avenger Stalker Standard Flight Blade",
+          "class_name": "Controller_Flight_AEGS_Avenger_Stalker",
+          "type": "FlightController",
+          "uuid": "0306a3b9-f4d7-482a-a1ad-81542331067f"
+         }
+        ]
+       },
+       {
+        "category": "Radars",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_radar",
+          "item_name": "Ecouter",
+          "class_name": "RADR_GRNP_S01_Ecouter",
+          "type": "Radar",
+          "uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f"
+         }
+        ]
+       },
+       {
+        "category": "Thrusters",
+        "count": 11,
+        "items": [
+         {
+          "hardpoint": "hardpoint_engine_attach",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Main",
+          "type": "MainThruster",
+          "uuid": "40b9d976-2aa0-4140-a178-71443215b655"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_upper_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_upper_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_upper_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_upper_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_lower_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_lower_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_lower_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_lower_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "62ec1e39-f275-47f8-a9f9-10f5200b81d6"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_retro",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Retro",
+          "type": "ManneuverThruster",
+          "uuid": "0b7228f7-7d92-4943-a898-8716946da280"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_retro",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Thruster_Retro",
+          "type": "ManneuverThruster",
+          "uuid": "0b7228f7-7d92-4943-a898-8716946da280"
+         }
+        ]
+       },
+       {
+        "category": "Fuel",
+        "count": 5,
+        "items": [
+         {
+          "hardpoint": "hardpoint_fuel_intake_left",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "INTK_AEGS_Avenger_Stalker",
+          "type": "FuelIntake",
+          "uuid": "d35b073e-e69b-46da-a10d-b46f8ddb901e"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_intake_right",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "INTK_AEGS_Avenger_Stalker",
+          "type": "FuelIntake",
+          "uuid": "d35b073e-e69b-46da-a10d-b46f8ddb901e"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_tank_left",
+          "item_name": "Internal Tank",
+          "class_name": "HTNK_AEGS_Avenger_Stalker",
+          "type": "FuelTank",
+          "uuid": "8c2fd93a-4701-4a46-9b16-0095cb725db3"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_tank_right",
+          "item_name": "Internal Tank",
+          "class_name": "HTNK_AEGS_Avenger_Stalker",
+          "type": "FuelTank",
+          "uuid": "8c2fd93a-4701-4a46-9b16-0095cb725db3"
+         },
+         {
+          "hardpoint": "hardpoint_quantum_fuel_tank",
+          "item_name": "Internal Tank",
+          "class_name": "QTNK_AEGS_Avenger_Stalker",
+          "type": "QuantumFuelTank",
+          "uuid": "b8790a9c-4cbf-4b63-8a25-4bcd9447d5d7"
+         }
+        ]
+       },
+       {
+        "category": "Quantum Drives",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_quantum_drive",
+          "item_name": "Expedition",
+          "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+          "type": "QuantumDrive",
+          "uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b"
+         }
+        ]
+       },
+       {
+        "category": "Landing Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "landingpad_helper",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Default_LandingSystem",
+          "type": "LandingSystem",
+          "uuid": "613bf1ef-7882-4e8a-9017-35e9e1af0687"
+         }
+        ]
+       },
+       {
+        "category": "Turrets",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_weapon_class2_nose",
+          "item_name": "VariPuck S4 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S4",
+          "type": "Turret",
+          "uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_gun_class1_left_wing",
+          "item_name": "VariPuck S3 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S3",
+          "type": "Turret",
+          "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_gun_class1_right_wing",
+          "item_name": "VariPuck S3 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S3",
+          "type": "Turret",
+          "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+         }
+        ]
+       },
+       {
+        "category": "Missile & Bomb Racks",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_weapon_missilerack_right_wing",
+          "item_name": "MSD-322 Missile Rack",
+          "class_name": "MRCK_S03_BEHR_Dual_S02",
+          "type": "MissileLauncher",
+          "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_missilerack_left_wing",
+          "item_name": "MSD-322 Missile Rack",
+          "class_name": "MRCK_S03_BEHR_Dual_S02",
+          "type": "MissileLauncher",
+          "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440"
+         }
+        ]
+       },
+       {
+        "category": "Counter Measures",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_countermeasure_launcher_left",
+          "item_name": "Aegis Avenger - Decoy Launcher",
+          "class_name": "AEGS_Avenger_CML_Flare",
+          "type": "WeaponDefensive",
+          "uuid": "222edff1-53c1-454d-852c-cecd52381b23"
+         },
+         {
+          "hardpoint": "hardpoint_countermeasure_launcher_right",
+          "item_name": "Aegis Gladius - Noise Launcher",
+          "class_name": "AEGS_Avenger_CML_Chaff",
+          "type": "WeaponDefensive",
+          "uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60"
+         }
+        ]
+       },
+       {
+        "category": "Doors & Hatches",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_door_rear",
+          "item_name": "Door",
+          "class_name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Avenger",
+          "type": "Door",
+          "uuid": "f2ef063b-a030-402a-b2ee-6530792a85e5"
+         }
+        ]
+       },
+       {
+        "category": "Docking",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_fuel_port",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "DockingTube_Fuel_Ports_AEGS_Avenger",
+          "type": "DockingCollar",
+          "uuid": "14fce368-d4d1-4bf7-afb1-770caa854e03"
+         }
+        ]
+       },
+       {
+        "category": "Life Support",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_lifesupport",
+          "item_name": "ComfortAir",
+          "class_name": "LFSP_TYDT_S01_ComfortAir",
+          "type": "LifeSupportGenerator",
+          "uuid": "e947b002-e65e-4637-90b7-c894925d6625"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "links": [
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_access"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_dashboard_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_self_destruct_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_light"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_comms"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_energy"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_power_plant"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_shield"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_armor"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_flight"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_radar"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_engine_attach"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_upper_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_upper_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_upper_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_upper_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_lower_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_lower_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_lower_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_lower_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_retro"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_retro"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_intake_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_intake_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_tank_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_tank_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_quantum_drive"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_quantum_fuel_tank"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "landingpad_helper"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_class2_nose"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_gun_class1_left_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_gun_class1_right_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_missilerack_right_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_missilerack_left_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_countermeasure_launcher_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_countermeasure_launcher_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_missile"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_capacitor_assignment"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_fuel"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_port"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_air_traffic_controller"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_lifesupport"
+     }
+    ]
+   },
+   "insurance": {
+    "claim_time": 4.86,
+    "expedite_time": 1.62,
+    "expedite_cost": 2658
+   },
+   "damage_limits": {
+    "before_destruction": [
+     {
+      "HP": 2500,
+      "Name": "Nose",
+      "DestructionDamage": 2500
+     },
+     {
+      "HP": 2500,
+      "Name": "Body",
+      "DestructionDamage": 2500
+     }
+    ],
+    "before_detach": [
+     {
+      "HP": 1500,
+      "Name": "Canopy",
+      "DetachDamage": 1500
+     },
+     {
+      "HP": 680,
+      "Name": "Wing_Right",
+      "DetachDamage": 680
+     },
+     {
+      "HP": 10,
+      "Name": "Wing_Flap_Right",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "WingTip_Right",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 680,
+      "Name": "Wing_Left",
+      "DetachDamage": 680
+     },
+     {
+      "HP": 10,
+      "Name": "Wing_Flap_Left",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "WingTip_Left",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 1000,
+      "Name": "HullTail_Right",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 10,
+      "Name": "Right_Tail_Fin_Flap",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "HullTail_Left",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 10,
+      "Name": "Left_Tail_Fin_Flap",
+      "DetachDamage": 10
+     }
+    ]
+   },
+   "ports": [
+    {
+     "name": "hardpoint_controller_flight",
+     "position": null,
+     "class_name": "Controller_Flight_AEGS_Avenger_Stalker",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "0306a3b9-f4d7-482a-a1ad-81542331067f",
+     "type": "FlightController",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "FlightController",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "0306a3b9-f4d7-482a-a1ad-81542331067f",
+      "name": "Avenger Stalker Standard Flight Blade",
+      "class_name": "Controller_Flight_AEGS_Avenger_Stalker",
+      "type": "FlightController",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/0306a3b9-f4d7-482a-a1ad-81542331067f",
+      "web_url": "https://api.star-citizen.wiki/items/0306a3b9-f4d7-482a-a1ad-81542331067f"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Flight Controller",
+     "required_tags": [
+      "AEGS_Avenger_Stalker_Blade"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_class2_nose",
+     "position": null,
+     "class_name": "Mount_Gimbal_S4",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 4,
+      "max": 4
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+      "name": "VariPuck S4 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S4",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 4,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+      "web_url": "https://api.star-citizen.wiki/items/ea49d194-0c0b-43e1-82fb-d72f35c1af05"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_radar",
+     "position": null,
+     "class_name": "RADR_GRNP_S01_Ecouter",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f",
+     "type": "Radar",
+     "sub_type": "MidRangeRadar",
+     "subtype": "MidRangeRadar",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Radar",
+       "sub_types": [
+        "ShortRangeRadar",
+        "MidRangeRadar"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f",
+      "name": "Ecouter",
+      "class_name": "RADR_GRNP_S01_Ecouter",
+      "type": "Radar",
+      "sub_type": "MidRangeRadar",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Groupe Nouveau Paradigme"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/b0ccd135-4424-417c-95e4-594a88d9b72f",
+      "web_url": "https://api.star-citizen.wiki/items/b0ccd135-4424-417c-95e4-594a88d9b72f"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Radars",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_missilerack_right_wing",
+     "position": null,
+     "class_name": "MRCK_S03_BEHR_Dual_S02",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+     "type": "MissileLauncher",
+     "sub_type": "MissileRack",
+     "subtype": "MissileRack",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "MissileLauncher",
+       "sub_types": [
+        "MissileRack"
+       ]
+      },
+      {
+       "type": "BombLauncher",
+       "sub_types": [
+        "BombRack"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "name": "MSD-322 Missile Rack",
+      "class_name": "MRCK_S03_BEHR_Dual_S02",
+      "type": "MissileLauncher",
+      "sub_type": "MissileRack",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Behring Applied Technology"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "web_url": "https://api.star-citizen.wiki/items/6bea95f5-2898-434c-bffe-4b2b332d6440"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Missile & Bomb Racks",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_missilerack_left_wing",
+     "position": null,
+     "class_name": "MRCK_S03_BEHR_Dual_S02",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+     "type": "MissileLauncher",
+     "sub_type": "MissileRack",
+     "subtype": "MissileRack",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "MissileLauncher",
+       "sub_types": [
+        "MissileRack"
+       ]
+      },
+      {
+       "type": "BombLauncher",
+       "sub_types": [
+        "BombRack"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "name": "MSD-322 Missile Rack",
+      "class_name": "MRCK_S03_BEHR_Dual_S02",
+      "type": "MissileLauncher",
+      "sub_type": "MissileRack",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Behring Applied Technology"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "web_url": "https://api.star-citizen.wiki/items/6bea95f5-2898-434c-bffe-4b2b332d6440"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Missile & Bomb Racks",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_power_plant",
+     "position": null,
+     "class_name": "POWR_LPLT_S01_PowerBolt_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "4a4a2a9c-040f-4f36-befe-7101b230fa53",
+     "type": "PowerPlant",
+     "sub_type": "Power",
+     "subtype": "Power",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "PowerPlant",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4a4a2a9c-040f-4f36-befe-7101b230fa53",
+      "name": "PowerBolt",
+      "class_name": "POWR_LPLT_S01_PowerBolt_SCItem",
+      "type": "PowerPlant",
+      "sub_type": "Power",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Lightning Power Ltd."
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4a4a2a9c-040f-4f36-befe-7101b230fa53",
+      "web_url": "https://api.star-citizen.wiki/items/4a4a2a9c-040f-4f36-befe-7101b230fa53"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Power Plants",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler_left",
+     "position": null,
+     "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "name": "Bracer",
+      "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "web_url": "https://api.star-citizen.wiki/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler_right",
+     "position": null,
+     "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "name": "Bracer",
+      "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "web_url": "https://api.star-citizen.wiki/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_left",
+     "position": null,
+     "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ecc8d200-548c-4de0-a60e-d1e316515170",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ecc8d200-548c-4de0-a60e-d1e316515170",
+      "name": "Shimmer",
+      "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Ascension Astro"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ecc8d200-548c-4de0-a60e-d1e316515170",
+      "web_url": "https://api.star-citizen.wiki/items/ecc8d200-548c-4de0-a60e-d1e316515170"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_right",
+     "position": null,
+     "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ecc8d200-548c-4de0-a60e-d1e316515170",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ecc8d200-548c-4de0-a60e-d1e316515170",
+      "name": "Shimmer",
+      "class_name": "SHLD_ASAS_S01_Shimmer_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Ascension Astro"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ecc8d200-548c-4de0-a60e-d1e316515170",
+      "web_url": "https://api.star-citizen.wiki/items/ecc8d200-548c-4de0-a60e-d1e316515170"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_armor",
+     "position": null,
+     "class_name": "ARMR_AEGS_Avenger_Stalker",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "b3b23908-e9ab-4c46-93ed-ecd20aaf65c3",
+     "type": "Armor",
+     "sub_type": "Medium",
+     "subtype": "Medium",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Armor",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "b3b23908-e9ab-4c46-93ed-ecd20aaf65c3",
+      "name": "Avenger Stalker Ship Armor",
+      "class_name": "ARMR_AEGS_Avenger_Stalker",
+      "type": "Armor",
+      "sub_type": "Medium",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/b3b23908-e9ab-4c46-93ed-ecd20aaf65c3",
+      "web_url": "https://api.star-citizen.wiki/items/b3b23908-e9ab-4c46-93ed-ecd20aaf65c3"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Armor",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_quantum_drive",
+     "position": null,
+     "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+     "type": "QuantumDrive",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "QuantumDrive",
+       "sub_types": [
+        "QDrive"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+      "name": "Expedition",
+      "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+      "type": "QuantumDrive",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Tarsus"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+      "web_url": "https://api.star-citizen.wiki/items/4702547f-fa0f-4f6c-b2ed-9782ee9f518b"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Quantum Drives",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_paint",
+     "position": null,
+     "class_name": null,
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": null,
+     "type": "",
+     "sub_type": "",
+     "subtype": "",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Paints",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": null,
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Paints",
+     "required_tags": [
+      "Paint_Avenger"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_countermeasure_launcher_left",
+     "position": null,
+     "class_name": "AEGS_Avenger_CML_Flare",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "222edff1-53c1-454d-852c-cecd52381b23",
+     "type": "WeaponDefensive",
+     "sub_type": "CountermeasureLauncher",
+     "subtype": "CountermeasureLauncher",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "WeaponDefensive",
+       "sub_types": [
+        "CountermeasureLauncher"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "222edff1-53c1-454d-852c-cecd52381b23",
+      "name": "Aegis Avenger - Decoy Launcher",
+      "class_name": "AEGS_Avenger_CML_Flare",
+      "type": "WeaponDefensive",
+      "sub_type": "CountermeasureLauncher",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/222edff1-53c1-454d-852c-cecd52381b23",
+      "web_url": "https://api.star-citizen.wiki/items/222edff1-53c1-454d-852c-cecd52381b23"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Counter Measures",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_countermeasure_launcher_right",
+     "position": null,
+     "class_name": "AEGS_Avenger_CML_Chaff",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+     "type": "WeaponDefensive",
+     "sub_type": "CountermeasureLauncher",
+     "subtype": "CountermeasureLauncher",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "WeaponDefensive",
+       "sub_types": [
+        "CountermeasureLauncher"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+      "name": "Aegis Gladius - Noise Launcher",
+      "class_name": "AEGS_Avenger_CML_Chaff",
+      "type": "WeaponDefensive",
+      "sub_type": "CountermeasureLauncher",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+      "web_url": "https://api.star-citizen.wiki/items/3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Counter Measures",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_gun_class1_right_wing",
+     "position": null,
+     "class_name": "Mount_Gimbal_S3",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "name": "VariPuck S3 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S3",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "web_url": "https://api.star-citizen.wiki/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_gun_class1_left_wing",
+     "position": null,
+     "class_name": "Mount_Gimbal_S3",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "name": "VariPuck S3 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S3",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "web_url": "https://api.star-citizen.wiki/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_lifesupport",
+     "position": null,
+     "class_name": "LFSP_TYDT_S01_ComfortAir",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "e947b002-e65e-4637-90b7-c894925d6625",
+     "type": "LifeSupportGenerator",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "LifeSupportGenerator",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "e947b002-e65e-4637-90b7-c894925d6625",
+      "name": "ComfortAir",
+      "class_name": "LFSP_TYDT_S01_ComfortAir",
+      "type": "LifeSupportGenerator",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Tyler Design & Tech"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/e947b002-e65e-4637-90b7-c894925d6625",
+      "web_url": "https://api.star-citizen.wiki/items/e947b002-e65e-4637-90b7-c894925d6625"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Life Support",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    }
+   ],
+   "parts": [
+    {
+     "name": "AEGS_Avenger",
+     "display_name": "Aegs avenger",
+     "damage_max": 0,
+     "children": [
+      {
+       "name": "Nose",
+       "display_name": "Nose",
+       "damage_max": 2500,
+       "destruction_damage": 2500,
+       "children": [
+        {
+         "name": "Canopy",
+         "display_name": "Canopy",
+         "damage_max": 1500,
+         "detach_damage": 1500,
+         "children": [],
+         "version": null
+        }
+       ],
+       "version": null
+      },
+      {
+       "name": "Body",
+       "display_name": "Body",
+       "damage_max": 2500,
+       "destruction_damage": 2500,
+       "children": [
+        {
+         "name": "Wing_Right",
+         "display_name": "Wing (right)",
+         "damage_max": 680,
+         "detach_damage": 680,
+         "children": [
+          {
+           "name": "Wing_Flap_Right",
+           "display_name": "Wing flap (right)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          },
+          {
+           "name": "WingTip_Right",
+           "display_name": "Wingtip (right)",
+           "damage_max": 1000,
+           "detach_damage": 1000,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "Wing_Left",
+         "display_name": "Wing (left)",
+         "damage_max": 680,
+         "detach_damage": 680,
+         "children": [
+          {
+           "name": "Wing_Flap_Left",
+           "display_name": "Wing flap (left)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          },
+          {
+           "name": "WingTip_Left",
+           "display_name": "Wingtip (left)",
+           "damage_max": 1000,
+           "detach_damage": 1000,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "HullTail_Right",
+         "display_name": "Hull (tail right)",
+         "damage_max": 1000,
+         "detach_damage": 1000,
+         "children": [
+          {
+           "name": "Right_Tail_Fin_Flap",
+           "display_name": "Fin flap (right tail)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "HullTail_Left",
+         "display_name": "Hull (tail left)",
+         "damage_max": 1000,
+         "detach_damage": 1000,
+         "children": [
+          {
+           "name": "Left_Tail_Fin_Flap",
+           "display_name": "Fin flap (left tail)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        }
+       ],
+       "version": null
+      }
+     ],
+     "version": null
+    }
+   ],
+   "turrets": {
+    "manned": [],
+    "remote": [],
+    "pdc": []
+   },
+   "career": "Combat",
+   "role": "Interceptor",
+   "game_description": {
+    "en_EN": "Initially designed as Aegis' frontline carrier ship for the military, the Avenger Stalker took a different path, ultimately having a long and storied career as the standard patrol craft of the UEE Advocacy. Utilizing its cargo hold for prisoner transport, the Avenger features a sturdy, reliable hull and the capacity for larger-than-expected engine mounts.",
+    "de_DE": "Hersteller: Aegis Dynamics\nFokus (En): Interceptor\nFokus (De): Abfangj\u00e4ger\n\nUrspr\u00fcnglich als Aegis-Tr\u00e4gerschiff f\u00fcr das Milit\u00e4r konzipiert, schlug die Avenger Stalker einen anderen Weg ein und erlebte schlie\u00dflich eine lange und erfolgreiche Karriere als Standard-Patrouillenschiff der UEE Advocacy. Die Avenger nutzt ihren Frachtraum f\u00fcr den Transport von Gefangenen und verf\u00fcgt \u00fcber einen robusten, zuverl\u00e4ssigen Rumpf und die M\u00f6glichkeit, gr\u00f6\u00dfere Antriebe als erwartet zu montieren.",
+    "zh_CN": "\u5236\u9020\u5546\uff1a\u5723\u76fe\u52a8\u529b\uff08Aegis Dynamics\uff09\n\u5b9a\u4f4d\uff1a\u622a\u51fb\n\n\u590d\u4ec7\u8005\u6700\u65e9\u7684\u8bbe\u8ba1\u521d\u8877\u662f\u4f5c\u4e3a\u5723\u76fe\u7684\u519b\u7528\u524d\u7ebf\u8230\u8f7d\u673a\uff0c\u7136\u800c\u590d\u4ec7\u8005\u8ffd\u730e\u8d70\u4e0a\u4e86\u4e00\u6761\u5b8c\u5168\u4e0d\u540c\u7684\u9053\u8def\uff0c\u6700\u7ec8\u6210\u4e3a\u4e86\u5145\u6ee1\u6545\u4e8b\u7684UEE\u6cbb\u5b89\u4e13\u7528\u5de1\u903b\u98de\u8239\u3002\u590d\u4ec7\u8005\u8ffd\u730e\u5c06\u8d27\u8231\u6539\u9020\u6210\u4e86\u56da\u72af\u8fd0\u8f93\u4ed3\uff0c\u5e76\u4e14\u62e5\u6709\u575a\u56fa\u53ef\u9760\u7684\u8239\u4f53\u548c\u8d85\u51fa\u9884\u671f\u5927\u5c0f\u7684\u5f15\u64ce\u3002",
+    "fr_FR": "Fabricant : Aegis Dynamics\nType : Interdiction\n\nInitialement con\u00e7u comme le navire porte-avions de premi\u00e8re ligne d'Aegis pour l'arm\u00e9e, l'Avenger Stalker a emprunt\u00e9 une autre voie, connaissant finalement une longue et riche carri\u00e8re en tant que patrouilleur standard de l'UEE Advocacy. Utilisant sa soute \u00e0 cargaison pour le transport de prisonniers, l'Avenger arbore une coque robuste et fiable et la capacit\u00e9 d'accueillir des montages moteurs plus imposants que pr\u00e9vu."
+   },
+   "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-stalker",
+   "link": "https://api.star-citizen.wiki/api/vehicles/97648869-5fa5-42da-b804-4d9314289539",
+   "loaner": [],
+   "skus": [
+    {
+     "source": "pledge_store",
+     "cig_id": 199,
+     "title": "Avenger Stalker",
+     "url": "https://robertsspaceindustries.com/pledge/Standalone-Ships/Avenger-Stalker",
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:43.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 13049,
+     "title": "Avenger Stalker",
+     "url": "https://robertsspaceindustries.com/pledge/Upgrades/Avenger-Stalker",
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:44.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 695,
+     "title": "Avenger",
+     "url": "https://robertsspaceindustries.com/electronic-access/Ship-Roms/Avenger",
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:41.000000Z"
+    }
+   ],
+   "msrp": 60,
+   "warbond_price": null,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker",
+   "curated_data": {
+    "source": "starcitizen.tools",
+    "page_url": "https://starcitizen.tools/Avenger_Stalker",
+    "synced_at": "2026-09-15T00:00:59.000000Z",
+    "trailer_url": "https://www.youtube.com/watch?v=2FcJykFmMc0",
+    "original_pledge_price": 60,
+    "original_warbond_price": null,
+    "added_in_version": "Alpha 2.0.0",
+    "concept_date": "2015-11-19",
+    "sale_date": null,
+    "retire_date": null,
+    "pledge_availability": "Always available",
+    "brochure_url": null,
+    "presentation_urls": [
+     "https://robertsspaceindustries.com/comm-link/transmission/13100-Introducing-The-Avenger"
+    ],
+    "whitleys_guide_url": null,
+    "galactapedia_url": "https://robertsspaceindustries.com/galactapedia/article/0qnN6jyoa5-stalker",
+    "qa_urls": []
+   },
+   "uex_prices": {
+    "purchase": [
+     {
+      "price_buy": 1508220,
+      "price_sell": null,
+      "price_rent": null,
+      "terminal_id": 149,
+      "terminal_code": "NDLOR",
+      "terminal_name": "New Deal - Teasa Spaceport - Lorville",
+      "starmap_location": {
+       "uuid": "f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "name": "Lorville",
+       "slug": "lorville",
+       "type_name": "LandingZone",
+       "parent_name": "Hurston",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "web_url": "https://api.star-citizen.wiki/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913"
+      },
+      "date_updated": "2026-09-11T05:11:35+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=149"
+     }
+    ],
+    "rental": []
+   },
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/3/34/Avenger_Stalker_-_In_flight_promo_shot.jpg?7is9d",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/3/34/Avenger_Stalker_-_In_flight_promo_shot.jpg/600px-Avenger_Stalker_-_In_flight_promo_shot.jpg.webp?7is9d",
+     "original_width": 1440,
+     "original_height": 1040,
+     "thumbnail_width": 600,
+     "thumbnail_height": 433
+    }
+   ],
+   "updated_at": "2026-09-16T00:29:58.000000Z",
+   "version": "4.10.0-LIVE.12519617",
+   "id": 100,
+   "chassis_id": 7,
+   "shipmatrix_name": "Avenger Stalker",
+   "foci": [
+    {
+     "en_EN": "Interceptor",
+     "de_DE": "Interceptor",
+     "zh_CN": "Interceptor",
+     "fr_FR": "Interceptor"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Combat",
+    "de_DE": "Gefecht",
+    "zh_CN": "\u6253\u51fb",
+    "fr_FR": "Combat"
+   },
+   "description": {
+    "en_EN": "Initially designed as a frontline carrier for the military, the Avenger Stalker took a different path, ultimately having a long and storied career as the standard patrol craft of the UEE Advocacy. Utilizing its cargo hold for prisoner transport, the Avenger features a sturdy, reliable hull and the capacity for larger-than-expected engine mounts. *This is the standard Avenger chassis with the Stalker Prisoner Transport module pre-installed.*",
+    "de_DE": "Urspr\u00fcnglich als Frontlinien-Tr\u00e4ger f\u00fcr das Milit\u00e4r konzipiert, ging die Avenger Stalker einen anderen Weg und hatte schlie\u00dflich eine lange und geschichtstr\u00e4chtige Karriere als Standard-Patrouillenschiff der UEE Advocacy. Die Avenger nutzt ihren Laderaum f\u00fcr den Gefangenentransport und verf\u00fcgt \u00fcber einen robusten, zuverl\u00e4ssigen Rumpf und die Kapazit\u00e4t f\u00fcr gr\u00f6\u00dfere als die erwarteten Motorhalterungen. Dies ist das Standard-Avenger-Chassis mit dem vorinstallierten Stalker Prisoner Transport Modul.",
+    "zh_CN": "\u590d\u4ec7\u8005\u6f5c\u884c\u8005\u6700\u521d\u662f\u4f5c\u4e3a\u519b\u961f\u7684\u524d\u7ebf\u8fd0\u8f7d\u5de5\u5177\u800c\u8bbe\u8ba1\u7684\uff0c\u4f46\u540e\u6765\u5374\u8d70\u4e0a\u4e86\u4e0d\u540c\u7684\u9053\u8def\uff0c\u6700\u7ec8\u6210\u4e3a\u4e86 UEE Advocacy \u7684\u6807\u51c6\u5de1\u903b\u8247\uff0c\u7ecf\u5386\u4e86\u6f2b\u957f\u800c\u4f20\u5947\u7684\u804c\u4e1a\u751f\u6daf\u3002\u590d\u4ec7\u8005\u6f5c\u884c\u8005\u53f7\u5229\u7528\u8d27\u8231\u8fd0\u8f93\u56da\u72af\uff0c\u8239\u4f53\u575a\u56fa\u53ef\u9760\uff0c\u5e76\u53ef\u5b89\u88c5\u6bd4\u9884\u671f\u66f4\u5927\u7684\u53d1\u52a8\u673a\u652f\u67b6\u3002*\u8fd9\u662f\u9884\u88c5\u6f5c\u884c\u8005\u56da\u72af\u8fd0\u8f93\u6a21\u5757\u7684\u6807\u51c6\u590d\u4ec7\u8005\u5e95\u76d8\u3002",
+    "fr_FR": "Initially designed as a frontline carrier for the military, the Avenger Stalker took a different path, ultimately having a long and storied career as the standard patrol craft of the UEE Advocacy. Utilizing its cargo hold for prisoner transport, the Avenger features a sturdy, reliable hull and the capacity for larger-than-expected engine mounts. *This is the standard Avenger chassis with the Stalker Prisoner Transport module pre-installed.*"
+   },
+   "size": {
+    "en_EN": "Small",
+    "de_DE": "Klein",
+    "zh_CN": "\u5c0f",
+    "fr_FR": "Small"
+   }
+  },
+  {
+   "uuid": "0079c5d5-1678-4f8c-85ba-18ca8f642af6",
+   "name": "Avenger Titan",
+   "game_name": "Aegis Avenger Titan",
+   "slug": "aegs-avenger-titan",
+   "class_name": "AEGS_Avenger_Titan",
+   "port_tags": [
+    "AEGS_Avenger_Base"
+   ],
+   "sizes": {
+    "length": 20,
+    "beam": 15,
+    "height": 6.5
+   },
+   "dimension": {
+    "length": 20,
+    "width": 15,
+    "height": 6.5
+   },
+   "emission": {
+    "ir": 8714,
+    "em_idle": 24227,
+    "em_max": 37449
+   },
+   "mass": 48987,
+   "mass_hull": 48987,
+   "mass_loadout": 6719,
+   "mass_total": 55706,
+   "cargo_capacity": 8,
+   "ore_capacity": null,
+   "cargo_grids": [
+    {
+     "uuid": "102867b1-be6b-4a66-b228-4d2ab2f1c414",
+     "width": 2.5,
+     "height": 1.25,
+     "length": 5,
+     "volume": 15.625,
+     "scu": 8,
+     "scu_converted": null,
+     "unit": null,
+     "open": true,
+     "external": false,
+     "closed": false,
+     "min_size": {
+      "x": 1.25,
+      "y": 1.25,
+      "z": 1.25
+     },
+     "max_size": {
+      "x": 2.5,
+      "y": 2.5,
+      "z": 1.25
+     },
+     "max_scu_box": 4
+    }
+   ],
+   "cargo_limits": {
+    "min_size": {
+     "x": 1.25,
+     "y": 1.25,
+     "z": 1.25
+    },
+    "min_scu_box": 1,
+    "max_size": {
+     "x": 2.5,
+     "y": 2.5,
+     "z": 1.25
+    },
+    "max_scu_box": 4
+   },
+   "vehicle_inventory": 1010000,
+   "inventory_containers": [
+    {
+     "uuid": "a623a5e1-27db-4e93-af6b-e54912b78e32",
+     "width": 2,
+     "height": 2,
+     "length": 2,
+     "volume": 8,
+     "scu": 1.01,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    }
+   ],
+   "crew": {
+    "min": 1,
+    "max": 1,
+    "weapon": null,
+    "operation": null
+   },
+   "max_medical_tier": null,
+   "seating": {
+    "crew_stations": 1,
+    "ejection_seats": 1,
+    "escape_pods": null,
+    "jump_seats": null,
+    "beds": 1,
+    "medical_beds": null
+   },
+   "health": 11900,
+   "shield_hp": 4320,
+   "shield_face_type": "Bubble",
+   "shield": {
+    "hp": 4320,
+    "regeneration": 820,
+    "regeneration_time": 5.27,
+    "face_type": "Bubble",
+    "max_reallocation": 1,
+    "reconfiguration_cooldown": 2.5,
+    "max_electrical_charge_damage_rate": 100,
+    "resistance": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.25
+     },
+     "energy": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "distortion": {
+      "minimum": 0.75,
+      "maximum": 0.95
+     },
+     "thermal": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "biochemical": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "stun": {
+      "minimum": 0,
+      "maximum": 0
+     }
+    },
+    "absorption": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.45
+     },
+     "energy": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "distortion": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "thermal": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "biochemical": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "stun": {
+      "minimum": 1,
+      "maximum": 1
+     }
+    }
+   },
+   "speed": {
+    "scm": 262,
+    "max": 1425,
+    "boost_forward": 610,
+    "boost_backward": 280,
+    "zero_to_scm": 2.54,
+    "zero_to_max": 13.83,
+    "scm_to_zero": 304.65,
+    "max_to_zero": 1656.98
+   },
+   "afterburner": {
+    "pitch_boost_multiplier": 1.2,
+    "roll_boost_multiplier": 1.2,
+    "yaw_boost_multiplier": 1.2,
+    "capacitor": 20,
+    "idle_cost": 1,
+    "linear_cost": 0,
+    "angular_cost": 0,
+    "regen_per_second": 0.75,
+    "regen_delay_after_use": 0.2,
+    "pre_delay_time": 0,
+    "ramp_up_time": 0.4,
+    "ramp_down_time": 0.2,
+    "regen_time": 26.9,
+    "regen_delay": 0.2
+   },
+   "fuel": {
+    "capacity": 1.6,
+    "intake_rate": 22,
+    "usage": {
+     "main": 32.46,
+     "retro": 0.27,
+     "vtol": 0,
+     "maneuvering": 25.36
+    }
+   },
+   "propulsion": {
+    "thrusters": [
+     {
+      "type": "Main",
+      "count": 1,
+      "capacity": 5.05,
+      "g": 10.51
+     },
+     {
+      "type": "Maneuver",
+      "count": 8,
+      "capacity": 8.12,
+      "g": 16.9
+     },
+     {
+      "type": "Retro",
+      "count": 2,
+      "capacity": 0.04,
+      "g": 0.09
+     }
+    ],
+    "thrust_capacity": {
+     "main": 5047832,
+     "retro": 41981.96,
+     "vtol": 0,
+     "maneuvering": 8116512
+    }
+   },
+   "quantum": {
+    "quantum_speed": 189309100,
+    "quantum_spool_time": 4.6,
+    "quantum_fuel_capacity": 0.6,
+    "quantum_range": 61224489796,
+    "port_olisar_to_arccorp_time": 221,
+    "port_olisar_to_arccorp_fuel": 411
+   },
+   "no_fuel_params": {
+    "linear_acceleration_modifier": 0.1,
+    "angular_acceleration_modifier": 0.1,
+    "angular_velocity_modifier": 0.1,
+    "legacy_max_speed": 20
+   },
+   "agility": {
+    "pitch": 53,
+    "yaw": 48,
+    "roll": 190,
+    "pitch_boosted": 63.6,
+    "yaw_boosted": 57.6,
+    "roll_boosted": 228,
+    "acceleration": {
+     "vtol": 0
+    }
+   },
+   "armor": {
+    "uuid": "7090c713-5e36-4150-a19b-8c4fe439be9d",
+    "health": 2640,
+    "signal_infrared": 1.1,
+    "signal_electromagnetic": 1.1,
+    "signal_cross_section": 1.1,
+    "damage_physical": 0.8,
+    "damage_energy": 0.65,
+    "damage_distortion": 1,
+    "damage_thermal": 1,
+    "damage_biochemical": 1,
+    "damage_stun": 1,
+    "signal_multiplier": {
+     "cross_section": 1.1,
+     "cross_section_change": 0.1,
+     "infrared": 1.1,
+     "infrared_change": 0.1,
+     "electromagnetic": 1.1,
+     "electromagnetic_change": 0.1
+    },
+    "damage_multiplier": {
+     "physical": 0.8,
+     "physical_change": -0.2,
+     "energy": 0.65,
+     "energy_change": -0.35,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "resistance_multiplier": {
+     "physical": 0.81,
+     "physical_change": -0.19,
+     "energy": 1.21,
+     "energy_change": 0.21,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "penetration_resistance": {
+     "base": 1,
+     "physical": 1,
+     "energy": 1,
+     "distortion": 0,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "deflection": {
+     "physical": 11,
+     "energy": 9,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    },
+    "signal_multipliers": {
+     "cross_section": 1.1,
+     "infrared": 1.1,
+     "electromagnetic": 1.1
+    },
+    "damage_multipliers": {
+     "physical": 0.8,
+     "energy": 0.65,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "resistance_multipliers": {
+     "physical": 0.81,
+     "energy": 1.21,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    }
+   },
+   "weaponry": {
+    "pilot_dps": 2359.6,
+    "pilot_alpha": 500.7,
+    "pilot_sustained_dps": 1455.5,
+    "fixed_weapons": {
+     "dps_total": 2359.6,
+     "sustained_dps_total": 1455.5,
+     "alpha_total": 500.7,
+     "weapons": [
+      {
+       "name": "Revenant Gatling",
+       "dps": 1266,
+       "sustained_dps": 874.9,
+       "alpha": 63.3
+      },
+      {
+       "name": "Omnisky IX Cannon",
+       "dps": 546.8,
+       "sustained_dps": 290.3,
+       "alpha": 218.7
+      },
+      {
+       "name": "Omnisky IX Cannon",
+       "dps": 546.8,
+       "sustained_dps": 290.3,
+       "alpha": 218.7
+      }
+     ]
+    },
+    "missiles": {
+     "count": 4,
+     "damage": {
+      "physical": 5760,
+      "energy": 0,
+      "distortion": 0,
+      "thermal": 0,
+      "biochemical": 0,
+      "stun": 0,
+      "total": 5760
+     }
+    },
+    "total_missile_damage": 5760
+   },
+   "manufacturer": {
+    "name": "Aegis Dynamics",
+    "code": "AEGS",
+    "uuid": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/AEGS"
+   },
+   "size_class": 2,
+   "cross_section": {
+    "length": 5561,
+    "width": 1904,
+    "height": 7617
+   },
+   "cross_section_max": 7617,
+   "is_vehicle": false,
+   "is_gravlev": false,
+   "is_spaceship": true,
+   "is_power_suit": false,
+   "signature": {
+    "ir_quantum": 6835,
+    "ir_shields": 8714,
+    "em_quantum": 37449,
+    "em_shields": 24227,
+    "em_groups_quantum": {
+     "Radar": 1980,
+     "Cooler": 3278,
+     "WeaponGun": 1671,
+     "PowerPlant": 13676,
+     "QuantumDrive": 16500,
+     "LifeSupportGenerator": 344
+    },
+    "em_groups_shields": {
+     "Radar": 1980,
+     "Cooler": 3278,
+     "Shield": 3278,
+     "WeaponGun": 1671,
+     "PowerPlant": 13676,
+     "LifeSupportGenerator": 344
+    },
+    "em_segment_groups_quantum": {
+     "Radar": 5,
+     "Cooler": 6,
+     "Shield": 6,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    },
+    "em_segment_groups_shields": {
+     "Radar": 5,
+     "Cooler": 6,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    },
+    "em_per_segment": 495.3333333333333
+   },
+   "cooling": {
+    "generation_segments": 68,
+    "usage_shields_pct": 0.55,
+    "usage_quantum_pct": 0.43,
+    "used_segments_shields": 37.1,
+    "used_segments_quantum": 29.1,
+    "used_segments_shields_grouped": {
+     "Radar": 5,
+     "Shield": 6,
+     "PowerPlant": 25.1,
+     "LifeSupportGenerator": 1
+    },
+    "used_segments_quantum_grouped": {
+     "Radar": 5,
+     "PowerPlant": 19.1,
+     "QuantumDrive": 4,
+     "LifeSupportGenerator": 1
+    }
+   },
+   "power": {
+    "generation_segments": 15,
+    "used_segments_shields": 25.1,
+    "used_segments_quantum": 19.1,
+    "used_segments_grouped": {
+     "Radar": 5,
+     "Cooler": 6,
+     "Shield": 6,
+     "WeaponGun": 3.1,
+     "FlightController": 4,
+     "LifeSupportGenerator": 1
+    }
+   },
+   "power_pools": {
+    "Shield": {
+     "type": null,
+     "item_type": "Shield",
+     "size": 2
+    },
+    "WeaponGun": {
+     "type": null,
+     "item_type": "WeaponGun",
+     "size": 4
+    },
+    "TowingBeam": {
+     "type": null,
+     "item_type": "TowingBeam",
+     "size": -1
+    },
+    "SalvageHead": {
+     "type": null,
+     "item_type": "SalvageHead",
+     "size": -1
+    },
+    "TractorBeam": {
+     "type": null,
+     "item_type": "TractorBeam",
+     "size": -1
+    },
+    "WeaponMining": {
+     "type": null,
+     "item_type": "WeaponMining",
+     "size": -1
+    },
+    "FlightController": {
+     "type": null,
+     "item_type": "FlightController",
+     "size": -1
+    }
+   },
+   "penetration_multiplier": {
+    "fuse": 1,
+    "components": 0.4
+   },
+   "relay_network": {
+    "total_fuses": 2,
+    "relays": [
+     {
+      "hardpoint": "hardpoint_relay",
+      "class_name": "RELAY_2slot_slim",
+      "fuse_slots": 2,
+      "room": "animated_interiormod",
+      "connection_count": 52,
+      "connected_hardpoints": [
+       {
+        "category": "Crew Stations",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_seat_access",
+          "item_name": "Access",
+          "class_name": "AEGS_Avenger_SCItem_SeatAccess",
+          "type": "SeatAccess",
+          "uuid": "77ff37c9-4ed4-451f-98f9-e6c3acf6ce86"
+         },
+         {
+          "hardpoint": "hardpoint_seat_pilot",
+          "item_name": "TRGT. STATUS",
+          "class_name": "AEGS_Avenger_SCItem_Seat_Pilot",
+          "type": "Seat",
+          "uuid": "dceb7d31-a847-4903-981a-645ad1ceebf2"
+         },
+         {
+          "hardpoint": "hardpoint_dashboard_pilot",
+          "item_name": "Aegis Avenger Stalker",
+          "class_name": "AEGS_Avenger_SCItem_Dashboard_Pilot",
+          "type": "SeatDashboard",
+          "uuid": "2057a35e-7531-4cd8-a80a-af8e9651dcbc"
+         }
+        ]
+       },
+       {
+        "category": "Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_self_destruct_pilot",
+          "item_name": "Self Destruct Unit",
+          "class_name": "VHCL_SelfDestruct_10s",
+          "type": "SelfDestruct",
+          "uuid": "e5512d65-5462-4270-8095-212efe3fcf99"
+         }
+        ]
+       },
+       {
+        "category": "Controllers",
+        "count": 11,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_door",
+          "item_name": "SECURITY",
+          "class_name": "Controller_Door",
+          "type": "DoorController",
+          "uuid": "4a9ebf31-a405-4b68-9886-b4a47bd1b61d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_light",
+          "item_name": "LIGHTS",
+          "class_name": "Controller_Light",
+          "type": "LightController",
+          "uuid": "056628be-ecee-41b9-9dd2-bb32215e6e34"
+         },
+         {
+          "hardpoint": "hardpoint_controller_comms",
+          "item_name": "COMMS",
+          "class_name": "Controller_Comms",
+          "type": "CommsController",
+          "uuid": "ae1a186e-0f8c-4deb-8079-bfb54df4a8a7"
+         },
+         {
+          "hardpoint": "hardpoint_controller_energy",
+          "item_name": "POWER",
+          "class_name": "Controller_Energy",
+          "type": "EnergyController",
+          "uuid": "61cc7bf5-6666-40f7-8c0a-ee8a8092f51e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_cooler",
+          "item_name": "HEAT",
+          "class_name": "Controller_Cooler",
+          "type": "CoolerController",
+          "uuid": "b935e5d8-dead-47c5-8937-382c3aa11682"
+         },
+         {
+          "hardpoint": "hardpoint_controller_shield",
+          "item_name": "SHIELDS",
+          "class_name": "Controller_Shield_AEGS_Avenger",
+          "type": "ShieldController",
+          "uuid": "803d7e77-99c5-4119-bbcc-edd2a9262af6"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon",
+          "type": "WeaponController",
+          "uuid": "c78851f1-ded8-4e8d-91ec-905e3dae075e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_missile",
+          "item_name": "MISSILES",
+          "class_name": "Controller_Missile",
+          "type": "MissileController",
+          "uuid": "4750556e-1afc-45be-86f7-f7adbc1fb7aa"
+         },
+         {
+          "hardpoint": "hardpoint_controller_capacitor_assignment",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_CapacitorAssignment",
+          "type": "CapacitorAssignmentController",
+          "uuid": "0219b443-6f28-4aa2-bcc3-cfbff843729d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_fuel",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_Fuel",
+          "type": "FuelController",
+          "uuid": "9925488b-127a-4fc3-b7bb-9e4f5a46bbbd"
+         },
+         {
+          "hardpoint": "hardpoint_air_traffic_controller",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_ShipATCDataManager",
+          "type": "AirTrafficController",
+          "uuid": "c5e6a094-29ac-4715-9ded-919a03664cb1"
+         }
+        ]
+       },
+       {
+        "category": "Power Plants",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_power_plant",
+          "item_name": "Endurance",
+          "class_name": "POWR_JUST_S01_Endurance_SCItem",
+          "type": "PowerPlant",
+          "uuid": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02"
+         }
+        ]
+       },
+       {
+        "category": "Coolers",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_cooler_left",
+          "item_name": "Bracer",
+          "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+          "type": "Cooler",
+          "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+         },
+         {
+          "hardpoint": "hardpoint_cooler_right",
+          "item_name": "Bracer",
+          "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+          "type": "Cooler",
+          "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+         }
+        ]
+       },
+       {
+        "category": "Shields",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_shield_generator_left",
+          "item_name": "Bulwark",
+          "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+          "type": "Shield",
+          "uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882"
+         },
+         {
+          "hardpoint": "hardpoint_shield_generator_right",
+          "item_name": "Bulwark",
+          "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+          "type": "Shield",
+          "uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882"
+         }
+        ]
+       },
+       {
+        "category": "Armor",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_armor",
+          "item_name": "Avenger Titan Ship Armor",
+          "class_name": "ARMR_AEGS_Avenger_Titan",
+          "type": "Armor",
+          "uuid": "7090c713-5e36-4150-a19b-8c4fe439be9d"
+         }
+        ]
+       },
+       {
+        "category": "Flight Controller",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_flight",
+          "item_name": "Avenger Titan Standard Flight Blade",
+          "class_name": "Controller_Flight_AEGS_Avenger_Titan",
+          "type": "FlightController",
+          "uuid": "42a4e6e4-a6cf-4a51-998b-5131f8fe821c"
+         }
+        ]
+       },
+       {
+        "category": "Radars",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_radar",
+          "item_name": "Ecouter",
+          "class_name": "RADR_GRNP_S01_Ecouter",
+          "type": "Radar",
+          "uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f"
+         }
+        ]
+       },
+       {
+        "category": "Thrusters",
+        "count": 11,
+        "items": [
+         {
+          "hardpoint": "hardpoint_engine_attach",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Main",
+          "type": "MainThruster",
+          "uuid": "ebdae5f7-edfb-44eb-be4b-2b8d5e6fe8ad"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_upper_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_upper_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_upper_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_upper_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_lower_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_lower_front",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_lower_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_lower_rear",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Mav_Joint",
+          "type": "ManneuverThruster",
+          "uuid": "1b7a5399-497f-49cf-851a-d5ef413ebe1a"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_left_retro",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Retro",
+          "type": "ManneuverThruster",
+          "uuid": "2b89db9d-c300-4245-be4c-7e7b4861232d"
+         },
+         {
+          "hardpoint": "hardpoint_thruster_right_retro",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_Titan_Thruster_Retro",
+          "type": "ManneuverThruster",
+          "uuid": "2b89db9d-c300-4245-be4c-7e7b4861232d"
+         }
+        ]
+       },
+       {
+        "category": "Fuel",
+        "count": 5,
+        "items": [
+         {
+          "hardpoint": "hardpoint_fuel_intake_left",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "INTK_AEGS_Avenger_Titan",
+          "type": "FuelIntake",
+          "uuid": "9fad851c-c561-44a8-8cbe-74ecd8c22969"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_intake_right",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "INTK_AEGS_Avenger_Titan",
+          "type": "FuelIntake",
+          "uuid": "9fad851c-c561-44a8-8cbe-74ecd8c22969"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_tank_left",
+          "item_name": "Internal Tank",
+          "class_name": "HTNK_AEGS_Avenger_Titan",
+          "type": "FuelTank",
+          "uuid": "643bf1d5-ffdd-49d3-b33f-77c2d6a53fdc"
+         },
+         {
+          "hardpoint": "hardpoint_fuel_tank_right",
+          "item_name": "Internal Tank",
+          "class_name": "HTNK_AEGS_Avenger_Titan",
+          "type": "FuelTank",
+          "uuid": "643bf1d5-ffdd-49d3-b33f-77c2d6a53fdc"
+         },
+         {
+          "hardpoint": "hardpoint_quantum_fuel_tank",
+          "item_name": "Internal Tank",
+          "class_name": "QTNK_AEGS_Avenger_Titan",
+          "type": "QuantumFuelTank",
+          "uuid": "5cb18d3b-072b-40e3-95f7-d9b85eef55b8"
+         }
+        ]
+       },
+       {
+        "category": "Quantum Drives",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_quantum_drive",
+          "item_name": "Expedition",
+          "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+          "type": "QuantumDrive",
+          "uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b"
+         }
+        ]
+       },
+       {
+        "category": "Landing Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "landingpad_helper",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Default_LandingSystem",
+          "type": "LandingSystem",
+          "uuid": "613bf1ef-7882-4e8a-9017-35e9e1af0687"
+         }
+        ]
+       },
+       {
+        "category": "Turrets",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_weapon_class2_nose",
+          "item_name": "VariPuck S4 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S4",
+          "type": "Turret",
+          "uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_gun_class1_left_wing",
+          "item_name": "VariPuck S3 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S3",
+          "type": "Turret",
+          "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_gun_class1_right_wing",
+          "item_name": "VariPuck S3 Gimbal Mount",
+          "class_name": "Mount_Gimbal_S3",
+          "type": "Turret",
+          "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+         }
+        ]
+       },
+       {
+        "category": "Missile & Bomb Racks",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_weapon_missilerack_right_wing",
+          "item_name": "MSD-322 Missile Rack",
+          "class_name": "MRCK_S03_BEHR_Dual_S02",
+          "type": "MissileLauncher",
+          "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440"
+         },
+         {
+          "hardpoint": "hardpoint_weapon_missilerack_left_wing",
+          "item_name": "MSD-322 Missile Rack",
+          "class_name": "MRCK_S03_BEHR_Dual_S02",
+          "type": "MissileLauncher",
+          "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440"
+         }
+        ]
+       },
+       {
+        "category": "Counter Measures",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_countermeasure_launcher_left",
+          "item_name": "Aegis Avenger - Decoy Launcher",
+          "class_name": "AEGS_Avenger_CML_Flare",
+          "type": "WeaponDefensive",
+          "uuid": "222edff1-53c1-454d-852c-cecd52381b23"
+         },
+         {
+          "hardpoint": "hardpoint_countermeasure_launcher_right",
+          "item_name": "Aegis Gladius - Noise Launcher",
+          "class_name": "AEGS_Avenger_CML_Chaff",
+          "type": "WeaponDefensive",
+          "uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60"
+         }
+        ]
+       },
+       {
+        "category": "Doors & Hatches",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_door_rear",
+          "item_name": "Door",
+          "class_name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Avenger",
+          "type": "Door",
+          "uuid": "f2ef063b-a030-402a-b2ee-6530792a85e5"
+         }
+        ]
+       },
+       {
+        "category": "Docking",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_fuel_port",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "DockingTube_Fuel_Ports_AEGS_Avenger",
+          "type": "DockingCollar",
+          "uuid": "14fce368-d4d1-4bf7-afb1-770caa854e03"
+         }
+        ]
+       },
+       {
+        "category": "Life Support",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_lifesupport",
+          "item_name": "ComfortAir",
+          "class_name": "LFSP_TYDT_S01_ComfortAir",
+          "type": "LifeSupportGenerator",
+          "uuid": "e947b002-e65e-4637-90b7-c894925d6625"
+         }
+        ]
+       },
+       {
+        "category": "Cargo Grids",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_cargogrid",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "AEGS_Avenger_CargoGrid_Titan",
+          "type": "CargoGrid",
+          "uuid": "da6a9813-56c3-4a82-956e-77fbdd76589f"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "links": [
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_access"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_dashboard_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_self_destruct_pilot"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_light"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_comms"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_energy"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_power_plant"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_shield"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_armor"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_flight"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_radar"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_engine_attach"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_upper_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_upper_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_upper_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_upper_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_lower_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_lower_front"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_lower_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_lower_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_left_retro"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_thruster_right_retro"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_intake_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_intake_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_tank_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_tank_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_quantum_drive"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_quantum_fuel_tank"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "landingpad_helper"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_class2_nose"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_gun_class1_left_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_gun_class1_right_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_missilerack_right_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_weapon_missilerack_left_wing"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_countermeasure_launcher_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_countermeasure_launcher_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_rear"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_missile"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_capacitor_assignment"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_fuel"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_fuel_port"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_air_traffic_controller"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_lifesupport"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cargogrid"
+     }
+    ]
+   },
+   "insurance": {
+    "claim_time": 4.05,
+    "expedite_time": 1.35,
+    "expedite_cost": 2343
+   },
+   "damage_limits": {
+    "before_destruction": [
+     {
+      "HP": 2500,
+      "Name": "Nose",
+      "DestructionDamage": 2500
+     },
+     {
+      "HP": 2500,
+      "Name": "Body",
+      "DestructionDamage": 2500
+     }
+    ],
+    "before_detach": [
+     {
+      "HP": 1500,
+      "Name": "Canopy",
+      "DetachDamage": 1500
+     },
+     {
+      "HP": 680,
+      "Name": "Wing_Right",
+      "DetachDamage": 680
+     },
+     {
+      "HP": 10,
+      "Name": "Wing_Flap_Right",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "WingTip_Right",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 680,
+      "Name": "Wing_Left",
+      "DetachDamage": 680
+     },
+     {
+      "HP": 10,
+      "Name": "Wing_Flap_Left",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "WingTip_Left",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 1000,
+      "Name": "HullTail_Right",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 10,
+      "Name": "Right_Tail_Fin_Flap",
+      "DetachDamage": 10
+     },
+     {
+      "HP": 1000,
+      "Name": "HullTail_Left",
+      "DetachDamage": 1000
+     },
+     {
+      "HP": 10,
+      "Name": "Left_Tail_Fin_Flap",
+      "DetachDamage": 10
+     }
+    ]
+   },
+   "ports": [
+    {
+     "name": "hardpoint_controller_flight",
+     "position": null,
+     "class_name": "Controller_Flight_AEGS_Avenger_Titan",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "42a4e6e4-a6cf-4a51-998b-5131f8fe821c",
+     "type": "FlightController",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "FlightController",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "42a4e6e4-a6cf-4a51-998b-5131f8fe821c",
+      "name": "Avenger Titan Standard Flight Blade",
+      "class_name": "Controller_Flight_AEGS_Avenger_Titan",
+      "type": "FlightController",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/42a4e6e4-a6cf-4a51-998b-5131f8fe821c",
+      "web_url": "https://api.star-citizen.wiki/items/42a4e6e4-a6cf-4a51-998b-5131f8fe821c"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Flight Controller",
+     "required_tags": [
+      "AEGS_Avenger_Titan_Blade"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_class2_nose",
+     "position": null,
+     "class_name": "Mount_Gimbal_S4",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 4,
+      "max": 4
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+      "name": "VariPuck S4 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S4",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 4,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+      "web_url": "https://api.star-citizen.wiki/items/ea49d194-0c0b-43e1-82fb-d72f35c1af05"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_radar",
+     "position": null,
+     "class_name": "RADR_GRNP_S01_Ecouter",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f",
+     "type": "Radar",
+     "sub_type": "MidRangeRadar",
+     "subtype": "MidRangeRadar",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Radar",
+       "sub_types": [
+        "ShortRangeRadar",
+        "MidRangeRadar"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "b0ccd135-4424-417c-95e4-594a88d9b72f",
+      "name": "Ecouter",
+      "class_name": "RADR_GRNP_S01_Ecouter",
+      "type": "Radar",
+      "sub_type": "MidRangeRadar",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Groupe Nouveau Paradigme"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/b0ccd135-4424-417c-95e4-594a88d9b72f",
+      "web_url": "https://api.star-citizen.wiki/items/b0ccd135-4424-417c-95e4-594a88d9b72f"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Radars",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_missilerack_right_wing",
+     "position": null,
+     "class_name": "MRCK_S03_BEHR_Dual_S02",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+     "type": "MissileLauncher",
+     "sub_type": "MissileRack",
+     "subtype": "MissileRack",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "MissileLauncher",
+       "sub_types": [
+        "MissileRack"
+       ]
+      },
+      {
+       "type": "BombLauncher",
+       "sub_types": [
+        "BombRack"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "name": "MSD-322 Missile Rack",
+      "class_name": "MRCK_S03_BEHR_Dual_S02",
+      "type": "MissileLauncher",
+      "sub_type": "MissileRack",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Behring Applied Technology"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "web_url": "https://api.star-citizen.wiki/items/6bea95f5-2898-434c-bffe-4b2b332d6440"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Missile & Bomb Racks",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_missilerack_left_wing",
+     "position": null,
+     "class_name": "MRCK_S03_BEHR_Dual_S02",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+     "type": "MissileLauncher",
+     "sub_type": "MissileRack",
+     "subtype": "MissileRack",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "MissileLauncher",
+       "sub_types": [
+        "MissileRack"
+       ]
+      },
+      {
+       "type": "BombLauncher",
+       "sub_types": [
+        "BombRack"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "name": "MSD-322 Missile Rack",
+      "class_name": "MRCK_S03_BEHR_Dual_S02",
+      "type": "MissileLauncher",
+      "sub_type": "MissileRack",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Behring Applied Technology"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/6bea95f5-2898-434c-bffe-4b2b332d6440",
+      "web_url": "https://api.star-citizen.wiki/items/6bea95f5-2898-434c-bffe-4b2b332d6440"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Missile & Bomb Racks",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_power_plant",
+     "position": null,
+     "class_name": "POWR_JUST_S01_Endurance_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
+     "type": "PowerPlant",
+     "sub_type": "Power",
+     "subtype": "Power",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "PowerPlant",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
+      "name": "Endurance",
+      "class_name": "POWR_JUST_S01_Endurance_SCItem",
+      "type": "PowerPlant",
+      "sub_type": "Power",
+      "size": 1,
+      "grade": 2,
+      "manufacturer": {
+       "name": "Juno Starwerk"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/49d355d9-b5a5-454a-a6e8-dedb4bdffa02",
+      "web_url": "https://api.star-citizen.wiki/items/49d355d9-b5a5-454a-a6e8-dedb4bdffa02"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Power Plants",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler_left",
+     "position": null,
+     "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "name": "Bracer",
+      "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "web_url": "https://api.star-citizen.wiki/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler_right",
+     "position": null,
+     "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "name": "Bracer",
+      "class_name": "COOL_AEGS_S01_Bracer_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
+      "web_url": "https://api.star-citizen.wiki/items/4ec3037b-4b6f-4837-b00d-cd9b4836a82a"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_left",
+     "position": null,
+     "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+      "name": "Bulwark",
+      "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Basilisk"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/624e6c75-afd8-4606-a10e-45d12cb3c882",
+      "web_url": "https://api.star-citizen.wiki/items/624e6c75-afd8-4606-a10e-45d12cb3c882"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_right",
+     "position": null,
+     "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+      "name": "Bulwark",
+      "class_name": "SHLD_BASL_S01_Bulwark_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Basilisk"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/624e6c75-afd8-4606-a10e-45d12cb3c882",
+      "web_url": "https://api.star-citizen.wiki/items/624e6c75-afd8-4606-a10e-45d12cb3c882"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_armor",
+     "position": null,
+     "class_name": "ARMR_AEGS_Avenger_Titan",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "7090c713-5e36-4150-a19b-8c4fe439be9d",
+     "type": "Armor",
+     "sub_type": "Medium",
+     "subtype": "Medium",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Armor",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "7090c713-5e36-4150-a19b-8c4fe439be9d",
+      "name": "Avenger Titan Ship Armor",
+      "class_name": "ARMR_AEGS_Avenger_Titan",
+      "type": "Armor",
+      "sub_type": "Medium",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/7090c713-5e36-4150-a19b-8c4fe439be9d",
+      "web_url": "https://api.star-citizen.wiki/items/7090c713-5e36-4150-a19b-8c4fe439be9d"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Armor",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_quantum_drive",
+     "position": null,
+     "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+     "type": "QuantumDrive",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "QuantumDrive",
+       "sub_types": [
+        "QDrive"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+      "name": "Expedition",
+      "class_name": "QDRV_TARS_S01_Expedition_SCItem",
+      "type": "QuantumDrive",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Tarsus"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4702547f-fa0f-4f6c-b2ed-9782ee9f518b",
+      "web_url": "https://api.star-citizen.wiki/items/4702547f-fa0f-4f6c-b2ed-9782ee9f518b"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Quantum Drives",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_paint",
+     "position": null,
+     "class_name": null,
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": null,
+     "type": "",
+     "sub_type": "",
+     "subtype": "",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Paints",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": null,
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Paints",
+     "required_tags": [
+      "Paint_Avenger"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_countermeasure_launcher_left",
+     "position": null,
+     "class_name": "AEGS_Avenger_CML_Flare",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "222edff1-53c1-454d-852c-cecd52381b23",
+     "type": "WeaponDefensive",
+     "sub_type": "CountermeasureLauncher",
+     "subtype": "CountermeasureLauncher",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "WeaponDefensive",
+       "sub_types": [
+        "CountermeasureLauncher"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "222edff1-53c1-454d-852c-cecd52381b23",
+      "name": "Aegis Avenger - Decoy Launcher",
+      "class_name": "AEGS_Avenger_CML_Flare",
+      "type": "WeaponDefensive",
+      "sub_type": "CountermeasureLauncher",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/222edff1-53c1-454d-852c-cecd52381b23",
+      "web_url": "https://api.star-citizen.wiki/items/222edff1-53c1-454d-852c-cecd52381b23"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Counter Measures",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_countermeasure_launcher_right",
+     "position": null,
+     "class_name": "AEGS_Avenger_CML_Chaff",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+     "type": "WeaponDefensive",
+     "sub_type": "CountermeasureLauncher",
+     "subtype": "CountermeasureLauncher",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "WeaponDefensive",
+       "sub_types": [
+        "CountermeasureLauncher"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+      "name": "Aegis Gladius - Noise Launcher",
+      "class_name": "AEGS_Avenger_CML_Chaff",
+      "type": "WeaponDefensive",
+      "sub_type": "CountermeasureLauncher",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Aegis Dynamics"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60",
+      "web_url": "https://api.star-citizen.wiki/items/3d7266a3-8ad9-4392-ae6d-1d4bb2c11b60"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Counter Measures",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_gun_class1_right_wing",
+     "position": null,
+     "class_name": "Mount_Gimbal_S3",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "name": "VariPuck S3 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S3",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "web_url": "https://api.star-citizen.wiki/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_weapon_gun_class1_left_wing",
+     "position": null,
+     "class_name": "Mount_Gimbal_S3",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+     "type": "Turret",
+     "sub_type": "GunTurret",
+     "subtype": "GunTurret",
+     "sizes": {
+      "min": 3,
+      "max": 3
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "Gun",
+        "GunTurret"
+       ]
+      },
+      {
+       "type": "WeaponGun",
+       "sub_types": [
+        "Gun"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "name": "VariPuck S3 Gimbal Mount",
+      "class_name": "Mount_Gimbal_S3",
+      "type": "Turret",
+      "sub_type": "GunTurret",
+      "size": 3,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Flashfire Systems"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+      "web_url": "https://api.star-citizen.wiki/items/8197c45b-eaf4-4836-a8f0-837d1875cd9c"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Turrets",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_lifesupport",
+     "position": null,
+     "class_name": "LFSP_TYDT_S01_ComfortAir",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "e947b002-e65e-4637-90b7-c894925d6625",
+     "type": "LifeSupportGenerator",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "LifeSupportGenerator",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "e947b002-e65e-4637-90b7-c894925d6625",
+      "name": "ComfortAir",
+      "class_name": "LFSP_TYDT_S01_ComfortAir",
+      "type": "LifeSupportGenerator",
+      "sub_type": "UNDEFINED",
+      "size": 1,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Tyler Design & Tech"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/e947b002-e65e-4637-90b7-c894925d6625",
+      "web_url": "https://api.star-citizen.wiki/items/e947b002-e65e-4637-90b7-c894925d6625"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Life Support",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    }
+   ],
+   "parts": [
+    {
+     "name": "AEGS_Avenger",
+     "display_name": "Aegs avenger",
+     "damage_max": 0,
+     "children": [
+      {
+       "name": "Nose",
+       "display_name": "Nose",
+       "damage_max": 2500,
+       "destruction_damage": 2500,
+       "children": [
+        {
+         "name": "Canopy",
+         "display_name": "Canopy",
+         "damage_max": 1500,
+         "detach_damage": 1500,
+         "children": [],
+         "version": null
+        }
+       ],
+       "version": null
+      },
+      {
+       "name": "Body",
+       "display_name": "Body",
+       "damage_max": 2500,
+       "destruction_damage": 2500,
+       "children": [
+        {
+         "name": "Wing_Right",
+         "display_name": "Wing (right)",
+         "damage_max": 680,
+         "detach_damage": 680,
+         "children": [
+          {
+           "name": "Wing_Flap_Right",
+           "display_name": "Wing flap (right)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          },
+          {
+           "name": "WingTip_Right",
+           "display_name": "Wingtip (right)",
+           "damage_max": 1000,
+           "detach_damage": 1000,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "Wing_Left",
+         "display_name": "Wing (left)",
+         "damage_max": 680,
+         "detach_damage": 680,
+         "children": [
+          {
+           "name": "Wing_Flap_Left",
+           "display_name": "Wing flap (left)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          },
+          {
+           "name": "WingTip_Left",
+           "display_name": "Wingtip (left)",
+           "damage_max": 1000,
+           "detach_damage": 1000,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "HullTail_Right",
+         "display_name": "Hull (tail right)",
+         "damage_max": 1000,
+         "detach_damage": 1000,
+         "children": [
+          {
+           "name": "Right_Tail_Fin_Flap",
+           "display_name": "Fin flap (right tail)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        },
+        {
+         "name": "HullTail_Left",
+         "display_name": "Hull (tail left)",
+         "damage_max": 1000,
+         "detach_damage": 1000,
+         "children": [
+          {
+           "name": "Left_Tail_Fin_Flap",
+           "display_name": "Fin flap (left tail)",
+           "damage_max": 10,
+           "detach_damage": 10,
+           "children": [],
+           "version": null
+          }
+         ],
+         "version": null
+        }
+       ],
+       "version": null
+      }
+     ],
+     "version": null
+    }
+   ],
+   "turrets": {
+    "manned": [],
+    "remote": [],
+    "pdc": []
+   },
+   "career": "Transporter",
+   "role": "Light Freight",
+   "game_description": {
+    "en_EN": "Lacking the Prisoner Cells of the Stalker or the EMP Generator of the Warlock, the Titan's hold is free to carry cargo. Couple that available space with the Avenger's tried and true combat abilities and you've got a light cargo hauler that's more than capable of handling itself in a fight.",
+    "de_DE": "Hersteller: Aegis Dynamics\nFokus (En): Light Freight\nFokus (De): Frachter (leicht)\n\nOhne die Gefangenenzellen der Stalker oder dem EMP-Generator der Warlock ist der Laderaum der Titan frei, um Fracht zu transportieren. Kombiniert man diesen verf\u00fcgbaren Platz mit den bew\u00e4hrten Kampff\u00e4higkeiten der Avenger, erh\u00e4lt man einen leichten Frachter, der sich in einem Kampf mehr als behaupten kann.",
+    "zh_CN": "\u5236\u9020\u5546\uff1a\u5723\u76fe\u52a8\u529b\uff08Aegis Dynamics\uff09\n\u5b9a\u4f4d\uff1a\u8f7b\u578b\u8d27\u8239\u00a0\n\n\u6ca1\u6709\u88c5\u5907\u8ffd\u730e\u8005\u7684\u56da\u72af\u8fd0\u8f93\u4ed3\u6216\u8005\u672f\u58eb\u7684EMP\u4ea7\u751f\u5668\uff0c\u6cf0\u5766\u7684\u7a7a\u95f4\u7528\u6765\u968f\u610f\u88c5\u8f7d\u8d27\u7269\u3002\u5c06\u6cf0\u5766\u7684\u8d27\u8fd0\u80fd\u529b\u548c\u590d\u4ec7\u8005\u7684\u6218\u6597\u80fd\u529b\u7ed3\u5408\u8d77\u6765\uff0c\u4f60\u5c31\u5f97\u5230\u4e86\u4e00\u4e2a\u53ef\u4ee5\u5728\u6218\u6597\u4e2d\u6e38\u5203\u6709\u4f59\u7684\u8f7b\u578b\u8d27\u8239\u3002",
+    "fr_FR": "Fabricant : Aegis Dynamics\nType : Cargaison l\u00e9g\u00e8re\n\n\u00c0 d\u00e9faut des cellules de prisonniers du Stalker ou du g\u00e9n\u00e9rateur EMP du Warlock, la soute du Titan est libre de transporter du fret. Associez cet espace disponible aux capacit\u00e9s de combat \u00e9prouv\u00e9es de l\u2019Avenger et vous obtenez un transporteur l\u00e9ger de fret plus que capable de se d\u00e9brouiller en combat."
+   },
+   "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-titan",
+   "link": "https://api.star-citizen.wiki/api/vehicles/0079c5d5-1678-4f8c-85ba-18ca8f642af6",
+   "loaner": [],
+   "skus": [
+    {
+     "source": "pledge_store",
+     "cig_id": 18293,
+     "title": "Duelist Starter Pack",
+     "url": "https://robertsspaceindustries.com/pledge/Packages/Duelist-Starter-Pack",
+     "price": 75,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": true,
+     "available": false,
+     "imported_at": "2026-09-10T00:00:43.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 16030,
+     "title": "Avenger Titan",
+     "url": "https://robertsspaceindustries.com/pledge/Standalone-Ships/Avenger-Titan",
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:43.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 16029,
+     "title": "Avenger Titan",
+     "url": "https://robertsspaceindustries.com/pledge/Upgrades/Avenger-Titan",
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:35.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 18413,
+     "title": "Duelist \u2018Pirate Week\u2019 Starter Pack",
+     "url": "https://robertsspaceindustries.com/pledge/Packages/Duelist-Pirate-Week-Starter-Pack-Warbond",
+     "price": 75,
+     "discounted_price": 56,
+     "is_warbond": true,
+     "is_package": true,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:43.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 19583,
+     "title": "Solar Winds Ship Pack",
+     "url": "https://robertsspaceindustries.com/pledge/Packs/Solar-Winds-Ship-Pack-Warbond",
+     "price": 350,
+     "discounted_price": null,
+     "is_warbond": true,
+     "is_package": true,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:49.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 16611,
+     "title": "Avenger Titan Holiday Upgrade",
+     "url": null,
+     "price": 60,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-01-07T13:54:03.000000Z"
+    }
+   ],
+   "msrp": 60,
+   "warbond_price": null,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan",
+   "curated_data": {
+    "source": "starcitizen.tools",
+    "page_url": "https://starcitizen.tools/Avenger_Titan",
+    "synced_at": "2026-09-15T00:00:59.000000Z",
+    "trailer_url": "https://www.youtube.com/watch?v=2FcJykFmMc0",
+    "original_pledge_price": 50,
+    "original_warbond_price": null,
+    "added_in_version": "Patch V1.0.0",
+    "concept_date": "2015-11-19",
+    "sale_date": null,
+    "retire_date": null,
+    "pledge_availability": "Always available",
+    "brochure_url": null,
+    "presentation_urls": [
+     "https://robertsspaceindustries.com/comm-link/transmission/13100-Introducing-The-Avenger"
+    ],
+    "whitleys_guide_url": null,
+    "galactapedia_url": "https://robertsspaceindustries.com/galactapedia/article/V7gMyBEKv3-titan",
+    "qa_urls": []
+   },
+   "uex_prices": {
+    "purchase": [
+     {
+      "price_buy": 1358280,
+      "price_sell": null,
+      "price_rent": null,
+      "terminal_id": 791,
+      "terminal_code": "TSSLEV",
+      "terminal_name": "Teach's Ship Shop - Levski",
+      "starmap_location": {
+       "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+       "name": "Levski",
+       "slug": "levski",
+       "type_name": "Manmade",
+       "parent_name": "Nyx",
+       "star_system_name": "Nyx",
+       "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+       "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+      },
+      "date_updated": "2026-08-28T14:34:46+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=791"
+     },
+     {
+      "price_buy": 1290370,
+      "price_sell": null,
+      "price_rent": null,
+      "terminal_id": 149,
+      "terminal_code": "NDLOR",
+      "terminal_name": "New Deal - Teasa Spaceport - Lorville",
+      "starmap_location": {
+       "uuid": "f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "name": "Lorville",
+       "slug": "lorville",
+       "type_name": "LandingZone",
+       "parent_name": "Hurston",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "web_url": "https://api.star-citizen.wiki/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913"
+      },
+      "date_updated": "2026-09-11T05:11:35+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=149"
+     }
+    ],
+    "rental": [
+     {
+      "price_buy": null,
+      "price_sell": null,
+      "price_rent": 27166,
+      "terminal_id": 789,
+      "terminal_code": "TRLEV",
+      "terminal_name": "Teach's Rentals - Levski",
+      "starmap_location": {
+       "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+       "name": "Levski",
+       "slug": "levski",
+       "type_name": "Manmade",
+       "parent_name": "Nyx",
+       "star_system_name": "Nyx",
+       "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+       "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+      },
+      "date_updated": "2026-09-01T00:25:37+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_rent/?id_terminal=789"
+     },
+     {
+      "price_buy": null,
+      "price_sell": null,
+      "price_rent": 27166,
+      "terminal_id": 150,
+      "terminal_code": "TRORI",
+      "terminal_name": "Traveler Rentals - August Dunlow Spaceport - Orison",
+      "starmap_location": {
+       "uuid": "567f92d7-d34c-42fa-b57b-f1939d4c5f5b",
+       "name": "Orison",
+       "slug": "orison",
+       "type_name": "LandingZone",
+       "parent_name": "Crusader",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/567f92d7-d34c-42fa-b57b-f1939d4c5f5b",
+       "web_url": "https://api.star-citizen.wiki/locations/567f92d7-d34c-42fa-b57b-f1939d4c5f5b"
+      },
+      "date_updated": "2026-08-30T15:44:46+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_rent/?id_terminal=150"
+     },
+     {
+      "price_buy": null,
+      "price_sell": null,
+      "price_rent": 27166,
+      "terminal_id": 151,
+      "terminal_code": "TRA18",
+      "terminal_name": "Traveler Rentals - Riker Memorial Spaceport - Area 18",
+      "starmap_location": {
+       "uuid": "c6535844-c615-494e-9dc1-c2d0c6e7190a",
+       "name": "Area18",
+       "slug": "area18",
+       "type_name": "LandingZone",
+       "parent_name": "ArcCorp",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a",
+       "web_url": "https://api.star-citizen.wiki/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a"
+      },
+      "date_updated": "2026-08-30T04:41:34+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_rent/?id_terminal=151"
+     }
+    ]
+   },
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/4/4b/Avenger_Titan_3.2_sale_Titan_01-Squashed.jpg?hz823",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/4/4b/Avenger_Titan_3.2_sale_Titan_01-Squashed.jpg/600px-Avenger_Titan_3.2_sale_Titan_01-Squashed.jpg.webp?hz823",
+     "original_width": 2048,
+     "original_height": 1152,
+     "thumbnail_width": 600,
+     "thumbnail_height": 338
+    }
+   ],
+   "updated_at": "2026-09-16T00:30:10.000000Z",
+   "version": "4.10.0-LIVE.12519617",
+   "id": 102,
+   "chassis_id": 7,
+   "shipmatrix_name": "Avenger Titan",
+   "foci": [
+    {
+     "en_EN": "Light Freight",
+     "de_DE": "Leichter Frachter",
+     "zh_CN": "\u8f7b\u578b\u8fd0\u8f93\u673a",
+     "fr_FR": "Light Freight"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Transporter",
+    "de_DE": "Transporter",
+    "zh_CN": "Transporter",
+    "fr_FR": "Transporter"
+   },
+   "description": {
+    "en_EN": "With extra room in the back, the Titan\u2019s hold is free to carry cargo. Couple that with the Avenger\u2019s tried and true combat abilities and you\u2019ve got a light cargo hauler that\u2019s more than capable of handling itself in a fight.",
+    "de_DE": "Dank des zus\u00e4tzlichen Platzes im hinteren Bereich ist der Laderaum des Titans frei f\u00fcr Fracht. Zusammen mit den bew\u00e4hrten Kampff\u00e4higkeiten der Avenger erh\u00e4ltst du einen leichten Frachttransporter, der sich in einem Kampf mehr als behaupten kann.",
+    "zh_CN": "\u6709\u4e86\u540e\u90e8\u7684\u989d\u5916\u7a7a\u95f4\uff0c\u6cf0\u5766\u7684\u8d27\u8231\u5c31\u53ef\u4ee5\u81ea\u7531\u88c5\u8f7d\u8d27\u7269\u4e86\u3002\u518d\u52a0\u4e0a\u590d\u4ec7\u8005\u53f7\u4e45\u7ecf\u8003\u9a8c\u7684\u4f5c\u6218\u80fd\u529b\uff0c\u4f60\u5c31\u62e5\u6709\u4e86\u4e00\u8f86\u5728\u6218\u6597\u4e2d\u6e38\u5203\u6709\u4f59\u7684\u8f7b\u578b\u8d27\u7269\u8fd0\u8f93\u8f66\u3002",
+    "fr_FR": "With extra room in the back, the Titan\u2019s hold is free to carry cargo. Couple that with the Avenger\u2019s tried and true combat abilities and you\u2019ve got a light cargo hauler that\u2019s more than capable of handling itself in a fight."
+   },
+   "size": {
+    "en_EN": "Small",
+    "de_DE": "Klein",
+    "zh_CN": "\u5c0f",
+    "fr_FR": "Small"
+   }
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=149",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 149,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=148",
+    "label": "148",
+    "page": 148,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=149",
+    "label": "149",
+    "page": 149,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/vehicles",
+  "per_page": 2,
+  "to": 2,
+  "total": 297,
+  "valid_relations": [
+   "shipMatrixVehicle",
+   "components",
+   "shipmatrixvehicle.components",
+   "hardpoints",
+   "ports"
+  ]
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "data": {
+  "uuid": "2d01142c-0199-4ac2-9589-21096a16b98d",
+  "slug": "2954-lucks-favor-tankard",
+  "name": "2954 Luck's Favor Tankard",
+  "class_name": "Drink_mug_stella_fortuna_1_b",
+  "classification": "FPS.Consumable.Food.Drink",
+  "classification_label": "Drink",
+  "description": {
+   "en_EN": "Beautifully crafted from genuine wood with pewter accents, this Stella Fortuna themed tankard features a compass star and a reminder that \"Luck Favors the Bold.\"",
+   "de_DE": "Wundersch\u00f6n aus echtem Holz mit Zinnaufdrucken gefertigt, zeigt dieser \"Stella Fortuna\"-Themenkrug einen Kompassstern und eine Erinnerung daran, dass \"Luck Favors the Bold\" (Das Gl\u00fcck beg\u00fcnstigt die Mutigen).",
+   "zh_CN": "\u8fd9\u6b3e\u5e78\u8fd0\u661f\u8282\u4e3b\u9898\u7684\u5564\u9152\u676f\u4f7f\u7528\u771f\u6728\u7cbe\u5236\u4e14\u5e26\u6709\u767d\u9574\u88c5\u9970\uff0c\u5e76\u914d\u6709\u6307\u5357\u9488\u4e4b\u661f\u548c\u201c\u5e78\u8fd0\u7737\u987e\u52c7\u6562\u8005\u201d\u7684\u6807\u8bed\u3002",
+   "fr_FR": "Magnifiquement fabriqu\u00e9e \u00e0 partir de bois v\u00e9ritable avec des accents en \u00e9tain, cette chope sur le th\u00e8me Stella Fortuna arbore une \u00e9toile de compas et rappelle que \u00ab La chance sourit aux audacieux \u00bb."
+  },
+  "size": 1,
+  "mass": 0.25,
+  "event_source": [
+   "Stella Fortuna"
+  ],
+  "is_base_variant": false,
+  "is_craftable": false,
+  "is_lootable": false,
+  "description_data": [],
+  "manufacturer_description": null,
+  "manufacturer": {
+   "name": "Consumable",
+   "code": "GEND",
+   "uuid": "f80ab8de-4d04-4a1f-a8f2-ee2bb01fd125",
+   "link": "https://api.star-citizen.wiki/api/manufacturers/GEND"
+  },
+  "type": "Drink",
+  "type_label": "Drink",
+  "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Drink",
+  "sub_type": "UNDEFINED",
+  "sub_type_label": "Undefined",
+  "food": {
+   "nutrition": [],
+   "buffs": [],
+   "debuffs": [],
+   "container": {
+    "type": "bottle",
+    "closed": false,
+    "can_be_reclosed": false,
+    "discard_when_consumed": false
+   },
+   "consumption": {
+    "volume": 780,
+    "one_shot_consume": false
+   },
+   "nutritional_density_rating": null,
+   "hydration_efficacy_index": null,
+   "container_type": "bottle",
+   "one_shot_consume": false,
+   "can_be_reclosed": false,
+   "discard_when_consumed": false,
+   "effects": null,
+   "resource_effects": null,
+   "gas_effects": null
+  },
+  "dimension": {
+   "width": 0.75,
+   "height": 0.75,
+   "length": 0.75,
+   "volume": 0.0008,
+   "volume_converted": 780,
+   "volume_converted_unit": "\u00b5SCU",
+   "true_dimension": {
+    "width": 0.077,
+    "height": 0.135,
+    "length": 0.093
+   },
+   "dimensions": {
+    "width": 0.077,
+    "height": 0.135,
+    "length": 0.093
+   },
+   "cargo_dimension": {
+    "width": 0.1,
+    "height": 0.13,
+    "length": 0.09
+   },
+   "ui_dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75
+   }
+  },
+  "tags": [
+   "Mug",
+   "StellaFortuna"
+  ],
+  "required_tags": [],
+  "entity_tags": [
+   "07475dd2-bf23-4e0b-b62b-b8d6b9d452da",
+   "bd734d8f-a2b4-488c-b4df-fe3511f18541",
+   "3e0bfb01-a8cc-4a12-8b04-4f2b54425e9c",
+   "184b4c03-ca5a-4d33-84e2-254d4473ca42",
+   "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+   "5e11a544-7fea-4160-b2bf-98c6cf9ee9df",
+   "05404417-1870-4092-9b74-a30f8e213878",
+   "0969b307-e268-402c-94b9-ce85db787b00",
+   "00ead468-9073-485b-a6df-ca6b94053603"
+  ],
+  "entity_tag_map": [
+   {
+    "uuid": "07475dd2-bf23-4e0b-b62b-b8d6b9d452da",
+    "name": "Cups"
+   },
+   {
+    "uuid": "bd734d8f-a2b4-488c-b4df-fe3511f18541",
+    "name": "Can"
+   },
+   {
+    "uuid": "3e0bfb01-a8cc-4a12-8b04-4f2b54425e9c",
+    "name": "PotentiallyTrash"
+   },
+   {
+    "uuid": "184b4c03-ca5a-4d33-84e2-254d4473ca42",
+    "name": "Drink"
+   },
+   {
+    "uuid": "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+    "name": "Stackable"
+   },
+   {
+    "uuid": "5e11a544-7fea-4160-b2bf-98c6cf9ee9df",
+    "name": "1H"
+   },
+   {
+    "uuid": "05404417-1870-4092-9b74-a30f8e213878",
+    "name": "PlayerEventTrigger"
+   },
+   {
+    "uuid": "0969b307-e268-402c-94b9-ce85db787b00",
+    "name": "NPCEventTrigger"
+   },
+   {
+    "uuid": "00ead468-9073-485b-a6df-ca6b94053603",
+    "name": "ActionArea"
+   }
+  ],
+  "interactions": [
+   "Drop",
+   "Carrylowered",
+   "Inspect",
+   "Place",
+   "Vendorinspect",
+   "Vendorreturn"
+  ],
+  "ports": [
+   {
+    "name": "slot_garnish",
+    "display_name": "Slot Garnish",
+    "position": "SLOT_GARNISH",
+    "size": 1,
+    "sizes": {
+     "min": 0,
+     "max": 1
+    },
+    "compatible_types": [
+     {
+      "type": "Misc",
+      "sub_types": []
+     }
+    ],
+    "types": [
+     "Misc"
+    ],
+    "type": "Misc",
+    "sub_type": null,
+    "tags": [
+     "slot_garnish"
+    ],
+    "port_tags": [
+     "slot_garnish"
+    ],
+    "required_tags": [],
+    "flags": [],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   }
+  ],
+  "shops": [],
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/a/a3/2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp?d15vj",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/a/a3/2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp/600px-2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp?d15vj",
+    "original_width": 3641,
+    "original_height": 2048,
+    "thumbnail_width": 600,
+    "thumbnail_height": 337
+   }
+  ],
+  "uex_prices": {
+   "purchase": [
+    {
+     "price_buy": 5,
+     "price_sell": 0,
+     "price_rent": null,
+     "terminal_id": 781,
+     "terminal_code": "NNLEV",
+     "terminal_name": "Nyx Nax Levski",
+     "starmap_location": {
+      "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+      "name": "Levski",
+      "slug": "levski",
+      "type_name": "Manmade",
+      "parent_name": "Nyx",
+      "star_system_name": "Nyx",
+      "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+      "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+     },
+     "date_updated": "2026-08-31T22:15:31+00:00",
+     "game_version": "4.10.0-LIVE.12519617",
+     "uex_link": "https://uexcorp.space/items/info?name=2954-luck's-favor-tankard&tab=about"
+    }
+   ]
+  },
+  "base_variant": {
+   "uuid": "31142a63-5179-48e5-b382-a705d8d01672",
+   "name": "2954 Tempt Fate Tankard",
+   "class_name": "Drink_mug_stella_fortuna_1_a",
+   "type": "Drink",
+   "type_label": "Drink",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "classification": "FPS.Consumable.Food.Drink",
+   "classification_label": "Drink",
+   "is_base_variant": true,
+   "variant_name": null,
+   "manufacturer": {
+    "name": "Consumable",
+    "code": "GEND",
+    "uuid": "f80ab8de-4d04-4a1f-a8f2-ee2bb01fd125",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/GEND"
+   },
+   "link": "https://api.star-citizen.wiki/api/items/31142a63-5179-48e5-b382-a705d8d01672",
+   "web_url": "https://api.star-citizen.wiki/items/2954-tempt-fate-tankard",
+   "size": 1,
+   "updated_at": "2026-09-01T00:18:42.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  "variants": [],
+  "web_url": "https://api.star-citizen.wiki/items/2954-lucks-favor-tankard",
+  "link": "https://api.star-citizen.wiki/api/items/2d01142c-0199-4ac2-9589-21096a16b98d",
+  "updated_at": "2026-09-16T00:01:54.000000Z",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:35",
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ],
+  "deprecated_fields": {
+   "shops": "Shop data is not available in the source files anymore, there is currently no replacement.",
+   "dimension.width": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.height": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.length": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.true_dimension": "Use dimension.dimensions instead."
+  },
+  "resource": {
+   "type": "item",
+   "uuid": "2d01142c-0199-4ac2-9589-21096a16b98d",
+   "slug": "2954-lucks-favor-tankard",
+   "api_url": "https://api.star-citizen.wiki/api/items/2d01142c-0199-4ac2-9589-21096a16b98d",
+   "web_url": "https://api.star-citizen.wiki/items/2954-lucks-favor-tankard",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

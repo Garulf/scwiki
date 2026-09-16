@@ -1,0 +1,273 @@
+{
+ "data": {
+  "uuid": "e4c28233-e258-49e3-b115-53186c055f0b",
+  "slug": "2949-intergalactic-aerospace-expo-hat",
+  "name": "2949 Intergalactic Aerospace Expo Hat",
+  "class_name": "cbd_hat_03_expo_dec",
+  "classification": "FPS.Clothing.Hat",
+  "classification_label": "Hat",
+  "description": {
+   "en_EN": "A magenta hat emblazoned with the Intergalactic Aerospace Expo name and logo in white on the front.",
+   "de_DE": "Eine magenta M\u00fctze mit dem Namen und Logo der \"Intergalactic Aerospace Expo\" in Wei\u00df auf der Vorderseite.",
+   "zh_CN": "\u4e00\u9876\u6d0b\u7ea2\u5e3d\u5b50\uff0c\u6b63\u9762\u5370\u6709\u661f\u7cfb\u9645\u822a\u7a7a\u822a\u5929\u535a\u89c8\u4f1a\u7684\u540d\u79f0\u548c\u6807\u5fd7\u3002",
+   "fr_FR": "Une casquette magenta orn\u00e9 du nom et du logo en blanc de l'Intergalactic Aerospace Expo sur la face avant."
+  },
+  "size": 1,
+  "mass": 0.25,
+  "rarity": "Common",
+  "event_source": [],
+  "is_base_variant": true,
+  "is_craftable": false,
+  "is_lootable": false,
+  "description_data": [],
+  "manufacturer_description": null,
+  "manufacturer": {
+   "name": "Custom Built Duds",
+   "code": "CBD",
+   "uuid": "64eef2d9-5d3d-431d-a83b-ae077a16b4e2",
+   "link": "https://api.star-citizen.wiki/api/manufacturers/CBD"
+  },
+  "type": "Char_Clothing_Hat",
+  "type_label": "Hat",
+  "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Char_Clothing_Hat",
+  "sub_type": "UNDEFINED",
+  "sub_type_label": "Undefined",
+  "clothing": {
+   "clothing_type": "Hat",
+   "slot": "Hat",
+   "type": "Hat",
+   "resistances": [],
+   "temp_resistance_min": 3,
+   "temp_resistance_max": 33,
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 0,
+    "radiation_dissipation_rate": 0
+   },
+   "gforce_resistance": 0
+  },
+  "suit_armor": {
+   "slot": "Hat",
+   "armor_type": "Hat",
+   "type": "Hat",
+   "garment_type": "Hat",
+   "damage_resistance": {
+    "impact": null,
+    "physical": null,
+    "energy": null,
+    "distortion": null,
+    "thermal": null,
+    "biochemical": null,
+    "stun": null
+   },
+   "damage_resistance_map": {
+    "impact": null,
+    "impact_change": 0,
+    "physical": null,
+    "physical_change": 0,
+    "energy": null,
+    "energy_change": 0,
+    "distortion": null,
+    "distortion_change": 0,
+    "thermal": null,
+    "thermal_change": 0,
+    "biochemical": null,
+    "biochemical_change": 0,
+    "stun": null,
+    "stun_change": 0
+   },
+   "protected_body_parts": [],
+   "signature": [],
+   "temp_resistance_min": 3,
+   "temp_resistance_max": 33,
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 0,
+    "radiation_dissipation_rate": 0
+   },
+   "gforce_resistance": 0
+  },
+  "dimension": {
+   "width": 0.75,
+   "height": 0.75,
+   "length": 0.75,
+   "volume": 0.0032,
+   "volume_converted": 3200,
+   "volume_converted_unit": "\u00b5SCU",
+   "true_dimension": {
+    "width": 0.248,
+    "height": 0.182,
+    "length": 0.248
+   },
+   "dimensions": {
+    "width": 0.248,
+    "height": 0.182,
+    "length": 0.248
+   },
+   "cargo_dimension": {
+    "width": 0.16,
+    "height": 0.14,
+    "length": 0.27
+   },
+   "ui_dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75
+   }
+  },
+  "tags": [
+   "cbd_hat",
+   "Set_03",
+   "Color_expo",
+   "KeepsShape",
+   "$hatHair+"
+  ],
+  "required_tags": [
+   "Protos"
+  ],
+  "entity_tags": [
+   "580a5795-132d-4193-b66c-948521c8ae3c",
+   "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+   "eca4cc23-79f7-4511-9cf1-1a832385383d",
+   "59ca5e36-b9a2-4459-ad0e-5745bcf5d899",
+   "d1fc00f6-b7d3-4a32-bad6-0599490db488",
+   "f881830d-b2eb-41c0-b334-8eca640057cf",
+   "fa5bbe66-38c2-4f61-865c-4ad793373ded",
+   "3de9e0ea-7a17-4a4a-a964-63e558ad34a9"
+  ],
+  "entity_tag_map": [
+   {
+    "uuid": "580a5795-132d-4193-b66c-948521c8ae3c",
+    "name": "CBD"
+   },
+   {
+    "uuid": "b97f2439-cde7-45f9-acc3-5eab75b0f84c",
+    "name": "Stackable"
+   },
+   {
+    "uuid": "eca4cc23-79f7-4511-9cf1-1a832385383d",
+    "name": "ReceiveParentActorInteractions"
+   },
+   {
+    "uuid": "59ca5e36-b9a2-4459-ad0e-5745bcf5d899",
+    "name": "Common"
+   },
+   {
+    "uuid": "d1fc00f6-b7d3-4a32-bad6-0599490db488",
+    "name": "CannotGenerateAsLoot"
+   },
+   {
+    "uuid": "f881830d-b2eb-41c0-b334-8eca640057cf",
+    "name": "Head"
+   },
+   {
+    "uuid": "fa5bbe66-38c2-4f61-865c-4ad793373ded",
+    "name": "Purpose"
+   },
+   {
+    "uuid": "3de9e0ea-7a17-4a4a-a964-63e558ad34a9",
+    "name": "CanBeHung"
+   }
+  ],
+  "interactions": [
+   "Carry",
+   "Drop",
+   "Place",
+   "Store",
+   "Equiptowear"
+  ],
+  "ports": [
+   {
+    "name": "Material_Variant",
+    "display_name": "Hair Color",
+    "position": "MATERIAL_VARIANT",
+    "size": 1,
+    "sizes": {
+     "min": 1,
+     "max": 1
+    },
+    "compatible_types": [
+     {
+      "type": "Paints",
+      "sub_types": []
+     }
+    ],
+    "types": [
+     "Paints"
+    ],
+    "type": "Paints",
+    "sub_type": null,
+    "tags": [],
+    "port_tags": null,
+    "required_tags": [],
+    "flags": [
+     "nontransferable"
+    ],
+    "editable": true,
+    "uneditable": false,
+    "equipped_item_uuid": null,
+    "ports": null
+   }
+  ],
+  "radiation_resistance": {
+   "maximum_radiation_capacity": 0,
+   "radiation_dissipation_rate": 0
+  },
+  "temperature_resistance": {
+   "min": 3,
+   "max": 33,
+   "minimum": 3,
+   "maximum": 33
+  },
+  "gforce_resistance": 0,
+  "shops": [],
+  "images": [
+   {
+    "source": "starcitizen.tools",
+    "original_url": "https://media.starcitizen.tools/a/a1/2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg?r9y93",
+    "thumbnail_url": "https://media.starcitizen.tools/thumb/a/a1/2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg/600px-2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg.webp?r9y93",
+    "original_width": 2160,
+    "original_height": 2880,
+    "thumbnail_width": 600,
+    "thumbnail_height": 800
+   }
+  ],
+  "uex_prices": {
+   "purchase": []
+  },
+  "variants": [],
+  "web_url": "https://api.star-citizen.wiki/items/2949-intergalactic-aerospace-expo-hat",
+  "link": "https://api.star-citizen.wiki/api/items/e4c28233-e258-49e3-b115-53186c055f0b",
+  "updated_at": "2026-08-27T09:47:18.000000Z",
+  "version": "4.10.0-LIVE.12519617"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:34",
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ],
+  "deprecated_fields": {
+   "shops": "Shop data is not available in the source files anymore, there is currently no replacement.",
+   "dimension.width": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.height": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.length": "Use dimension.dimensions, dimension.cargo_dimension, or dimension.ui_dimension instead.",
+   "dimension.true_dimension": "Use dimension.dimensions instead.",
+   "clothing": {
+    "clothing_type": "Use type instead.",
+    "temp_resistance_min": "Use temperature_resistance from root.",
+    "temp_resistance_max": "Use temperature_resistance from root."
+   }
+  },
+  "resource": {
+   "type": "item",
+   "uuid": "e4c28233-e258-49e3-b115-53186c055f0b",
+   "slug": "2949-intergalactic-aerospace-expo-hat",
+   "api_url": "https://api.star-citizen.wiki/api/items/e4c28233-e258-49e3-b115-53186c055f0b",
+   "web_url": "https://api.star-citizen.wiki/items/2949-intergalactic-aerospace-expo-hat",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ }
+}

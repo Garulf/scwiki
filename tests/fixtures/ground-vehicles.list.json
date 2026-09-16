@@ -1,0 +1,3482 @@
+{
+ "data": [
+  {
+   "uuid": "a04a1503-ac5c-4520-bc22-4b1a1a198eff",
+   "name": "Ballista",
+   "game_name": "Anvil Ballista",
+   "slug": "anvl-ballista",
+   "class_name": "ANVL_Ballista",
+   "port_tags": [
+    "ANVL_Ballista"
+   ],
+   "sizes": {
+    "length": 17,
+    "beam": 7,
+    "height": 5.5
+   },
+   "dimension": {
+    "length": 17,
+    "width": 7,
+    "height": 5.5
+   },
+   "emission": {
+    "ir": 1750,
+    "em_idle": 3672,
+    "em_max": 3672
+   },
+   "mass": 121816,
+   "mass_hull": 121816,
+   "mass_loadout": 4004,
+   "mass_total": 125820,
+   "cargo_capacity": 0,
+   "ore_capacity": null,
+   "cargo_grids": [],
+   "vehicle_inventory": 2500000,
+   "inventory_containers": [
+    {
+     "uuid": "0b359b36-b9d0-4b38-80d4-ea92b11a220a",
+     "width": 2,
+     "height": 2,
+     "length": 2,
+     "volume": 8,
+     "scu": 2.11,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    },
+    {
+     "uuid": "f6a7ee14-89e2-4fd3-b11d-be8bf1dda5e6",
+     "width": null,
+     "height": null,
+     "length": null,
+     "volume": 0,
+     "scu": 0.39,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    }
+   ],
+   "weapon_storage": {
+    "lockers": 1,
+    "slots_total": 2,
+    "slots_rifle": 2,
+    "slots_pistol": 0,
+    "by_locker": [
+     {
+      "name": "Weapon Rack",
+      "class_name": "weapon_rack_anvl_ballista_2_slots",
+      "port": "<interior>",
+      "slots_total": 2,
+      "slots_rifle": 2,
+      "slots_pistol": 0,
+      "count": 1
+     }
+    ]
+   },
+   "crew": {
+    "min": 2,
+    "max": 2,
+    "weapon": 2,
+    "operation": null
+   },
+   "max_medical_tier": null,
+   "seating": {
+    "crew_stations": 2,
+    "ejection_seats": 0,
+    "escape_pods": null,
+    "jump_seats": null,
+    "beds": 0,
+    "medical_beds": null
+   },
+   "health": 37800,
+   "shield_hp": 1440,
+   "shield_face_type": "Bubble",
+   "shield": {
+    "hp": 1440,
+    "regeneration": 456,
+    "regeneration_time": 3.16,
+    "face_type": "Bubble",
+    "max_reallocation": 1,
+    "reconfiguration_cooldown": 2.5,
+    "max_electrical_charge_damage_rate": 100,
+    "resistance": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.25
+     },
+     "energy": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "distortion": {
+      "minimum": 0.75,
+      "maximum": 0.95
+     },
+     "thermal": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "biochemical": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "stun": {
+      "minimum": 0,
+      "maximum": 0
+     }
+    },
+    "absorption": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.45
+     },
+     "energy": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "distortion": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "thermal": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "biochemical": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "stun": {
+      "minimum": 1,
+      "maximum": 1
+     }
+    }
+   },
+   "speed": {
+    "scm": null,
+    "max": null,
+    "boost_forward": null,
+    "boost_backward": null,
+    "zero_to_scm": null,
+    "zero_to_max": null,
+    "scm_to_zero": null,
+    "max_to_zero": null
+   },
+   "afterburner": {
+    "pitch_boost_multiplier": null,
+    "roll_boost_multiplier": null,
+    "yaw_boost_multiplier": null,
+    "capacitor": null,
+    "idle_cost": null,
+    "linear_cost": null,
+    "angular_cost": null,
+    "regen_per_second": null,
+    "regen_delay_after_use": null,
+    "pre_delay_time": null,
+    "ramp_up_time": null,
+    "ramp_down_time": null,
+    "regen_time": null,
+    "regen_delay": null
+   },
+   "fuel": {
+    "capacity": 0,
+    "intake_rate": 0,
+    "usage": {
+     "main": 0,
+     "retro": 0,
+     "vtol": 0,
+     "maneuvering": 0
+    }
+   },
+   "propulsion": {
+    "thrusters": [],
+    "thrust_capacity": {
+     "main": 0,
+     "retro": 0,
+     "vtol": 0,
+     "maneuvering": 0
+    }
+   },
+   "quantum": {
+    "quantum_speed": null,
+    "quantum_spool_time": null,
+    "quantum_fuel_capacity": 0,
+    "quantum_range": null,
+    "port_olisar_to_arccorp_time": null,
+    "port_olisar_to_arccorp_fuel": null
+   },
+   "drive": {
+    "max_speed_kph": 72,
+    "max_speed_ms": 20,
+    "reverse_speed_kph": 27.11688311688312,
+    "reverse_speed_ms": 7.532467532467533,
+    "is_tracked": false,
+    "wheels": {
+     "count": 8,
+     "driving_count": 8,
+     "steering_count": 4,
+     "drive_type": "AWD"
+    },
+    "agility": {
+     "handling": 0.5,
+     "grip": 0.25,
+     "acceleration": 1
+    }
+   },
+   "agility": {
+    "pitch": null,
+    "yaw": null,
+    "roll": null,
+    "pitch_boosted": null,
+    "yaw_boosted": null,
+    "roll_boosted": null,
+    "acceleration": []
+   },
+   "armor": {
+    "uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+    "health": 2145,
+    "signal_infrared": 1,
+    "signal_electromagnetic": 1,
+    "signal_cross_section": 1,
+    "damage_physical": 0.6,
+    "damage_energy": 0.4,
+    "damage_distortion": 1,
+    "damage_thermal": 1,
+    "damage_biochemical": 1,
+    "damage_stun": 1,
+    "signal_multiplier": {
+     "cross_section": 1,
+     "cross_section_change": 0,
+     "infrared": 1,
+     "infrared_change": 0,
+     "electromagnetic": 1,
+     "electromagnetic_change": 0
+    },
+    "damage_multiplier": {
+     "physical": 0.6,
+     "physical_change": -0.4,
+     "energy": 0.4,
+     "energy_change": -0.6,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "resistance_multiplier": {
+     "physical": 0.81,
+     "physical_change": -0.19,
+     "energy": 1.15,
+     "energy_change": 0.15,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "penetration_resistance": {
+     "base": 1,
+     "physical": 1,
+     "energy": 1,
+     "distortion": 0,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "deflection": {
+     "physical": 6,
+     "energy": 3,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    },
+    "signal_multipliers": {
+     "cross_section": 1,
+     "infrared": 1,
+     "electromagnetic": 1
+    },
+    "damage_multipliers": {
+     "physical": 0.6,
+     "energy": 0.4,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "resistance_multipliers": {
+     "physical": 0.81,
+     "energy": 1.15,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    }
+   },
+   "weaponry": {
+    "pilot_dps": 677.4,
+    "pilot_alpha": 25.4,
+    "pilot_sustained_dps": 553.2,
+    "missiles": {
+     "count": 10,
+     "damage": {
+      "physical": 412000,
+      "energy": 0,
+      "distortion": 0,
+      "thermal": 0,
+      "biochemical": 0,
+      "stun": 0,
+      "total": 412000
+     }
+    },
+    "total_missile_damage": 412000
+   },
+   "manufacturer": {
+    "name": "Anvil Aerospace",
+    "code": "ANVL",
+    "uuid": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/ANVL"
+   },
+   "size_class": 4,
+   "cross_section": {
+    "length": 1885,
+    "width": 1377,
+    "height": 3338
+   },
+   "cross_section_max": 3338,
+   "is_vehicle": true,
+   "is_gravlev": false,
+   "is_spaceship": false,
+   "is_power_suit": false,
+   "signature": {
+    "ir_quantum": 1750,
+    "ir_shields": 1750,
+    "em_quantum": 3672,
+    "em_shields": 3672,
+    "em_groups_quantum": {
+     "Radar": 900,
+     "Cooler": 375,
+     "WeaponGun": 72,
+     "PowerPlant": 2325
+    },
+    "em_groups_shields": {
+     "Radar": 900,
+     "Cooler": 375,
+     "WeaponGun": 72,
+     "PowerPlant": 2325
+    },
+    "em_segment_groups_quantum": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    },
+    "em_segment_groups_shields": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    },
+    "em_per_segment": 375
+   },
+   "cooling": {
+    "generation_segments": 16,
+    "usage_shields_pct": 0.7,
+    "usage_quantum_pct": 0.7,
+    "used_segments_shields": 11.2,
+    "used_segments_quantum": 11.2,
+    "used_segments_shields_grouped": {
+     "Radar": 3,
+     "PowerPlant": 6.2,
+     "WheeledController": 2
+    },
+    "used_segments_quantum_grouped": {
+     "Radar": 3,
+     "PowerPlant": 6.2,
+     "WheeledController": 2
+    }
+   },
+   "power": {
+    "generation_segments": 10,
+    "used_segments_shields": 6.2,
+    "used_segments_quantum": 6.2,
+    "used_segments_grouped": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    }
+   },
+   "power_pools": {
+    "Shield": {
+     "type": null,
+     "item_type": "Shield",
+     "size": -1
+    },
+    "WeaponGun": {
+     "type": null,
+     "item_type": "WeaponGun",
+     "size": 2
+    },
+    "TowingBeam": {
+     "type": null,
+     "item_type": "TowingBeam",
+     "size": -1
+    },
+    "SalvageHead": {
+     "type": null,
+     "item_type": "SalvageHead",
+     "size": -1
+    },
+    "TractorBeam": {
+     "type": null,
+     "item_type": "TractorBeam",
+     "size": -1
+    },
+    "WeaponMining": {
+     "type": null,
+     "item_type": "WeaponMining",
+     "size": -1
+    },
+    "WheeledController": {
+     "type": null,
+     "item_type": "WheeledController",
+     "size": -1
+    }
+   },
+   "penetration_multiplier": {
+    "fuse": 2.727273,
+    "components": 1
+   },
+   "relay_network": {
+    "total_fuses": 3,
+    "relays": [
+     {
+      "hardpoint": "hardpoint_relay",
+      "class_name": "RELAY_3slot_slim",
+      "fuse_slots": 3,
+      "room": "hardpoint_interior",
+      "connection_count": 26,
+      "connected_hardpoints": [
+       {
+        "category": "Crew Stations",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_seat_driver",
+          "item_name": "TRGT. STATUS",
+          "class_name": "ANVL_Ballista_SCItem_Seat_Driver",
+          "type": "Seat",
+          "uuid": "968481b3-4953-424b-a21d-049ad7b9a819"
+         },
+         {
+          "hardpoint": "hardpoint_dashboard_driver",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "ANVL_Ballista_SCItem_Dashboard_Pilot",
+          "type": "SeatDashboard",
+          "uuid": "714fad99-a784-4124-b06b-be2d4883356c"
+         },
+         {
+          "hardpoint": "hardpoint_seat_gunner",
+          "item_name": "TRGT. STATUS",
+          "class_name": "ANVL_Ballista_SCItem_SeatDashboard_Gunner",
+          "type": "Seat",
+          "uuid": "39f8eead-4c71-4f40-82ab-6a34f7fad866"
+         }
+        ]
+       },
+       {
+        "category": "Other",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_wheel",
+          "item_name": "Drivetrain",
+          "class_name": "Controller_Wheel",
+          "type": "WheeledController",
+          "uuid": "ef1b7a86-4756-47df-847a-6c158252b563"
+         },
+         {
+          "hardpoint": "hardpoint_rear_door",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         }
+        ]
+       },
+       {
+        "category": "Controllers",
+        "count": 10,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_light",
+          "item_name": "LIGHTS",
+          "class_name": "Controller_Light",
+          "type": "LightController",
+          "uuid": "056628be-ecee-41b9-9dd2-bb32215e6e34"
+         },
+         {
+          "hardpoint": "hardpoint_controller_comms",
+          "item_name": "COMMS",
+          "class_name": "Controller_Comms",
+          "type": "CommsController",
+          "uuid": "ae1a186e-0f8c-4deb-8079-bfb54df4a8a7"
+         },
+         {
+          "hardpoint": "hardpoint_controller_door",
+          "item_name": "SECURITY",
+          "class_name": "Controller_Door",
+          "type": "DoorController",
+          "uuid": "4a9ebf31-a405-4b68-9886-b4a47bd1b61d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_energy",
+          "item_name": "POWER",
+          "class_name": "Controller_Energy",
+          "type": "EnergyController",
+          "uuid": "61cc7bf5-6666-40f7-8c0a-ee8a8092f51e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_cooler",
+          "item_name": "HEAT",
+          "class_name": "Controller_Cooler",
+          "type": "CoolerController",
+          "uuid": "b935e5d8-dead-47c5-8937-382c3aa11682"
+         },
+         {
+          "hardpoint": "hardpoint_controller_shield",
+          "item_name": "SHIELDS",
+          "class_name": "Controller_Shield_ANVL_Ballista",
+          "type": "ShieldController",
+          "uuid": "eec5cecf-91ce-444f-b64a-1a1f40d3eab9"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon_driver",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon_Vehicle",
+          "type": "WeaponController",
+          "uuid": "2375d6b8-ac87-4885-bedf-8285ddc39777"
+         },
+         {
+          "hardpoint": "hardpoint_controller_capacitor_assignment",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_CapacitorAssignment",
+          "type": "CapacitorAssignmentController",
+          "uuid": "0219b443-6f28-4aa2-bcc3-cfbff843729d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon_gunner",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon",
+          "type": "WeaponController",
+          "uuid": "c78851f1-ded8-4e8d-91ec-905e3dae075e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_missile_gunner",
+          "item_name": "MISSILES",
+          "class_name": "Controller_Missile",
+          "type": "MissileController",
+          "uuid": "4750556e-1afc-45be-86f7-f7adbc1fb7aa"
+         }
+        ]
+       },
+       {
+        "category": "Radars",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_radar",
+          "item_name": "Prevenir",
+          "class_name": "RADR_GRNP_S00_Prevenir",
+          "type": "Radar",
+          "uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0"
+         }
+        ]
+       },
+       {
+        "category": "Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_selfdestruct",
+          "item_name": "Self Destruct Unit",
+          "class_name": "VHCL_SelfDestruct_10s",
+          "type": "SelfDestruct",
+          "uuid": "e5512d65-5462-4270-8095-212efe3fcf99"
+         }
+        ]
+       },
+       {
+        "category": "Power Plants",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_power_plant",
+          "item_name": "Radix",
+          "class_name": "POWR_LPLT_S00_Radix_SCItem",
+          "type": "PowerPlant",
+          "uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d"
+         }
+        ]
+       },
+       {
+        "category": "Coolers",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_cooler",
+          "item_name": "Frost-Star SL",
+          "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+          "type": "Cooler",
+          "uuid": "387da568-31d2-4479-81da-21dd015db668"
+         }
+        ]
+       },
+       {
+        "category": "Shields",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_shield_generator_left",
+          "item_name": "PIN",
+          "class_name": "SHLD_SECO_S00_PIN_SCItem",
+          "type": "Shield",
+          "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+         },
+         {
+          "hardpoint": "hardpoint_shield_generator_right",
+          "item_name": "PIN",
+          "class_name": "SHLD_SECO_S00_PIN_SCItem",
+          "type": "Shield",
+          "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+         }
+        ]
+       },
+       {
+        "category": "Turrets",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_turret",
+          "item_name": "Turret",
+          "class_name": "ANVL_Ballista_Remote_Top_Turret",
+          "type": "Turret",
+          "uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1"
+         },
+         {
+          "hardpoint": "hardpoint_torpedo_turret",
+          "item_name": "Turret",
+          "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+          "type": "Turret",
+          "uuid": "8fafec28-467a-4672-a455-5b68997e9d86"
+         }
+        ]
+       },
+       {
+        "category": "Doors & Hatches",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_door_ramp",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         },
+         {
+          "hardpoint": "hardpoint_door_right_ramp",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         },
+         {
+          "hardpoint": "hardpoint_entrance_door",
+          "item_name": "Door",
+          "class_name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Ballista",
+          "type": "Door",
+          "uuid": "e1d40703-48c3-400a-95d4-59cb5ef43af7"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "links": [
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_dashboard_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_wheel"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_light"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_comms"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_radar"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_selfdestruct"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_energy"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_power_plant"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_shield"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_turret"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_ramp"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_right_ramp"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_rear_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_capacitor_assignment"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_gunner"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon_gunner"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_torpedo_turret"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_entrance_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_missile_gunner"
+     }
+    ]
+   },
+   "insurance": {
+    "claim_time": 6.19,
+    "expedite_time": 2.06,
+    "expedite_cost": 8073
+   },
+   "damage_limits": {
+    "before_destruction": [
+     {
+      "HP": 10000,
+      "Name": "nose",
+      "DestructionDamage": 10000
+     },
+     {
+      "HP": 10000,
+      "Name": "body",
+      "DestructionDamage": 10000
+     }
+    ],
+    "before_detach": [
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_left01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_left02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_right01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_right02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_left01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_left02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_right01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_right02",
+      "DetachDamage": 1700
+     }
+    ]
+   },
+   "ports": [
+    {
+     "name": "hardpoint_turret",
+     "position": null,
+     "class_name": "ANVL_Ballista_Remote_Top_Turret",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1",
+     "type": "Turret",
+     "sub_type": "BallTurret",
+     "subtype": "BallTurret",
+     "sizes": {
+      "min": 4,
+      "max": 4
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "BallTurret"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1",
+      "name": "Turret",
+      "class_name": "ANVL_Ballista_Remote_Top_Turret",
+      "type": "Turret",
+      "sub_type": "BallTurret",
+      "size": 4,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/09453868-8ba8-44ca-afeb-ca526424a8e1",
+      "web_url": "https://api.star-citizen.wiki/items/09453868-8ba8-44ca-afeb-ca526424a8e1"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Remote Turrets",
+     "required_tags": [
+      "ANVL_Ballista"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_armor",
+     "position": null,
+     "class_name": "ARMR_ANVL_Ballista",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+     "type": "Armor",
+     "sub_type": "Medium",
+     "subtype": "Medium",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Armor",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+      "name": "<= PLACEHOLDER =>",
+      "class_name": "ARMR_ANVL_Ballista",
+      "type": "Armor",
+      "sub_type": "Medium",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4735a555-aab0-465b-88b9-73a639253b2d",
+      "web_url": "https://api.star-citizen.wiki/items/4735a555-aab0-465b-88b9-73a639253b2d"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Armor",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_paint",
+     "position": null,
+     "class_name": null,
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": null,
+     "type": "",
+     "sub_type": "",
+     "subtype": "",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Paints",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": null,
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Paints",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_left",
+     "position": null,
+     "class_name": "SHLD_SECO_S00_PIN_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "name": "PIN",
+      "class_name": "SHLD_SECO_S00_PIN_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Seal Corporation"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "web_url": "https://api.star-citizen.wiki/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_right",
+     "position": null,
+     "class_name": "SHLD_SECO_S00_PIN_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "name": "PIN",
+      "class_name": "SHLD_SECO_S00_PIN_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Seal Corporation"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "web_url": "https://api.star-citizen.wiki/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_radar",
+     "position": null,
+     "class_name": "RADR_GRNP_S00_Prevenir",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
+     "type": "Radar",
+     "sub_type": "MidRangeRadar",
+     "subtype": "MidRangeRadar",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Radar",
+       "sub_types": [
+        "ShortRangeRadar",
+        "MidRangeRadar"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
+      "name": "Prevenir",
+      "class_name": "RADR_GRNP_S00_Prevenir",
+      "type": "Radar",
+      "sub_type": "MidRangeRadar",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Groupe Nouveau Paradigme"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/d8a9b395-4438-4995-a797-9d984c7fd4c0",
+      "web_url": "https://api.star-citizen.wiki/items/d8a9b395-4438-4995-a797-9d984c7fd4c0"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Radars",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_power_plant",
+     "position": null,
+     "class_name": "POWR_LPLT_S00_Radix_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+     "type": "PowerPlant",
+     "sub_type": "Power",
+     "subtype": "Power",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "PowerPlant",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+      "name": "Radix",
+      "class_name": "POWR_LPLT_S00_Radix_SCItem",
+      "type": "PowerPlant",
+      "sub_type": "Power",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Lightning Power Ltd."
+      },
+      "link": "https://api.star-citizen.wiki/api/items/c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+      "web_url": "https://api.star-citizen.wiki/items/c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Power Plants",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler",
+     "position": null,
+     "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "387da568-31d2-4479-81da-21dd015db668",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "387da568-31d2-4479-81da-21dd015db668",
+      "name": "Frost-Star SL",
+      "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "J-Span"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/387da568-31d2-4479-81da-21dd015db668",
+      "web_url": "https://api.star-citizen.wiki/items/387da568-31d2-4479-81da-21dd015db668"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_torpedo_turret",
+     "position": null,
+     "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "8fafec28-467a-4672-a455-5b68997e9d86",
+     "type": "Turret",
+     "sub_type": "MissileTurret",
+     "subtype": "MissileTurret",
+     "sizes": {
+      "min": 9,
+      "max": 9
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "MissileTurret"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8fafec28-467a-4672-a455-5b68997e9d86",
+      "name": "Turret",
+      "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+      "type": "Turret",
+      "sub_type": "MissileTurret",
+      "size": 9,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8fafec28-467a-4672-a455-5b68997e9d86",
+      "web_url": "https://api.star-citizen.wiki/items/8fafec28-467a-4672-a455-5b68997e9d86"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Remote Turrets",
+     "required_tags": [
+      "ANVL_Ballista"
+     ],
+     "port_tags": null,
+     "version": null
+    }
+   ],
+   "parts": [
+    {
+     "name": "ANVL_Ballista",
+     "display_name": "Anvl ballista",
+     "damage_max": 4200,
+     "children": [
+      {
+       "name": "nose",
+       "display_name": "Nose",
+       "damage_max": 10000,
+       "destruction_damage": 10000,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "body",
+       "display_name": "Body",
+       "damage_max": 10000,
+       "destruction_damage": 10000,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_left01",
+       "display_name": "Hardpoint wheel 01 (front left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_left02",
+       "display_name": "Hardpoint wheel 02 (front left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_right01",
+       "display_name": "Hardpoint wheel 01 (front right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_right02",
+       "display_name": "Hardpoint wheel 02 (front right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_left01",
+       "display_name": "Hardpoint wheel 01 (back left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_left02",
+       "display_name": "Hardpoint wheel 02 (back left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_right01",
+       "display_name": "Hardpoint wheel 01 (back right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_right02",
+       "display_name": "Hardpoint wheel 02 (back right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      }
+     ],
+     "version": null
+    }
+   ],
+   "turrets": {
+    "manned": [],
+    "remote": [
+     {
+      "category": "remote",
+      "display_name": "hardpoint_remote_turret_top",
+      "hardpoint_name": "hardpoint_turret",
+      "part_name": "hardpoint_turret",
+      "turret_type": "Turret.BallTurret",
+      "class_name": "ANVL_Ballista_Remote_Top_Turret",
+      "size": 4,
+      "turret": true,
+      "gimballed": false,
+      "fixed": null,
+      "mount_count": 2,
+      "weapon_sizes": [
+       2,
+       2
+      ],
+      "payload_sizes": [
+       2,
+       2
+      ],
+      "payload_types": [
+       "WeaponGun.Gun"
+      ],
+      "payload_class_names": [
+       "GATS_BallisticGatling_S2"
+      ],
+      "mounts": [
+       {
+        "display_name": "Weapon - Top Left",
+        "hardpoint_name": "hardpoint_gunmount_left",
+        "mount_type": "WeaponGun.Gun",
+        "class_name": "GATS_BallisticGatling_S2",
+        "size": 2,
+        "weapon_sizes": [
+         2
+        ],
+        "payload_sizes": [
+         2
+        ],
+        "payload_types": [
+         "WeaponGun.Gun"
+        ],
+        "payload_class_names": [
+         "GATS_BallisticGatling_S2"
+        ]
+       },
+       {
+        "display_name": "Weapon - Top Right",
+        "hardpoint_name": "hardpoint_gunmount_right",
+        "mount_type": "WeaponGun.Gun",
+        "class_name": "GATS_BallisticGatling_S2",
+        "size": 2,
+        "weapon_sizes": [
+         2
+        ],
+        "payload_sizes": [
+         2
+        ],
+        "payload_types": [
+         "WeaponGun.Gun"
+        ],
+        "payload_class_names": [
+         "GATS_BallisticGatling_S2"
+        ]
+       }
+      ],
+      "dps_total": 677.4,
+      "sustained_dps_total": 553.2,
+      "alpha_total": 25.4,
+      "is_pilot_slaveable": true,
+      "weapons": [
+       {
+        "uuid": "7034e330-3d22-4e89-83cb-c01815dbb875",
+        "class_name": "GATS_BallisticGatling_S2",
+        "name": "Scorpion GT-215 Gatling",
+        "link": "https://api.star-citizen.wiki/api/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "web_url": "https://api.star-citizen.wiki/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "dps": 338.7,
+        "sustained_dps": 276.6,
+        "alpha": 12.7,
+        "is_pilot_slaveable": true
+       },
+       {
+        "uuid": "7034e330-3d22-4e89-83cb-c01815dbb875",
+        "class_name": "GATS_BallisticGatling_S2",
+        "name": "Scorpion GT-215 Gatling",
+        "link": "https://api.star-citizen.wiki/api/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "web_url": "https://api.star-citizen.wiki/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "dps": 338.7,
+        "sustained_dps": 276.6,
+        "alpha": 12.7,
+        "is_pilot_slaveable": true
+       }
+      ],
+      "version": null
+     },
+     {
+      "category": "remote",
+      "display_name": "port_NameTurret01",
+      "hardpoint_name": "hardpoint_torpedo_turret",
+      "part_name": "hardpoint_torpedo_turret",
+      "turret_type": "Turret.MissileTurret",
+      "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+      "size": 9,
+      "turret": true,
+      "gimballed": false,
+      "fixed": null,
+      "mount_count": 4,
+      "weapon_sizes": [
+       5,
+       5,
+       7,
+       7
+      ],
+      "payload_sizes": [
+       5,
+       5,
+       7,
+       7
+      ],
+      "payload_types": [
+       "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+      ],
+      "payload_class_names": [
+       "GMRCK_ANVL_Ballista_Quad_S05",
+       "GMRCK_S07_ANVL_Ballista_Duel"
+      ],
+      "mounts": [
+       {
+        "display_name": "Turret Weapon Slot 1",
+        "hardpoint_name": "hardpoint_missile_rack_S05_left",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_ANVL_Ballista_Quad_S05",
+        "size": 5,
+        "weapon_sizes": [
+         5
+        ],
+        "payload_sizes": [
+         5
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_ANVL_Ballista_Quad_S05"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 2",
+        "hardpoint_name": "hardpoint_missile_rack_S05_right",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_ANVL_Ballista_Quad_S05",
+        "size": 5,
+        "weapon_sizes": [
+         5
+        ],
+        "payload_sizes": [
+         5
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_ANVL_Ballista_Quad_S05"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 3",
+        "hardpoint_name": "hardpoint_missile_rack_S07_left",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_S07_ANVL_Ballista_Duel",
+        "size": 7,
+        "weapon_sizes": [
+         7
+        ],
+        "payload_sizes": [
+         7
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_S07_ANVL_Ballista_Duel"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 4",
+        "hardpoint_name": "hardpoint_missile_rack_S07_right",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_S07_ANVL_Ballista_Duel",
+        "size": 7,
+        "weapon_sizes": [
+         7
+        ],
+        "payload_sizes": [
+         7
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_S07_ANVL_Ballista_Duel"
+        ]
+       }
+      ],
+      "dps_total": null,
+      "sustained_dps_total": null,
+      "alpha_total": null,
+      "is_pilot_slaveable": null,
+      "weapons": [],
+      "version": null
+     }
+    ],
+    "pdc": []
+   },
+   "career": "Combat",
+   "role": "Anti-Air",
+   "game_description": {
+    "en_EN": "Keep your airspace clear of danger with the Anvil Ballista. Originally designed to defend outposts from Vanduul attacks, this mobile missile defense system packs a powerful loadout, allowing the Ballista to stand firm against any threat, whether it arrives by air or land.",
+    "de_DE": "Hersteller: Anvil Aerospace\nFokus (En): Anti-Air\nFokus (De): Flugabwehr\n\nHalte den Luftraum mit der Anvil Ballista frei von Gefahren. Dieses mobile Raketenabwehrsystem, das urspr\u00fcnglich zur Verteidigung von Au\u00dfenposten gegen Vanduul-Angriffe entwickelt wurde, verf\u00fcgt \u00fcber eine leistungsstarke Bewaffnung, mit der die Ballista jeder Bedrohung standhalten kann, egal ob sie aus der Luft oder von Land kommt.",
+    "zh_CN": "\u5236\u9020\u5546\uff1a\u94c1\u7827\u822a\u5929\n\u5b9a\u4f4d\uff1a\u9632\u7a7a\n\n\u9009\u62e9\u94c1\u7827\u5f29\u70ae\uff0c\u8fd8\u60a8\u7684\u5929\u7a7a\u4e00\u7247\u6e05\u51c0\u3002\u94c1\u7827\u5f29\u70ae\u7684\u8bbe\u8ba1\u521d\u8877\u662f\u7528\u4e8e\u5728\u524d\u54e8\u7ad9\u9632\u5fa1\u525c\u5ea6\u7684\u8fdb\u653b\uff0c\u8fd9\u4e2a\u673a\u52a8\u5bfc\u5f39\u9632\u5fa1\u5e73\u53f0\u62e5\u6709\u5f3a\u5927\u7684\u706b\u529b\uff0c\u8db3\u4ee5\u5e94\u4ed8\u6765\u81ea\u5929\u7a7a\u6216\u8005\u5730\u9762\u7684\u5a01\u80c1\u3002",
+    "fr_FR": "Fabricant : Anvil Aerospace\nType : Anti-a\u00e9rien\n\nMaintenez votre espace a\u00e9rien libre de tout danger avec l\u2019Anvil Ballista. Con\u00e7u \u00e0 l\u2019origine pour d\u00e9fendre les avant-postes contre les attaques vanduul, ce syst\u00e8me de d\u00e9fense antimissile mobile est \u00e9quip\u00e9 d\u2019un armement puissant, permettant au Ballista de faire face \u00e0 toute menace, qu\u2019elle arrive par les airs ou par terre."
+   },
+   "web_url": "https://api.star-citizen.wiki/vehicles/anvl-ballista",
+   "link": "https://api.star-citizen.wiki/api/vehicles/a04a1503-ac5c-4520-bc22-4b1a1a198eff",
+   "loaner": [],
+   "skus": [
+    {
+     "source": "pledge_store",
+     "cig_id": 11916,
+     "title": "Ballista  ",
+     "url": "https://robertsspaceindustries.com/pledge/Standalone-Ships/Ballista",
+     "price": 140,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:43.000000Z"
+    },
+    {
+     "source": "pledge_store",
+     "cig_id": 13118,
+     "title": "Ballista",
+     "url": "https://robertsspaceindustries.com/pledge/Upgrades/Ballista",
+     "price": 140,
+     "discounted_price": null,
+     "is_warbond": false,
+     "is_package": false,
+     "available": true,
+     "imported_at": "2026-09-16T00:00:35.000000Z"
+    },
+    {
+     "source": "upgrade_api",
+     "cig_id": 16803,
+     "title": "Warbond Edition",
+     "url": null,
+     "price": 130,
+     "discounted_price": null,
+     "is_warbond": null,
+     "is_package": null,
+     "available": true,
+     "imported_at": "2024-02-28T00:00:34.000000Z"
+    }
+   ],
+   "msrp": 140,
+   "warbond_price": null,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Ballista",
+   "curated_data": {
+    "source": "starcitizen.tools",
+    "page_url": "https://starcitizen.tools/Ballista",
+    "synced_at": "2026-09-15T00:01:05.000000Z",
+    "trailer_url": "https://youtu.be/kUseGGO_vXc",
+    "original_pledge_price": 140,
+    "original_warbond_price": 120,
+    "added_in_version": "Alpha 3.6.0",
+    "concept_date": "2017-07-20",
+    "sale_date": null,
+    "retire_date": null,
+    "pledge_availability": "Always available",
+    "brochure_url": null,
+    "presentation_urls": [
+     "https://robertsspaceindustries.com/comm-link/transmission/17153-Anvil-Ballista"
+    ],
+    "whitleys_guide_url": null,
+    "galactapedia_url": "https://robertsspaceindustries.com/galactapedia/article/V8gJyXMDrM-ballista",
+    "qa_urls": [
+     "https://robertsspaceindustries.com/comm-link/engineering/17177-Q-A-Anvil-Ballista"
+    ]
+   },
+   "uex_prices": {
+    "purchase": [
+     {
+      "price_buy": 1407670,
+      "price_sell": null,
+      "price_rent": null,
+      "terminal_id": 149,
+      "terminal_code": "NDLOR",
+      "terminal_name": "New Deal - Teasa Spaceport - Lorville",
+      "starmap_location": {
+       "uuid": "f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "name": "Lorville",
+       "slug": "lorville",
+       "type_name": "LandingZone",
+       "parent_name": "Hurston",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913",
+       "web_url": "https://api.star-citizen.wiki/locations/f1759f46-e3c0-4dc1-94bc-c94488b58913"
+      },
+      "date_updated": "2026-09-11T05:11:35+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=149"
+     },
+     {
+      "price_buy": 1481760,
+      "price_sell": null,
+      "price_rent": null,
+      "terminal_id": 148,
+      "terminal_code": "ASTRO",
+      "terminal_name": "Astro Armada - Area 18",
+      "starmap_location": {
+       "uuid": "c6535844-c615-494e-9dc1-c2d0c6e7190a",
+       "name": "Area18",
+       "slug": "area18",
+       "type_name": "LandingZone",
+       "parent_name": "ArcCorp",
+       "star_system_name": "Stanton",
+       "link": "https://api.star-citizen.wiki/api/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a",
+       "web_url": "https://api.star-citizen.wiki/locations/c6535844-c615-494e-9dc1-c2d0c6e7190a"
+      },
+      "date_updated": "2026-08-27T05:52:25+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=148"
+     }
+    ],
+    "rental": []
+   },
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/c/cb/Ballista_on_glassland_firing_weapons_-_cropped.jpg?lgvxc",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/c/cb/Ballista_on_glassland_firing_weapons_-_cropped.jpg/600px-Ballista_on_glassland_firing_weapons_-_cropped.jpg.webp?lgvxc",
+     "original_width": 2816,
+     "original_height": 1584,
+     "thumbnail_width": 600,
+     "thumbnail_height": 338
+    }
+   ],
+   "updated_at": "2026-09-16T00:29:54.000000Z",
+   "version": "4.10.0-LIVE.12519617",
+   "id": 183,
+   "chassis_id": 75,
+   "shipmatrix_name": "Ballista",
+   "foci": [
+    {
+     "en_EN": "Anti-Air",
+     "de_DE": "Anti-Air",
+     "zh_CN": "Anti-Air",
+     "fr_FR": "Anti-Air"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Combat",
+    "de_DE": "Gefecht",
+    "zh_CN": "\u6253\u51fb",
+    "fr_FR": "Combat"
+   },
+   "size": {
+    "en_EN": "undefined",
+    "de_DE": "Undefiniert",
+    "zh_CN": "\u672a\u5b9a\u4e49",
+    "fr_FR": "undefined"
+   }
+  },
+  {
+   "uuid": "50f551e3-3435-4cbe-9ecf-8712855a8e27",
+   "name": "Ballista Dunestalker",
+   "game_name": "Anvil Ballista Dunestalker",
+   "slug": "anvl-ballista-dunestalker",
+   "class_name": "ANVL_Ballista_Dunestalker",
+   "port_tags": [
+    "ANVL_Ballista"
+   ],
+   "sizes": {
+    "length": 17,
+    "beam": 7,
+    "height": 5.5
+   },
+   "dimension": {
+    "length": 17,
+    "width": 7,
+    "height": 5.5
+   },
+   "emission": {
+    "ir": 1750,
+    "em_idle": 3672,
+    "em_max": 3672
+   },
+   "mass": 121816,
+   "mass_hull": 121816,
+   "mass_loadout": 4004,
+   "mass_total": 125820,
+   "cargo_capacity": 0,
+   "ore_capacity": null,
+   "cargo_grids": [],
+   "vehicle_inventory": 2500000,
+   "inventory_containers": [
+    {
+     "uuid": "0b359b36-b9d0-4b38-80d4-ea92b11a220a",
+     "width": 2,
+     "height": 2,
+     "length": 2,
+     "volume": 8,
+     "scu": 2.11,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    },
+    {
+     "uuid": "f6a7ee14-89e2-4fd3-b11d-be8bf1dda5e6",
+     "width": null,
+     "height": null,
+     "length": null,
+     "volume": 0,
+     "scu": 0.39,
+     "scu_converted": null,
+     "unit": null,
+     "open": false,
+     "external": false,
+     "closed": true
+    }
+   ],
+   "weapon_storage": {
+    "lockers": 1,
+    "slots_total": 2,
+    "slots_rifle": 2,
+    "slots_pistol": 0,
+    "by_locker": [
+     {
+      "name": "Weapon Rack",
+      "class_name": "weapon_rack_anvl_ballista_2_slots",
+      "port": "<interior>",
+      "slots_total": 2,
+      "slots_rifle": 2,
+      "slots_pistol": 0,
+      "count": 1
+     }
+    ]
+   },
+   "crew": {
+    "min": 2,
+    "max": 2,
+    "weapon": 2,
+    "operation": null
+   },
+   "max_medical_tier": null,
+   "seating": {
+    "crew_stations": 2,
+    "ejection_seats": 0,
+    "escape_pods": null,
+    "jump_seats": null,
+    "beds": 0,
+    "medical_beds": null
+   },
+   "health": 37800,
+   "shield_hp": 1440,
+   "shield_face_type": "Bubble",
+   "shield": {
+    "hp": 1440,
+    "regeneration": 456,
+    "regeneration_time": 3.16,
+    "face_type": "Bubble",
+    "max_reallocation": 1,
+    "reconfiguration_cooldown": 2.5,
+    "max_electrical_charge_damage_rate": 100,
+    "resistance": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.25
+     },
+     "energy": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "distortion": {
+      "minimum": 0.75,
+      "maximum": 0.95
+     },
+     "thermal": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "biochemical": {
+      "minimum": 0,
+      "maximum": 0
+     },
+     "stun": {
+      "minimum": 0,
+      "maximum": 0
+     }
+    },
+    "absorption": {
+     "physical": {
+      "minimum": 0,
+      "maximum": 0.45
+     },
+     "energy": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "distortion": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "thermal": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "biochemical": {
+      "minimum": 1,
+      "maximum": 1
+     },
+     "stun": {
+      "minimum": 1,
+      "maximum": 1
+     }
+    }
+   },
+   "speed": {
+    "scm": null,
+    "max": null,
+    "boost_forward": null,
+    "boost_backward": null,
+    "zero_to_scm": null,
+    "zero_to_max": null,
+    "scm_to_zero": null,
+    "max_to_zero": null
+   },
+   "afterburner": {
+    "pitch_boost_multiplier": null,
+    "roll_boost_multiplier": null,
+    "yaw_boost_multiplier": null,
+    "capacitor": null,
+    "idle_cost": null,
+    "linear_cost": null,
+    "angular_cost": null,
+    "regen_per_second": null,
+    "regen_delay_after_use": null,
+    "pre_delay_time": null,
+    "ramp_up_time": null,
+    "ramp_down_time": null,
+    "regen_time": null,
+    "regen_delay": null
+   },
+   "fuel": {
+    "capacity": 0,
+    "intake_rate": 0,
+    "usage": {
+     "main": 0,
+     "retro": 0,
+     "vtol": 0,
+     "maneuvering": 0
+    }
+   },
+   "propulsion": {
+    "thrusters": [],
+    "thrust_capacity": {
+     "main": 0,
+     "retro": 0,
+     "vtol": 0,
+     "maneuvering": 0
+    }
+   },
+   "quantum": {
+    "quantum_speed": null,
+    "quantum_spool_time": null,
+    "quantum_fuel_capacity": 0,
+    "quantum_range": null,
+    "port_olisar_to_arccorp_time": null,
+    "port_olisar_to_arccorp_fuel": null
+   },
+   "drive": {
+    "max_speed_kph": 72,
+    "max_speed_ms": 20,
+    "reverse_speed_kph": 27.11688311688312,
+    "reverse_speed_ms": 7.532467532467533,
+    "is_tracked": false,
+    "wheels": {
+     "count": 8,
+     "driving_count": 8,
+     "steering_count": 4,
+     "drive_type": "AWD"
+    },
+    "agility": {
+     "handling": 0.5,
+     "grip": 0.25,
+     "acceleration": 1
+    }
+   },
+   "agility": {
+    "pitch": null,
+    "yaw": null,
+    "roll": null,
+    "pitch_boosted": null,
+    "yaw_boosted": null,
+    "roll_boosted": null,
+    "acceleration": []
+   },
+   "armor": {
+    "uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+    "health": 2145,
+    "signal_infrared": 1,
+    "signal_electromagnetic": 1,
+    "signal_cross_section": 1,
+    "damage_physical": 0.6,
+    "damage_energy": 0.4,
+    "damage_distortion": 1,
+    "damage_thermal": 1,
+    "damage_biochemical": 1,
+    "damage_stun": 1,
+    "signal_multiplier": {
+     "cross_section": 1,
+     "cross_section_change": 0,
+     "infrared": 1,
+     "infrared_change": 0,
+     "electromagnetic": 1,
+     "electromagnetic_change": 0
+    },
+    "damage_multiplier": {
+     "physical": 0.6,
+     "physical_change": -0.4,
+     "energy": 0.4,
+     "energy_change": -0.6,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "resistance_multiplier": {
+     "physical": 0.81,
+     "physical_change": -0.19,
+     "energy": 1.15,
+     "energy_change": 0.15,
+     "distortion": 1,
+     "distortion_change": 0,
+     "thermal": 1,
+     "thermal_change": 0,
+     "biochemical": 1,
+     "biochemical_change": 0,
+     "stun": 1,
+     "stun_change": 0
+    },
+    "penetration_resistance": {
+     "base": 1,
+     "physical": 1,
+     "energy": 1,
+     "distortion": 0,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "deflection": {
+     "physical": 6,
+     "energy": 3,
+     "distortion": 0,
+     "thermal": 0,
+     "biochemical": 0,
+     "stun": 0
+    },
+    "signal_multipliers": {
+     "cross_section": 1,
+     "infrared": 1,
+     "electromagnetic": 1
+    },
+    "damage_multipliers": {
+     "physical": 0.6,
+     "energy": 0.4,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    },
+    "resistance_multipliers": {
+     "physical": 0.81,
+     "energy": 1.15,
+     "distortion": 1,
+     "thermal": 1,
+     "biochemical": 1,
+     "stun": 1
+    }
+   },
+   "weaponry": {
+    "pilot_dps": 677.4,
+    "pilot_alpha": 25.4,
+    "pilot_sustained_dps": 553.2,
+    "missiles": {
+     "count": 10,
+     "damage": {
+      "physical": 412000,
+      "energy": 0,
+      "distortion": 0,
+      "thermal": 0,
+      "biochemical": 0,
+      "stun": 0,
+      "total": 412000
+     }
+    },
+    "total_missile_damage": 412000
+   },
+   "manufacturer": {
+    "name": "Anvil Aerospace",
+    "code": "ANVL",
+    "uuid": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/ANVL"
+   },
+   "size_class": 4,
+   "cross_section": {
+    "length": 1885,
+    "width": 1377,
+    "height": 3338
+   },
+   "cross_section_max": 3338,
+   "is_vehicle": true,
+   "is_gravlev": false,
+   "is_spaceship": false,
+   "is_power_suit": false,
+   "signature": {
+    "ir_quantum": 1750,
+    "ir_shields": 1750,
+    "em_quantum": 3672,
+    "em_shields": 3672,
+    "em_groups_quantum": {
+     "Radar": 900,
+     "Cooler": 375,
+     "WeaponGun": 72,
+     "PowerPlant": 2325
+    },
+    "em_groups_shields": {
+     "Radar": 900,
+     "Cooler": 375,
+     "WeaponGun": 72,
+     "PowerPlant": 2325
+    },
+    "em_segment_groups_quantum": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    },
+    "em_segment_groups_shields": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    },
+    "em_per_segment": 375
+   },
+   "cooling": {
+    "generation_segments": 16,
+    "usage_shields_pct": 0.7,
+    "usage_quantum_pct": 0.7,
+    "used_segments_shields": 11.2,
+    "used_segments_quantum": 11.2,
+    "used_segments_shields_grouped": {
+     "Radar": 3,
+     "PowerPlant": 6.2,
+     "WheeledController": 2
+    },
+    "used_segments_quantum_grouped": {
+     "Radar": 3,
+     "PowerPlant": 6.2,
+     "WheeledController": 2
+    }
+   },
+   "power": {
+    "generation_segments": 10,
+    "used_segments_shields": 6.2,
+    "used_segments_quantum": 6.2,
+    "used_segments_grouped": {
+     "Radar": 3,
+     "Cooler": 1,
+     "WeaponGun": 0.2,
+     "WheeledController": 2
+    }
+   },
+   "power_pools": {
+    "Shield": {
+     "type": null,
+     "item_type": "Shield",
+     "size": -1
+    },
+    "WeaponGun": {
+     "type": null,
+     "item_type": "WeaponGun",
+     "size": 2
+    },
+    "TowingBeam": {
+     "type": null,
+     "item_type": "TowingBeam",
+     "size": -1
+    },
+    "SalvageHead": {
+     "type": null,
+     "item_type": "SalvageHead",
+     "size": -1
+    },
+    "TractorBeam": {
+     "type": null,
+     "item_type": "TractorBeam",
+     "size": -1
+    },
+    "WeaponMining": {
+     "type": null,
+     "item_type": "WeaponMining",
+     "size": -1
+    },
+    "WheeledController": {
+     "type": null,
+     "item_type": "WheeledController",
+     "size": -1
+    }
+   },
+   "penetration_multiplier": {
+    "fuse": 2.727273,
+    "components": 1
+   },
+   "relay_network": {
+    "total_fuses": 3,
+    "relays": [
+     {
+      "hardpoint": "hardpoint_relay",
+      "class_name": "RELAY_3slot_slim",
+      "fuse_slots": 3,
+      "room": "hardpoint_interior",
+      "connection_count": 26,
+      "connected_hardpoints": [
+       {
+        "category": "Crew Stations",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_seat_driver",
+          "item_name": "TRGT. STATUS",
+          "class_name": "ANVL_Ballista_SCItem_Seat_Driver",
+          "type": "Seat",
+          "uuid": "968481b3-4953-424b-a21d-049ad7b9a819"
+         },
+         {
+          "hardpoint": "hardpoint_dashboard_driver",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "ANVL_Ballista_SCItem_Dashboard_Pilot",
+          "type": "SeatDashboard",
+          "uuid": "714fad99-a784-4124-b06b-be2d4883356c"
+         },
+         {
+          "hardpoint": "hardpoint_seat_gunner",
+          "item_name": "TRGT. STATUS",
+          "class_name": "ANVL_Ballista_SCItem_SeatDashboard_Gunner",
+          "type": "Seat",
+          "uuid": "39f8eead-4c71-4f40-82ab-6a34f7fad866"
+         }
+        ]
+       },
+       {
+        "category": "Other",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_wheel",
+          "item_name": "Drivetrain",
+          "class_name": "Controller_Wheel",
+          "type": "WheeledController",
+          "uuid": "ef1b7a86-4756-47df-847a-6c158252b563"
+         },
+         {
+          "hardpoint": "hardpoint_rear_door",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         }
+        ]
+       },
+       {
+        "category": "Controllers",
+        "count": 10,
+        "items": [
+         {
+          "hardpoint": "hardpoint_controller_light",
+          "item_name": "LIGHTS",
+          "class_name": "Controller_Light",
+          "type": "LightController",
+          "uuid": "056628be-ecee-41b9-9dd2-bb32215e6e34"
+         },
+         {
+          "hardpoint": "hardpoint_controller_comms",
+          "item_name": "COMMS",
+          "class_name": "Controller_Comms",
+          "type": "CommsController",
+          "uuid": "ae1a186e-0f8c-4deb-8079-bfb54df4a8a7"
+         },
+         {
+          "hardpoint": "hardpoint_controller_door",
+          "item_name": "SECURITY",
+          "class_name": "Controller_Door",
+          "type": "DoorController",
+          "uuid": "4a9ebf31-a405-4b68-9886-b4a47bd1b61d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_energy",
+          "item_name": "POWER",
+          "class_name": "Controller_Energy",
+          "type": "EnergyController",
+          "uuid": "61cc7bf5-6666-40f7-8c0a-ee8a8092f51e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_cooler",
+          "item_name": "HEAT",
+          "class_name": "Controller_Cooler",
+          "type": "CoolerController",
+          "uuid": "b935e5d8-dead-47c5-8937-382c3aa11682"
+         },
+         {
+          "hardpoint": "hardpoint_controller_shield",
+          "item_name": "SHIELDS",
+          "class_name": "Controller_Shield_ANVL_Ballista",
+          "type": "ShieldController",
+          "uuid": "eec5cecf-91ce-444f-b64a-1a1f40d3eab9"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon_driver",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon_Vehicle",
+          "type": "WeaponController",
+          "uuid": "2375d6b8-ac87-4885-bedf-8285ddc39777"
+         },
+         {
+          "hardpoint": "hardpoint_controller_capacitor_assignment",
+          "item_name": "<= PLACEHOLDER =>",
+          "class_name": "Controller_CapacitorAssignment",
+          "type": "CapacitorAssignmentController",
+          "uuid": "0219b443-6f28-4aa2-bcc3-cfbff843729d"
+         },
+         {
+          "hardpoint": "hardpoint_controller_weapon_gunner",
+          "item_name": "WEAPONS",
+          "class_name": "Controller_Weapon",
+          "type": "WeaponController",
+          "uuid": "c78851f1-ded8-4e8d-91ec-905e3dae075e"
+         },
+         {
+          "hardpoint": "hardpoint_controller_missile_gunner",
+          "item_name": "MISSILES",
+          "class_name": "Controller_Missile",
+          "type": "MissileController",
+          "uuid": "4750556e-1afc-45be-86f7-f7adbc1fb7aa"
+         }
+        ]
+       },
+       {
+        "category": "Radars",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_radar",
+          "item_name": "Prevenir",
+          "class_name": "RADR_GRNP_S00_Prevenir",
+          "type": "Radar",
+          "uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0"
+         }
+        ]
+       },
+       {
+        "category": "Systems",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_selfdestruct",
+          "item_name": "Self Destruct Unit",
+          "class_name": "VHCL_SelfDestruct_10s",
+          "type": "SelfDestruct",
+          "uuid": "e5512d65-5462-4270-8095-212efe3fcf99"
+         }
+        ]
+       },
+       {
+        "category": "Power Plants",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_power_plant",
+          "item_name": "Radix",
+          "class_name": "POWR_LPLT_S00_Radix_SCItem",
+          "type": "PowerPlant",
+          "uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d"
+         }
+        ]
+       },
+       {
+        "category": "Coolers",
+        "count": 1,
+        "items": [
+         {
+          "hardpoint": "hardpoint_cooler",
+          "item_name": "Frost-Star SL",
+          "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+          "type": "Cooler",
+          "uuid": "387da568-31d2-4479-81da-21dd015db668"
+         }
+        ]
+       },
+       {
+        "category": "Shields",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_shield_generator_left",
+          "item_name": "PIN",
+          "class_name": "SHLD_SECO_S00_PIN_SCItem",
+          "type": "Shield",
+          "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+         },
+         {
+          "hardpoint": "hardpoint_shield_generator_right",
+          "item_name": "PIN",
+          "class_name": "SHLD_SECO_S00_PIN_SCItem",
+          "type": "Shield",
+          "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+         }
+        ]
+       },
+       {
+        "category": "Turrets",
+        "count": 2,
+        "items": [
+         {
+          "hardpoint": "hardpoint_turret",
+          "item_name": "Turret",
+          "class_name": "ANVL_Ballista_Remote_Top_Turret",
+          "type": "Turret",
+          "uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1"
+         },
+         {
+          "hardpoint": "hardpoint_torpedo_turret",
+          "item_name": "Turret",
+          "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+          "type": "Turret",
+          "uuid": "8fafec28-467a-4672-a455-5b68997e9d86"
+         }
+        ]
+       },
+       {
+        "category": "Doors & Hatches",
+        "count": 3,
+        "items": [
+         {
+          "hardpoint": "hardpoint_door_ramp",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         },
+         {
+          "hardpoint": "hardpoint_door_right_ramp",
+          "item_name": null,
+          "class_name": null,
+          "type": null,
+          "uuid": null
+         },
+         {
+          "hardpoint": "hardpoint_entrance_door",
+          "item_name": "Door",
+          "class_name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Ballista",
+          "type": "Door",
+          "uuid": "e1d40703-48c3-400a-95d4-59cb5ef43af7"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "links": [
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_dashboard_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_wheel"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_light"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_comms"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_radar"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_selfdestruct"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_energy"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_power_plant"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_cooler"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_shield"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_left"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_shield_generator_right"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon_driver"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_turret"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_ramp"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_door_right_ramp"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_rear_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_capacitor_assignment"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_seat_gunner"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_weapon_gunner"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_torpedo_turret"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_entrance_door"
+     },
+     {
+      "from": "hardpoint_relay",
+      "to": "hardpoint_controller_missile_gunner"
+     }
+    ]
+   },
+   "insurance": {
+    "claim_time": 6.19,
+    "expedite_time": 2.06,
+    "expedite_cost": 8073
+   },
+   "damage_limits": {
+    "before_destruction": [
+     {
+      "HP": 10000,
+      "Name": "nose",
+      "DestructionDamage": 10000
+     },
+     {
+      "HP": 10000,
+      "Name": "body",
+      "DestructionDamage": 10000
+     }
+    ],
+    "before_detach": [
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_left01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_left02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_right01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_front_right02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_left01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_left02",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_right01",
+      "DetachDamage": 1700
+     },
+     {
+      "HP": 1700,
+      "Name": "hardpoint_wheel_back_right02",
+      "DetachDamage": 1700
+     }
+    ]
+   },
+   "ports": [
+    {
+     "name": "hardpoint_turret",
+     "position": null,
+     "class_name": "ANVL_Ballista_Remote_Top_Turret",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1",
+     "type": "Turret",
+     "sub_type": "BallTurret",
+     "subtype": "BallTurret",
+     "sizes": {
+      "min": 4,
+      "max": 4
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "BallTurret"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "09453868-8ba8-44ca-afeb-ca526424a8e1",
+      "name": "Turret",
+      "class_name": "ANVL_Ballista_Remote_Top_Turret",
+      "type": "Turret",
+      "sub_type": "BallTurret",
+      "size": 4,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/09453868-8ba8-44ca-afeb-ca526424a8e1",
+      "web_url": "https://api.star-citizen.wiki/items/09453868-8ba8-44ca-afeb-ca526424a8e1"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Remote Turrets",
+     "required_tags": [
+      "ANVL_Ballista"
+     ],
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_armor",
+     "position": null,
+     "class_name": "ARMR_ANVL_Ballista",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+     "type": "Armor",
+     "sub_type": "Medium",
+     "subtype": "Medium",
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Armor",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "4735a555-aab0-465b-88b9-73a639253b2d",
+      "name": "<= PLACEHOLDER =>",
+      "class_name": "ARMR_ANVL_Ballista",
+      "type": "Armor",
+      "sub_type": "Medium",
+      "size": 1,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/4735a555-aab0-465b-88b9-73a639253b2d",
+      "web_url": "https://api.star-citizen.wiki/items/4735a555-aab0-465b-88b9-73a639253b2d"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Armor",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_left",
+     "position": null,
+     "class_name": "SHLD_SECO_S00_PIN_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "name": "PIN",
+      "class_name": "SHLD_SECO_S00_PIN_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Seal Corporation"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "web_url": "https://api.star-citizen.wiki/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_shield_generator_right",
+     "position": null,
+     "class_name": "SHLD_SECO_S00_PIN_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+     "type": "Shield",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Shield",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "name": "PIN",
+      "class_name": "SHLD_SECO_S00_PIN_SCItem",
+      "type": "Shield",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Seal Corporation"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29",
+      "web_url": "https://api.star-citizen.wiki/items/ffede9a8-3c50-4b9e-be0f-9d93e5a26f29"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Shields",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_radar",
+     "position": null,
+     "class_name": "RADR_GRNP_S00_Prevenir",
+     "editable": true,
+     "editable_children": false,
+     "equipped_item_uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
+     "type": "Radar",
+     "sub_type": "MidRangeRadar",
+     "subtype": "MidRangeRadar",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Radar",
+       "sub_types": [
+        "ShortRangeRadar",
+        "MidRangeRadar"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
+      "name": "Prevenir",
+      "class_name": "RADR_GRNP_S00_Prevenir",
+      "type": "Radar",
+      "sub_type": "MidRangeRadar",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Groupe Nouveau Paradigme"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/d8a9b395-4438-4995-a797-9d984c7fd4c0",
+      "web_url": "https://api.star-citizen.wiki/items/d8a9b395-4438-4995-a797-9d984c7fd4c0"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Radars",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_power_plant",
+     "position": null,
+     "class_name": "POWR_LPLT_S00_Radix_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+     "type": "PowerPlant",
+     "sub_type": "Power",
+     "subtype": "Power",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "PowerPlant",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+      "name": "Radix",
+      "class_name": "POWR_LPLT_S00_Radix_SCItem",
+      "type": "PowerPlant",
+      "sub_type": "Power",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "Lightning Power Ltd."
+      },
+      "link": "https://api.star-citizen.wiki/api/items/c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d",
+      "web_url": "https://api.star-citizen.wiki/items/c46f3fb8-12f8-4c85-b4ac-0850b1e0d17d"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Power Plants",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_cooler",
+     "position": null,
+     "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+     "editable": true,
+     "editable_children": true,
+     "equipped_item_uuid": "387da568-31d2-4479-81da-21dd015db668",
+     "type": "Cooler",
+     "sub_type": "UNDEFINED",
+     "subtype": "UNDEFINED",
+     "sizes": {
+      "min": 0,
+      "max": 0
+     },
+     "compatible_types": [
+      {
+       "type": "Cooler",
+       "sub_types": []
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "387da568-31d2-4479-81da-21dd015db668",
+      "name": "Frost-Star SL",
+      "class_name": "COOL_JSPN_S00_FrostStarSL_SCItem",
+      "type": "Cooler",
+      "sub_type": "UNDEFINED",
+      "size": 0,
+      "grade": 3,
+      "manufacturer": {
+       "name": "J-Span"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/387da568-31d2-4479-81da-21dd015db668",
+      "web_url": "https://api.star-citizen.wiki/items/387da568-31d2-4479-81da-21dd015db668"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Coolers",
+     "required_tags": null,
+     "port_tags": null,
+     "version": null
+    },
+    {
+     "name": "hardpoint_torpedo_turret",
+     "position": null,
+     "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+     "editable": false,
+     "editable_children": false,
+     "equipped_item_uuid": "8fafec28-467a-4672-a455-5b68997e9d86",
+     "type": "Turret",
+     "sub_type": "MissileTurret",
+     "subtype": "MissileTurret",
+     "sizes": {
+      "min": 9,
+      "max": 9
+     },
+     "compatible_types": [
+      {
+       "type": "Turret",
+       "sub_types": [
+        "MissileTurret"
+       ]
+      }
+     ],
+     "health": null,
+     "equipped_item": {
+      "uuid": "8fafec28-467a-4672-a455-5b68997e9d86",
+      "name": "Turret",
+      "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+      "type": "Turret",
+      "sub_type": "MissileTurret",
+      "size": 9,
+      "grade": 1,
+      "manufacturer": {
+       "name": "Anvil Aerospace"
+      },
+      "link": "https://api.star-citizen.wiki/api/items/8fafec28-467a-4672-a455-5b68997e9d86",
+      "web_url": "https://api.star-citizen.wiki/items/8fafec28-467a-4672-a455-5b68997e9d86"
+     },
+     "attached_vehicle": null,
+     "ports": null,
+     "category_label": "Remote Turrets",
+     "required_tags": [
+      "ANVL_Ballista"
+     ],
+     "port_tags": null,
+     "version": null
+    }
+   ],
+   "parts": [
+    {
+     "name": "ANVL_Ballista",
+     "display_name": "Anvl ballista",
+     "damage_max": 4200,
+     "children": [
+      {
+       "name": "nose",
+       "display_name": "Nose",
+       "damage_max": 10000,
+       "destruction_damage": 10000,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "body",
+       "display_name": "Body",
+       "damage_max": 10000,
+       "destruction_damage": 10000,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_left01",
+       "display_name": "Hardpoint wheel 01 (front left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_left02",
+       "display_name": "Hardpoint wheel 02 (front left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_right01",
+       "display_name": "Hardpoint wheel 01 (front right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_front_right02",
+       "display_name": "Hardpoint wheel 02 (front right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_left01",
+       "display_name": "Hardpoint wheel 01 (back left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_left02",
+       "display_name": "Hardpoint wheel 02 (back left)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_right01",
+       "display_name": "Hardpoint wheel 01 (back right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      },
+      {
+       "name": "hardpoint_wheel_back_right02",
+       "display_name": "Hardpoint wheel 02 (back right)",
+       "damage_max": 1700,
+       "detach_damage": 1700,
+       "children": [],
+       "version": null
+      }
+     ],
+     "version": null
+    }
+   ],
+   "turrets": {
+    "manned": [],
+    "remote": [
+     {
+      "category": "remote",
+      "display_name": "hardpoint_remote_turret_top",
+      "hardpoint_name": "hardpoint_turret",
+      "part_name": "hardpoint_turret",
+      "turret_type": "Turret.BallTurret",
+      "class_name": "ANVL_Ballista_Remote_Top_Turret",
+      "size": 4,
+      "turret": true,
+      "gimballed": false,
+      "fixed": null,
+      "mount_count": 2,
+      "weapon_sizes": [
+       2,
+       2
+      ],
+      "payload_sizes": [
+       2,
+       2
+      ],
+      "payload_types": [
+       "WeaponGun.Gun"
+      ],
+      "payload_class_names": [
+       "GATS_BallisticGatling_S2"
+      ],
+      "mounts": [
+       {
+        "display_name": "Weapon - Top Left",
+        "hardpoint_name": "hardpoint_gunmount_left",
+        "mount_type": "WeaponGun.Gun",
+        "class_name": "GATS_BallisticGatling_S2",
+        "size": 2,
+        "weapon_sizes": [
+         2
+        ],
+        "payload_sizes": [
+         2
+        ],
+        "payload_types": [
+         "WeaponGun.Gun"
+        ],
+        "payload_class_names": [
+         "GATS_BallisticGatling_S2"
+        ]
+       },
+       {
+        "display_name": "Weapon - Top Right",
+        "hardpoint_name": "hardpoint_gunmount_right",
+        "mount_type": "WeaponGun.Gun",
+        "class_name": "GATS_BallisticGatling_S2",
+        "size": 2,
+        "weapon_sizes": [
+         2
+        ],
+        "payload_sizes": [
+         2
+        ],
+        "payload_types": [
+         "WeaponGun.Gun"
+        ],
+        "payload_class_names": [
+         "GATS_BallisticGatling_S2"
+        ]
+       }
+      ],
+      "dps_total": 677.4,
+      "sustained_dps_total": 553.2,
+      "alpha_total": 25.4,
+      "is_pilot_slaveable": true,
+      "weapons": [
+       {
+        "uuid": "7034e330-3d22-4e89-83cb-c01815dbb875",
+        "class_name": "GATS_BallisticGatling_S2",
+        "name": "Scorpion GT-215 Gatling",
+        "link": "https://api.star-citizen.wiki/api/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "web_url": "https://api.star-citizen.wiki/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "dps": 338.7,
+        "sustained_dps": 276.6,
+        "alpha": 12.7,
+        "is_pilot_slaveable": true
+       },
+       {
+        "uuid": "7034e330-3d22-4e89-83cb-c01815dbb875",
+        "class_name": "GATS_BallisticGatling_S2",
+        "name": "Scorpion GT-215 Gatling",
+        "link": "https://api.star-citizen.wiki/api/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "web_url": "https://api.star-citizen.wiki/items/7034e330-3d22-4e89-83cb-c01815dbb875",
+        "dps": 338.7,
+        "sustained_dps": 276.6,
+        "alpha": 12.7,
+        "is_pilot_slaveable": true
+       }
+      ],
+      "version": null
+     },
+     {
+      "category": "remote",
+      "display_name": "port_NameTurret01",
+      "hardpoint_name": "hardpoint_torpedo_turret",
+      "part_name": "hardpoint_torpedo_turret",
+      "turret_type": "Turret.MissileTurret",
+      "class_name": "ANVL_Ballista_Remote_Rear_Turret",
+      "size": 9,
+      "turret": true,
+      "gimballed": false,
+      "fixed": null,
+      "mount_count": 4,
+      "weapon_sizes": [
+       5,
+       5,
+       7,
+       7
+      ],
+      "payload_sizes": [
+       5,
+       5,
+       7,
+       7
+      ],
+      "payload_types": [
+       "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+      ],
+      "payload_class_names": [
+       "GMRCK_ANVL_Ballista_Quad_S05",
+       "GMRCK_S07_ANVL_Ballista_Duel"
+      ],
+      "mounts": [
+       {
+        "display_name": "Turret Weapon Slot 1",
+        "hardpoint_name": "hardpoint_missile_rack_S05_left",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_ANVL_Ballista_Quad_S05",
+        "size": 5,
+        "weapon_sizes": [
+         5
+        ],
+        "payload_sizes": [
+         5
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_ANVL_Ballista_Quad_S05"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 2",
+        "hardpoint_name": "hardpoint_missile_rack_S05_right",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_ANVL_Ballista_Quad_S05",
+        "size": 5,
+        "weapon_sizes": [
+         5
+        ],
+        "payload_sizes": [
+         5
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_ANVL_Ballista_Quad_S05"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 3",
+        "hardpoint_name": "hardpoint_missile_rack_S07_left",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_S07_ANVL_Ballista_Duel",
+        "size": 7,
+        "weapon_sizes": [
+         7
+        ],
+        "payload_sizes": [
+         7
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_S07_ANVL_Ballista_Duel"
+        ]
+       },
+       {
+        "display_name": "Turret Weapon Slot 4",
+        "hardpoint_name": "hardpoint_missile_rack_S07_right",
+        "mount_type": "GroundVehicleMissileLauncher.GroundVehicleMissileRack",
+        "class_name": "GMRCK_S07_ANVL_Ballista_Duel",
+        "size": 7,
+        "weapon_sizes": [
+         7
+        ],
+        "payload_sizes": [
+         7
+        ],
+        "payload_types": [
+         "GroundVehicleMissileLauncher.GroundVehicleMissileRack"
+        ],
+        "payload_class_names": [
+         "GMRCK_S07_ANVL_Ballista_Duel"
+        ]
+       }
+      ],
+      "dps_total": null,
+      "sustained_dps_total": null,
+      "alpha_total": null,
+      "is_pilot_slaveable": null,
+      "weapons": [],
+      "version": null
+     }
+    ],
+    "pdc": []
+   },
+   "career": "Combat",
+   "role": "Anti-Air",
+   "game_description": {
+    "en_EN": "Keep your airspace clear of danger with the Anvil Ballista. Originally designed to defend outposts from Vanduul attacks, this mobile missile defense system packs a powerful loadout, allowing the Ballista to stand firm against any threat, whether it arrives by air or land. The Dunestalker variant features a naturalistic paint scheme ideal for blending into harsh landscapes.",
+    "de_DE": "Hersteller: Anvil Aerospace\nFokus (En): Anti-Air\nFokus (De): Flugabwehr\n\nHalte den Luftraum mit der Anvil Ballista frei von Gefahren. Dieses mobile Raketenabwehrsystem, das urspr\u00fcnglich zur Verteidigung von Au\u00dfenposten gegen Vanduul-Angriffe entwickelt wurde, verf\u00fcgt \u00fcber eine leistungsstarke Bewaffnung, mit der die Ballista jeder Bedrohung standhalten kann, egal ob sie aus der Luft oder von Land kommt. Die \"Dunestalker\"-Variante verf\u00fcgt \u00fcber eine naturnahe Lackierung, die sich ideal in raue Landschaften einf\u00fcgt.",
+    "zh_CN": "\u5236\u9020\u5546\uff1a\u94c1\u7827\u822a\u5929\n\u5b9a\u4f4d\uff1a\u9632\u7a7a\n\n\u9009\u62e9\u94c1\u7827\u5f29\u70ae\uff0c\u8fd8\u60a8\u7684\u5929\u7a7a\u4e00\u7247\u6e05\u51c0\u3002\u94c1\u7827\u5f29\u70ae\u7684\u8bbe\u8ba1\u521d\u8877\u662f\u7528\u4e8e\u5728\u524d\u54e8\u7ad9\u9632\u5fa1\u525c\u5ea6\u7684\u8fdb\u653b\uff0c\u8fd9\u4e2a\u673a\u52a8\u5bfc\u5f39\u9632\u5fa1\u5e73\u53f0\u62e5\u6709\u5f3a\u5927\u7684\u706b\u529b\uff0c\u8db3\u4ee5\u5e94\u4ed8\u6765\u81ea\u5929\u7a7a\u6216\u8005\u5730\u9762\u7684\u5a01\u80c1\u3002\u94c1\u7827\u5f29\u70ae\u7684\u6c99\u4e18\u8ffd\u730e\u8005\u53d8\u4f53\u914d\u5907\u6709\u6a21\u62df\u5929\u7136\u73af\u5883\u7684\u6d82\u88c5\uff0c\u53ef\u4ee5\u5f88\u81ea\u7136\u7684\u878d\u5165\u4e25\u9177\u7684\u98ce\u666f\u3002",
+    "fr_FR": "Fabricant : Anvil Aerospace\nType : Anti-a\u00e9rien\n\nGardez votre espace a\u00e9rien libre de tout danger avec l'Anvil Ballista. Con\u00e7u \u00e0 l'origine pour prot\u00e9ger les avant-postes contre les attaques des Vanduul, ce syst\u00e8me de d\u00e9fense antimissile mobile est dot\u00e9 d'un arsenal puissant, permettant au Ballista de r\u00e9sister fermement \u00e0 toute menace, qu'elle arrive par les airs ou par la terre. La variante Dunestalker arbore une livr\u00e9e naturelle, id\u00e9ale pour se fondre dans des paysages aust\u00e8res."
+   },
+   "web_url": "https://api.star-citizen.wiki/vehicles/anvl-ballista-dunestalker",
+   "link": "https://api.star-citizen.wiki/api/vehicles/50f551e3-3435-4cbe-9ecf-8712855a8e27",
+   "loaner": [],
+   "skus": [],
+   "msrp": 140,
+   "warbond_price": null,
+   "pledge_url": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Anvil-Ballista-Dunestalker",
+   "curated_data": {
+    "source": "starcitizen.tools",
+    "page_url": "https://starcitizen.tools/Ballista_Dunestalker",
+    "synced_at": "2026-09-15T00:01:05.000000Z",
+    "trailer_url": "https://youtu.be/kUseGGO_vXc",
+    "original_pledge_price": 140,
+    "original_warbond_price": 120,
+    "added_in_version": "Alpha 3.6.0",
+    "concept_date": "2017-07-20",
+    "sale_date": null,
+    "retire_date": null,
+    "pledge_availability": "Not available for sale",
+    "brochure_url": null,
+    "presentation_urls": [
+     "https://robertsspaceindustries.com/comm-link/transmission/17153-Anvil-Ballista"
+    ],
+    "whitleys_guide_url": null,
+    "galactapedia_url": "https://robertsspaceindustries.com/galactapedia/article/V8gJyXMDrM-ballista",
+    "qa_urls": [
+     "https://robertsspaceindustries.com/comm-link/engineering/17177-Q-A-Anvil-Ballista"
+    ]
+   },
+   "uex_prices": {
+    "purchase": [],
+    "rental": []
+   },
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/c/c6/Ballista_Dunestalker_on_Hurston_with_weapons_pointing_upwards.jpg?b4m80",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/c/c6/Ballista_Dunestalker_on_Hurston_with_weapons_pointing_upwards.jpg/600px-Ballista_Dunestalker_on_Hurston_with_weapons_pointing_upwards.jpg.webp?b4m80",
+     "original_width": 1040,
+     "original_height": 1003,
+     "thumbnail_width": 600,
+     "thumbnail_height": 579
+    }
+   ],
+   "updated_at": "2026-09-09T11:57:46.000000Z",
+   "version": "4.10.0-LIVE.12519617",
+   "id": 185,
+   "chassis_id": 75,
+   "shipmatrix_name": "Anvil Ballista Dunestalker",
+   "foci": [
+    {
+     "en_EN": "Military",
+     "de_DE": "Milit\u00e4r",
+     "zh_CN": "\u519b\u4e8b",
+     "fr_FR": "Military"
+    }
+   ],
+   "production_status": {
+    "en_EN": "flight-ready",
+    "de_DE": "Flugbereit",
+    "zh_CN": "\u53ef\u98de\u884c",
+    "fr_FR": "flight-ready"
+   },
+   "production_note": {
+    "en_EN": "None",
+    "de_DE": "Keine",
+    "zh_CN": "\u65e0",
+    "fr_FR": "None"
+   },
+   "type": {
+    "en_EN": "Combat",
+    "de_DE": "Gefecht",
+    "zh_CN": "\u6253\u51fb",
+    "fr_FR": "Combat"
+   },
+   "size": {
+    "en_EN": "vehicle",
+    "de_DE": "Fahrzeug",
+    "zh_CN": "\u6c7d\u8f66",
+    "fr_FR": "vehicle"
+   }
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=18",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 18,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=17",
+    "label": "17",
+    "page": 17,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=18",
+    "label": "18",
+    "page": 18,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/ground-vehicles?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/ground-vehicles",
+  "per_page": 2,
+  "to": 2,
+  "total": 36,
+  "valid_relations": [
+   "shipMatrixVehicle",
+   "components",
+   "shipmatrixvehicle.components",
+   "hardpoints",
+   "ports"
+  ]
+ }
+}

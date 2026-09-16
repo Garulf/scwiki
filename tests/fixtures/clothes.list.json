@@ -1,0 +1,510 @@
+{
+ "data": [
+  {
+   "uuid": "e4c28233-e258-49e3-b115-53186c055f0b",
+   "slug": "2949-intergalactic-aerospace-expo-hat",
+   "name": "2949 Intergalactic Aerospace Expo Hat",
+   "class_name": "cbd_hat_03_expo_dec",
+   "classification": "FPS.Clothing.Hat",
+   "classification_label": "Hat",
+   "description": {
+    "en_EN": "A magenta hat emblazoned with the Intergalactic Aerospace Expo name and logo in white on the front.",
+    "de_DE": "Eine magenta M\u00fctze mit dem Namen und Logo der \"Intergalactic Aerospace Expo\" in Wei\u00df auf der Vorderseite.",
+    "zh_CN": "\u4e00\u9876\u6d0b\u7ea2\u5e3d\u5b50\uff0c\u6b63\u9762\u5370\u6709\u661f\u7cfb\u9645\u822a\u7a7a\u822a\u5929\u535a\u89c8\u4f1a\u7684\u540d\u79f0\u548c\u6807\u5fd7\u3002",
+    "fr_FR": "Une casquette magenta orn\u00e9 du nom et du logo en blanc de l'Intergalactic Aerospace Expo sur la face avant."
+   },
+   "size": 1,
+   "mass": 0.25,
+   "rarity": "Common",
+   "event_source": [],
+   "is_base_variant": true,
+   "is_craftable": false,
+   "is_lootable": false,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Custom Built Duds",
+    "code": "CBD",
+    "uuid": "64eef2d9-5d3d-431d-a83b-ae077a16b4e2",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/CBD"
+   },
+   "type": "Char_Clothing_Hat",
+   "type_label": "Hat",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Char_Clothing_Hat",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "clothing": {
+    "clothing_type": "Hat",
+    "slot": "Hat",
+    "type": "Hat",
+    "resistances": [],
+    "temp_resistance_min": 3,
+    "temp_resistance_max": 33,
+    "radiation_resistance": {
+     "maximum_radiation_capacity": 0,
+     "radiation_dissipation_rate": 0
+    },
+    "gforce_resistance": 0
+   },
+   "suit_armor": {
+    "slot": "Hat",
+    "armor_type": "Hat",
+    "type": "Hat",
+    "garment_type": "Hat",
+    "damage_resistance": {
+     "impact": null,
+     "physical": null,
+     "energy": null,
+     "distortion": null,
+     "thermal": null,
+     "biochemical": null,
+     "stun": null
+    },
+    "damage_resistance_map": {
+     "impact": null,
+     "impact_change": 0,
+     "physical": null,
+     "physical_change": 0,
+     "energy": null,
+     "energy_change": 0,
+     "distortion": null,
+     "distortion_change": 0,
+     "thermal": null,
+     "thermal_change": 0,
+     "biochemical": null,
+     "biochemical_change": 0,
+     "stun": null,
+     "stun_change": 0
+    },
+    "protected_body_parts": [],
+    "signature": [],
+    "temp_resistance_min": 3,
+    "temp_resistance_max": 33,
+    "radiation_resistance": {
+     "maximum_radiation_capacity": 0,
+     "radiation_dissipation_rate": 0
+    },
+    "gforce_resistance": 0
+   },
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0.0032,
+    "volume_converted": 3200,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": 0.248,
+     "height": 0.182,
+     "length": 0.248
+    },
+    "dimensions": {
+     "width": 0.248,
+     "height": 0.182,
+     "length": 0.248
+    },
+    "cargo_dimension": {
+     "width": 0.16,
+     "height": 0.14,
+     "length": 0.27
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "cbd_hat",
+    "Set_03",
+    "Color_expo",
+    "KeepsShape",
+    "$hatHair+"
+   ],
+   "required_tags": [
+    "Protos"
+   ],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [
+    "Carry",
+    "Drop",
+    "Place",
+    "Store",
+    "Equiptowear"
+   ],
+   "ports": [
+    {
+     "name": "Material_Variant",
+     "display_name": "Hair Color",
+     "position": "MATERIAL_VARIANT",
+     "size": 1,
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Paints",
+       "sub_types": []
+      }
+     ],
+     "types": [
+      "Paints"
+     ],
+     "type": "Paints",
+     "sub_type": null,
+     "tags": [],
+     "port_tags": null,
+     "required_tags": [],
+     "flags": [
+      "nontransferable"
+     ],
+     "editable": true,
+     "uneditable": false,
+     "equipped_item_uuid": null,
+     "ports": null
+    }
+   ],
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 0,
+    "radiation_dissipation_rate": 0
+   },
+   "temperature_resistance": {
+    "min": 3,
+    "max": 33,
+    "minimum": 3,
+    "maximum": 33
+   },
+   "gforce_resistance": 0,
+   "shops": [],
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/a/a1/2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg?r9y93",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/a/a1/2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg/600px-2949_Intergalactic_Aerospace_Expo_Hat_-_In-game_SCT_logo.jpg.webp?r9y93",
+     "original_width": 2160,
+     "original_height": 2880,
+     "thumbnail_width": 600,
+     "thumbnail_height": 800
+    }
+   ],
+   "uex_prices": {
+    "purchase": []
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/2949-intergalactic-aerospace-expo-hat",
+   "link": "https://api.star-citizen.wiki/api/items/e4c28233-e258-49e3-b115-53186c055f0b",
+   "updated_at": "2026-08-27T09:47:18.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  {
+   "uuid": "8bdbbce9-500e-4fa9-ae9e-4541670dfe27",
+   "slug": "2tuf-gloves",
+   "name": "2Tuf Gloves",
+   "class_name": "vpw_bouncer_gloves_01_01_01",
+   "classification": "FPS.Clothing.Gloves",
+   "classification_label": "Gloves",
+   "description": {
+    "en_EN": "The 2Tuf features an ultrasoft cloth lining paired with a durable lab-grown leather exterior for comfort and unrestricted mobility. Thanks to a simple design with reinforced stitching, the glove can survive a rough night on the streets and still be ready for elegant evening out.",
+    "de_DE": "Der 2Tuf verf\u00fcgt \u00fcber ein ultraweiches Stofffutter gepaart mit einer robusten Au\u00dfenseite aus im Labor gez\u00fcchtetem Leder f\u00fcr Komfort und uneingeschr\u00e4nkte Mobilit\u00e4t. Dank des schlichten Designs mit verst\u00e4rkten N\u00e4hten \u00fcbersteht der Handschuh eine raue Nacht auf der Stra\u00dfe und ist dennoch f\u00fcr den eleganten Abend ger\u00fcstet.",
+    "zh_CN": "\u5f97\u52b2\u513f\u624b\u5957\u914d\u6709\u8d85\u67d4\u5e03\u6599\u5185\u886c\u4e0e\u8d85\u8010\u78e8\u7684\u4eba\u9020\u76ae\u9769\u5916\u8868\uff0c\u5728\u4e0d\u53d7\u9650\u5236\u7684\u60c5\u51b5\u4e0b\u4e3a\u60a8\u5e26\u6765\u8212\u9002\u7684\u7a7f\u6234\u4f53\u9a8c\u3002\u5f97\u76ca\u4e8e\u7b80\u5355\u800c\u7262\u56fa\u7684\u9488\u7ebf\u8bbe\u8ba1\uff0c\u6234\u7740\u8fd9\u6b3e\u624b\u5957\u54ea\u6015\u5728\u5916\u5ea6\u8fc7\u4e00\u4e2a\u8270\u82e6\u7684\u591c\u665a\uff0c\u60a8\u4e5f\u80fd\u4ece\u5bb9\u8d74\u7ea6\u3002",
+    "fr_FR": "Le 2Tuf pr\u00e9sente une doublure en tissu ultra-doux associ\u00e9e \u00e0 une coque ext\u00e9rieure en cuir cultiv\u00e9 en laboratoire pour le confort et une mobilit\u00e9 sans restriction. Gr\u00e2ce \u00e0 un design simple avec des coutures renforc\u00e9es, le gant peut survivre \u00e0 une nuit rude dans les rues et \u00eatre pr\u00eat pour une sortie \u00e9l\u00e9gante en soir\u00e9e."
+   },
+   "size": 1,
+   "mass": 0.1,
+   "rarity": "Common",
+   "event_source": [],
+   "is_base_variant": true,
+   "is_craftable": false,
+   "is_lootable": false,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Vaporwear",
+    "code": "VPW",
+    "uuid": "7dfff1b9-2bfa-4ace-86d9-30329a2a0f30",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/VPW"
+   },
+   "type": "Char_Clothing_Hands",
+   "type_label": "Gloves",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Char_Clothing_Hands",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "clothing": {
+    "clothing_type": "Gloves",
+    "slot": "Gloves",
+    "type": "Gloves",
+    "resistances": [],
+    "temp_resistance_min": 0,
+    "temp_resistance_max": 30,
+    "radiation_resistance": {
+     "maximum_radiation_capacity": 0,
+     "radiation_dissipation_rate": 0
+    },
+    "gforce_resistance": 0
+   },
+   "suit_armor": {
+    "slot": "Gloves",
+    "armor_type": "Gloves",
+    "type": "Gloves",
+    "garment_type": "Gloves",
+    "damage_resistance": {
+     "impact": null,
+     "physical": null,
+     "energy": null,
+     "distortion": null,
+     "thermal": null,
+     "biochemical": null,
+     "stun": null
+    },
+    "damage_resistance_map": {
+     "impact": null,
+     "impact_change": 0,
+     "physical": null,
+     "physical_change": 0,
+     "energy": null,
+     "energy_change": 0,
+     "distortion": null,
+     "distortion_change": 0,
+     "thermal": null,
+     "thermal_change": 0,
+     "biochemical": null,
+     "biochemical_change": 0,
+     "stun": null,
+     "stun_change": 0
+    },
+    "protected_body_parts": [],
+    "signature": [],
+    "temp_resistance_min": 0,
+    "temp_resistance_max": 30,
+    "radiation_resistance": {
+     "maximum_radiation_capacity": 0,
+     "radiation_dissipation_rate": 0
+    },
+    "gforce_resistance": 0
+   },
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0,
+    "volume_converted": 1,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": 0.248,
+     "height": 0.076,
+     "length": 0.248
+    },
+    "dimensions": {
+     "width": 0.248,
+     "height": 0.076,
+     "length": 0.248
+    },
+    "cargo_dimension": {
+     "width": 0,
+     "height": 0,
+     "length": 0
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "vpw_gloves",
+    "Set_01",
+    "Color_01"
+   ],
+   "required_tags": [],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [
+    "Carry",
+    "Drop",
+    "Place",
+    "Store",
+    "Equiptowear"
+   ],
+   "ports": [
+    {
+     "name": "Material_Variant",
+     "display_name": "Material Variant",
+     "position": "MATERIAL_VARIANT",
+     "size": 1,
+     "sizes": {
+      "min": 1,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Paints",
+       "sub_types": []
+      }
+     ],
+     "types": [
+      "Paints"
+     ],
+     "type": "Paints",
+     "sub_type": null,
+     "tags": [],
+     "port_tags": null,
+     "required_tags": [],
+     "flags": [
+      "nontransferable"
+     ],
+     "editable": true,
+     "uneditable": false,
+     "equipped_item_uuid": null,
+     "ports": null
+    }
+   ],
+   "radiation_resistance": {
+    "maximum_radiation_capacity": 0,
+    "radiation_dissipation_rate": 0
+   },
+   "temperature_resistance": {
+    "min": 0,
+    "max": 30,
+    "minimum": 0,
+    "maximum": 30
+   },
+   "gforce_resistance": 0,
+   "shops": [],
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/a/a7/2Tuf_Gloves_siting.png?1ear6",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/a/a7/2Tuf_Gloves_siting.png/600px-2Tuf_Gloves_siting.png.webp?1ear6",
+     "original_width": 3840,
+     "original_height": 2160,
+     "thumbnail_width": 600,
+     "thumbnail_height": 338
+    }
+   ],
+   "uex_prices": {
+    "purchase": []
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/2tuf-gloves",
+   "link": "https://api.star-citizen.wiki/api/items/8bdbbce9-500e-4fa9-ae9e-4541670dfe27",
+   "updated_at": "2026-08-27T09:49:13.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=933",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 933,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=932",
+    "label": "932",
+    "page": 932,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=933",
+    "label": "933",
+    "page": 933,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/clothes?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/clothes",
+  "per_page": 2,
+  "to": 2,
+  "total": 1866,
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ]
+ }
+}

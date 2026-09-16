@@ -1,0 +1,201 @@
+{
+ "data": [
+  {
+   "id": 422,
+   "code": "TAMSA",
+   "system_api_url": "https://api.star-citizen.wiki/api/starsystems/TAMSA",
+   "name": "Tamsa",
+   "status": "P",
+   "type": "SINGLE_STAR",
+   "web_url": "https://api.star-citizen.wiki/starmap/systems/TAMSA",
+   "position": {
+    "x": -18.82,
+    "y": -70.57,
+    "z": 15.03
+   },
+   "frost_line": null,
+   "habitable_zone_inner": null,
+   "habitable_zone_outer": null,
+   "info_url": null,
+   "description": {
+    "en_EN": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act.",
+    "de_DE": "Ein beliebtes Urlaubsziel f\u00fcr Banu and Humans. Die Banu haben Yulins einzigartige Planetenmischung in ein Unterhaltungsmekka verwandelt, das eine Vielzahl von M\u00f6glichkeiten f\u00fcr Laster und Unterhaltung bietet, aber es gibt immer noch jede Menge Handel und Gesch\u00e4fte f\u00fcr diejenigen, die es w\u00fcnschen.",
+    "zh_CN": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act.",
+    "fr_FR": "The Tamsa System is the most recent addition to the UEE and contains two planets in orbit around a black hole. It was discovered in 2943 by Banu explorer Kofi Baf\u00e9uma, who named it after visual artist Tamsa Wheel. Currently, the system is unavailable to the public while UEE surveyors assess the system as required by the Fair Chance Act."
+   },
+   "aggregated": {
+    "size": 303.57,
+    "population": 0,
+    "economy": 0.23,
+    "danger": 0,
+    "stars": 0,
+    "planets": 2,
+    "moons": 0,
+    "stations": 0
+   },
+   "affiliation": [
+    {
+     "id": 1,
+     "name": "UEE",
+     "code": "uee",
+     "color": "#48bbd4"
+    }
+   ],
+   "updated_at": "2025-08-27T21:37:00.000000Z"
+  },
+  {
+   "id": 325,
+   "code": "HELIOS",
+   "system_api_url": "https://api.star-citizen.wiki/api/starsystems/HELIOS",
+   "name": "Helios",
+   "status": "P",
+   "type": "SINGLE_STAR",
+   "web_url": "https://api.star-citizen.wiki/starmap/systems/HELIOS",
+   "position": {
+    "x": 67.77,
+    "y": -35.15,
+    "z": 9.04
+   },
+   "frost_line": 221,
+   "habitable_zone_inner": 67,
+   "habitable_zone_outer": 122,
+   "info_url": null,
+   "description": {
+    "en_EN": "Helios is a unique system because of the helium-strong type B star at its center. It creates fierce solar wind that can interfere with ship sensors. The UEE military takes advantage of this phenomenon to shield their exact activities at Hephaestus Station and Helios IV. Recently, the beautiful, oceanic planet of Tangaroa (Helios II) has become a popular tourist destination.",
+    "de_DE": "Das Ende des 25. Jahrhunderts entdeckte ferngesteuerte System war die Heimat der ber\u00fcchtigtsten Gef\u00e4ngnisse der Messers. Kurz nach dem Sturz der Messers, als deklassierte Daten \u00fcber die im System begangenen Gr\u00e4ueltaten ans Licht kamen, verzichtete der Gouverneursrat von Charon III offiziell auf ihre Anerkennung durch die UEE und wurde damit der erste und einzige Planet, der dies tat. Seitdem befindet sich der Planet in einem nahezu konstanten Zustand des Aufruhrs, da verschiedene Fraktionen um die politische und soziale Vorherrschaft gek\u00e4mpft haben.",
+    "zh_CN": "Helios is a unique system because of the helium-strong type B star at its center. It creates fierce solar wind that can interfere with ship sensors. The UEE military takes advantage of this phenomenon to shield their exact activities at Hephaestus Station and Helios IV. Recently, the beautiful, oceanic planet of Tangaroa (Helios II) has become a popular tourist destination.",
+    "fr_FR": "Helios is a unique system because of the helium-strong type B star at its center. It creates fierce solar wind that can interfere with ship sensors. The UEE military takes advantage of this phenomenon to shield their exact activities at Hephaestus Station and Helios IV. Recently, the beautiful, oceanic planet of Tangaroa (Helios II) has become a popular tourist destination."
+   },
+   "aggregated": {
+    "size": 237.2,
+    "population": 8.59,
+    "economy": 2.67,
+    "danger": 0,
+    "stars": 1,
+    "planets": 4,
+    "moons": 1,
+    "stations": 1
+   },
+   "affiliation": [
+    {
+     "id": 1,
+     "name": "UEE",
+     "code": "uee",
+     "color": "#48bbd4"
+    }
+   ],
+   "updated_at": "2018-01-25T20:45:03.000000Z"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=45",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 45,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=44",
+    "label": "44",
+    "page": 44,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=45",
+    "label": "45",
+    "page": 45,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/starsystems?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/starsystems",
+  "per_page": 2,
+  "to": 2,
+  "total": 90,
+  "valid_relations": [
+   "affiliation",
+   "celestialObjects",
+   "jumppoints"
+  ]
+ }
+}

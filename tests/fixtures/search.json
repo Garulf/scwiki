@@ -1,0 +1,106 @@
+{
+ "data": [
+  {
+   "type": "vehicles",
+   "label": "Vehicles",
+   "results": [
+    {
+     "name": "Aegis Avenger Titan Renegade",
+     "class_name": "AEGS_Avenger_Titan_Renegade",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": null,
+     "extra_label": "Transporter",
+     "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-titan-renegade",
+     "api_url": "https://api.star-citizen.wiki/api/vehicles/aegs-avenger-titan-renegade"
+    },
+    {
+     "name": "Aegis Avenger Warlock",
+     "class_name": "AEGS_Avenger_Warlock",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": null,
+     "extra_label": "Combat",
+     "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-warlock",
+     "api_url": "https://api.star-citizen.wiki/api/vehicles/aegs-avenger-warlock"
+    },
+    {
+     "name": "Aegis Avenger Stalker",
+     "class_name": "AEGS_Avenger_Stalker",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": null,
+     "extra_label": "Combat",
+     "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-stalker",
+     "api_url": "https://api.star-citizen.wiki/api/vehicles/aegs-avenger-stalker"
+    },
+    {
+     "name": "Aegis Avenger Titan",
+     "class_name": "AEGS_Avenger_Titan",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": null,
+     "extra_label": "Transporter",
+     "web_url": "https://api.star-citizen.wiki/vehicles/aegs-avenger-titan",
+     "api_url": "https://api.star-citizen.wiki/api/vehicles/aegs-avenger-titan"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "label": "Items",
+   "results": [
+    {
+     "name": "Avenger Invictus Blue and Gold Livery",
+     "class_name": "Paint_Avenger_Invictus_Blue_Gold",
+     "classification": "Ship.Paints",
+     "classification_label": "Paints",
+     "item_type_label": "Paints",
+     "extra_label": null,
+     "web_url": "https://api.star-citizen.wiki/items/avenger-invictus-blue-and-gold-livery",
+     "api_url": "https://api.star-citizen.wiki/api/items/avenger-invictus-blue-and-gold-livery"
+    },
+    {
+     "name": "Fortune Outcast Livery (Modified)",
+     "class_name": "Paint_Fortune_Scavengers_Black_Black_Black",
+     "classification": "Ship.Paints",
+     "classification_label": "Paints",
+     "item_type_label": "Paints",
+     "extra_label": null,
+     "web_url": "https://api.star-citizen.wiki/items/fortune-outcast-livery-modified",
+     "api_url": "https://api.star-citizen.wiki/api/items/fortune-outcast-livery-modified"
+    },
+    {
+     "name": "Prospector Outcast Livery (Modified)",
+     "class_name": "Paint_Prospector_Scavengers_Black_Black_Black",
+     "classification": "Ship.Paints",
+     "classification_label": "Paints",
+     "item_type_label": "Paints",
+     "extra_label": null,
+     "web_url": "https://api.star-citizen.wiki/items/prospector-outcast-livery-modified",
+     "api_url": "https://api.star-citizen.wiki/api/items/prospector-outcast-livery-modified"
+    },
+    {
+     "name": "Aegis Avenger Stalker",
+     "class_name": "AEGS_Avenger_SCItem_Dashboard_Pilot",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": "Seat Dashboard",
+     "extra_label": null,
+     "web_url": "https://api.star-citizen.wiki/items/aegis-avenger-stalker",
+     "api_url": "https://api.star-citizen.wiki/api/items/aegis-avenger-stalker"
+    },
+    {
+     "name": "TRGT. STATUS",
+     "class_name": "AEGS_Avenger_SCItem_Seat_Pilot",
+     "classification": null,
+     "classification_label": null,
+     "item_type_label": "Seat",
+     "extra_label": null,
+     "web_url": "https://api.star-citizen.wiki/items/trgt-status",
+     "api_url": "https://api.star-citizen.wiki/api/items/trgt-status"
+    }
+   ]
+  }
+ ]
+}

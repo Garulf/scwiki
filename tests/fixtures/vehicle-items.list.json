@@ -1,0 +1,278 @@
+{
+ "data": [
+  {
+   "uuid": "7b21462f-b0ad-433e-9809-d1a97f9e511e",
+   "slug": "100i-2954-auspicious-red-dog-livery",
+   "name": "100i 2954 Auspicious Red Dog Livery",
+   "class_name": "Paint_100i_LunarNewYears2954_Red_Gold_Dog",
+   "classification": "Ship.Paints",
+   "classification_label": "Paints",
+   "description": {
+    "en_EN": "Seek peace and prosperity in the new year with the Auspicious Red Dog livery. Outfit your ship with this bold red base paint complemented by gold accents and a stylized graphic of a dog.",
+    "de_DE": "Suche Frieden und Wohlstand im neuen Jahr mit der Gl\u00fcck verhei\u00dfenden \"Red Dog\"-Lackierung. R\u00fcste dein Schiff mit dieser k\u00fchnen roten Grundlackierung, erg\u00e4nzt durch goldene Akzente und eine stilisierte Grafik eines Hundes, aus.",
+    "zh_CN": "\u65b0\u7684\u4e00\u5e74\uff0c\u5c31\u4e3a\u4f60\u7684\u98de\u8239\u6362\u4e0a\u8fd9\u6b3e\u7531\u5927\u7ea2\u8272\u505a\u5e95\uff0c\u91d1\u8272\u4e3a\u8f85\uff0c\u4ee5\u53ca\u8d35\u6c14\u903c\u4eba\u7684\u620c\u72d7\u56fe\u6837\uff0c\u7ec4\u6210\u7684\u5409\u7965\u7ea2\u620c\u72d7\u6d82\u88c5\u6765\u6c42\u8d22\u7948\u798f\u5427\u3002",
+    "fr_FR": "Cherchez la paix et la prosp\u00e9rit\u00e9 pour la nouvelle ann\u00e9e avec la livr\u00e9e Auspicious Red Dog. Habillez votre vaisseau avec cette peinture de base rouge audacieuse, agr\u00e9ment\u00e9e de touches dor\u00e9es et d'un graphisme stylis\u00e9 repr\u00e9sentant un chien."
+   },
+   "size": 1,
+   "mass": 0,
+   "event_source": [
+    "Red Festival"
+   ],
+   "is_base_variant": false,
+   "is_craftable": false,
+   "is_lootable": false,
+   "grade": "A",
+   "class": null,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Origin Jumpworks",
+    "code": "ORIG",
+    "uuid": "1e47a9ec-a3f0-431d-be0e-377712e1ed84",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/ORIG"
+   },
+   "type": "Paints",
+   "type_label": "Paints",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Paints",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0.024,
+    "volume_converted": 24000,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": null,
+     "height": null,
+     "length": null
+    },
+    "cargo_dimension": {
+     "width": 0.3,
+     "height": 0.2,
+     "length": 0.4
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "Paint_100i",
+    "@Paint_100i_LunarNewYears2954_Red_Gold_Dog"
+   ],
+   "required_tags": [
+    "Paint_100i"
+   ],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [],
+   "shops": [],
+   "images": [],
+   "uex_prices": {
+    "purchase": []
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/100i-2954-auspicious-red-dog-livery",
+   "link": "https://api.star-citizen.wiki/api/items/7b21462f-b0ad-433e-9809-d1a97f9e511e",
+   "updated_at": "2026-08-27T09:50:39.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  {
+   "uuid": "eac45929-9c11-496b-9f50-3401de9fba16",
+   "slug": "100i-2954-auspicious-red-dragon-livery",
+   "name": "100i 2954 Auspicious Red Dragon Livery",
+   "class_name": "Paint_100i_LunarNewYears2954_Red_Gold_Dragon",
+   "classification": "Ship.Paints",
+   "classification_label": "Paints",
+   "description": {
+    "en_EN": "Seek peace and prosperity in the new year with the Auspicious Red Dragon livery. Outfit your ship with this bold red base paint complemented by gold accents and a stylized graphic of a dragon.",
+    "de_DE": "Suche Frieden und Wohlstand im neuen Jahr mit der Gl\u00fcck verhei\u00dfenden \"Red Dragon\"-Lackierung. R\u00fcste dein Schiff mit dieser k\u00fchnen roten Grundlackierung, erg\u00e4nzt durch goldene Akzente und eine stilisierte Grafik eines Drachens, aus.",
+    "zh_CN": "\u65b0\u7684\u4e00\u5e74\uff0c\u5c31\u4e3a\u4f60\u7684\u98de\u8239\u6362\u4e0a\u8fd9\u6b3e\u7531\u5927\u7ea2\u8272\u505a\u5e95\uff0c\u91d1\u8272\u4e3a\u8f85\uff0c\u4ee5\u53ca\u8d35\u6c14\u903c\u4eba\u7684\u8fb0\u9f99\u56fe\u6837\uff0c\u7ec4\u6210\u7684\u5409\u7965\u7ea2\u8fb0\u9f99\u6d82\u88c5\u6765\u6c42\u8d22\u7948\u798f\u5427\u3002",
+    "fr_FR": "Recherchez la paix et la prosp\u00e9rit\u00e9 pour la nouvelle ann\u00e9e avec la livr\u00e9e Auspicious Red Dragon. Habillez votre vaisseau avec cette peinture de base rouge audacieuse, rehauss\u00e9e d'accents dor\u00e9s et d'un graphisme stylis\u00e9 repr\u00e9sentant un dragon."
+   },
+   "size": 1,
+   "mass": 0,
+   "event_source": [
+    "Red Festival"
+   ],
+   "is_base_variant": false,
+   "is_craftable": false,
+   "is_lootable": false,
+   "grade": "A",
+   "class": null,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Origin Jumpworks",
+    "code": "ORIG",
+    "uuid": "1e47a9ec-a3f0-431d-be0e-377712e1ed84",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/ORIG"
+   },
+   "type": "Paints",
+   "type_label": "Paints",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Paints",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0.024,
+    "volume_converted": 24000,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": null,
+     "height": null,
+     "length": null
+    },
+    "cargo_dimension": {
+     "width": 0.3,
+     "height": 0.2,
+     "length": 0.4
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "Paint_100i",
+    "@Paint_100i_LunarNewYears2954_Red_Gold_Dragon"
+   ],
+   "required_tags": [
+    "Paint_100i"
+   ],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [],
+   "shops": [],
+   "images": [],
+   "uex_prices": {
+    "purchase": []
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/100i-2954-auspicious-red-dragon-livery",
+   "link": "https://api.star-citizen.wiki/api/items/eac45929-9c11-496b-9f50-3401de9fba16",
+   "updated_at": "2026-08-27T09:50:39.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=1641",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 1641,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=1640",
+    "label": "1640",
+    "page": 1640,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=1641",
+    "label": "1641",
+    "page": 1641,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/vehicle-items?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/vehicle-items",
+  "per_page": 2,
+  "to": 2,
+  "total": 3281,
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ]
+ }
+}

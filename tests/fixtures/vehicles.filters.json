@@ -1,0 +1,584 @@
+{
+ "filters": {
+  "manufacturer": [
+   {
+    "value": "Aegis Dynamics",
+    "label": "Aegis Dynamics",
+    "count": 36
+   },
+   {
+    "value": "Anvil Aerospace",
+    "label": "Anvil Aerospace",
+    "count": 47
+   },
+   {
+    "value": "Aopoa",
+    "label": "Aopoa",
+    "count": 5
+   },
+   {
+    "value": "Argo Astronautics",
+    "label": "Argo Astronautics",
+    "count": 16
+   },
+   {
+    "value": "Banu Souli",
+    "label": "Banu Souli",
+    "count": 4
+   },
+   {
+    "value": "Consolidated Outland",
+    "label": "Consolidated Outland",
+    "count": 9
+   },
+   {
+    "value": "Crusader Industries",
+    "label": "Crusader Industries",
+    "count": 14
+   },
+   {
+    "value": "Drake Interplanetary",
+    "label": "Drake Interplanetary",
+    "count": 38
+   },
+   {
+    "value": "Esperia",
+    "label": "Esperia",
+    "count": 9
+   },
+   {
+    "value": "Gatac Manufacture",
+    "label": "Gatac Manufacture",
+    "count": 5
+   },
+   {
+    "value": "Greycat Industrial",
+    "label": "Greycat Industrial",
+    "count": 7
+   },
+   {
+    "value": "Grey's Market",
+    "label": "Grey's Market",
+    "count": 5
+   },
+   {
+    "value": "Kruger Intergalactic",
+    "label": "Kruger Intergalactic",
+    "count": 10
+   },
+   {
+    "value": "Mirai",
+    "label": "Mirai",
+    "count": 14
+   },
+   {
+    "value": "Musashi Industrial and Starflight Concern",
+    "label": "Musashi Industrial and Starflight Concern",
+    "count": 25
+   },
+   {
+    "value": "Origin Jumpworks",
+    "label": "Origin Jumpworks",
+    "count": 19
+   },
+   {
+    "value": "Roberts Space Industries",
+    "label": "Roberts Space Industries",
+    "count": 44
+   },
+   {
+    "value": "Tumbril Land Systems",
+    "label": "Tumbril Land Systems",
+    "count": 9
+   },
+   {
+    "value": "Unknown",
+    "label": "Unknown",
+    "count": 1
+   },
+   {
+    "value": "Vanduul Clans",
+    "label": "Vanduul Clans",
+    "count": 1
+   }
+  ],
+  "is_vehicle": [
+   {
+    "value": false,
+    "label": "No",
+    "count": 281
+   },
+   {
+    "value": true,
+    "label": "Yes",
+    "count": 37
+   }
+  ],
+  "is_gravlev": [
+   {
+    "value": false,
+    "label": "No",
+    "count": 306
+   },
+   {
+    "value": true,
+    "label": "Yes",
+    "count": 12
+   }
+  ],
+  "is_spaceship": [
+   {
+    "value": false,
+    "label": "No",
+    "count": 49
+   },
+   {
+    "value": true,
+    "label": "Yes",
+    "count": 269
+   }
+  ],
+  "is_power_suit": [
+   {
+    "value": false,
+    "label": "No",
+    "count": 309
+   },
+   {
+    "value": true,
+    "label": "Yes",
+    "count": 9
+   }
+  ],
+  "size": [
+   {
+    "value": 10,
+    "label": "10",
+    "count": 1
+   },
+   {
+    "value": 1,
+    "label": "1",
+    "count": 59
+   },
+   {
+    "value": 5,
+    "label": "5",
+    "count": 41
+   },
+   {
+    "value": 4,
+    "label": "4",
+    "count": 27
+   },
+   {
+    "value": 2,
+    "label": "2",
+    "count": 120
+   },
+   {
+    "value": 6,
+    "label": "6",
+    "count": 12
+   },
+   {
+    "value": 3,
+    "label": "3",
+    "count": 58
+   }
+  ],
+  "role": [
+   {
+    "value": "Combat",
+    "label": "Combat",
+    "count": 3
+   },
+   {
+    "value": "Light Salvage",
+    "label": "Light Salvage",
+    "count": 5
+   },
+   {
+    "value": "Medium Salvage",
+    "label": "Medium Salvage",
+    "count": 1
+   },
+   {
+    "value": "Bomber",
+    "label": "Bomber",
+    "count": 2
+   },
+   {
+    "value": "Starter / Light Mining",
+    "label": "Starter / Light Mining",
+    "count": 4
+   },
+   {
+    "value": "Heavy Dropship",
+    "label": "Heavy Dropship",
+    "count": 1
+   },
+   {
+    "value": "Heavy Tank",
+    "label": "Heavy Tank",
+    "count": 1
+   },
+   {
+    "value": "Light Tank",
+    "label": "Light Tank",
+    "count": 2
+   },
+   {
+    "value": "Medical",
+    "label": "Medical",
+    "count": 16
+   },
+   {
+    "value": "Cargo",
+    "label": "Cargo",
+    "count": 1
+   },
+   {
+    "value": "Starter / Light Fighter",
+    "label": "Starter / Light Fighter",
+    "count": 1
+   },
+   {
+    "value": "Anti-Vehicle",
+    "label": "Anti-Vehicle",
+    "count": 1
+   },
+   {
+    "value": "Reporting",
+    "label": "Reporting",
+    "count": 1
+   },
+   {
+    "value": "Light Freight",
+    "label": "Light Freight",
+    "count": 15
+   },
+   {
+    "value": "Medium Fighter",
+    "label": "Medium Fighter",
+    "count": 21
+   },
+   {
+    "value": "Snub Fighter",
+    "label": "Snub Fighter",
+    "count": 4
+   },
+   {
+    "value": "Interceptor",
+    "label": "Interceptor",
+    "count": 2
+   },
+   {
+    "value": "Touring",
+    "label": "Touring",
+    "count": 1
+   },
+   {
+    "value": "Light Freight / Medium Fighter",
+    "label": "Light Freight / Medium Fighter",
+    "count": 4
+   },
+   {
+    "value": "Light Fighter",
+    "label": "Light Fighter",
+    "count": 24
+   },
+   {
+    "value": "Heavy Bomber",
+    "label": "Heavy Bomber",
+    "count": 2
+   },
+   {
+    "value": "Expedition",
+    "label": "Expedition",
+    "count": 15
+   },
+   {
+    "value": "Starter / Pathfinder",
+    "label": "Starter / Pathfinder",
+    "count": 6
+   },
+   {
+    "value": "Stealth Bomber",
+    "label": "Stealth Bomber",
+    "count": 2
+   },
+   {
+    "value": "Medium Freight",
+    "label": "Medium Freight",
+    "count": 18
+   },
+   {
+    "value": "Frigate",
+    "label": "Frigate",
+    "count": 5
+   },
+   {
+    "value": "Starter / Light Freight",
+    "label": "Starter / Light Freight",
+    "count": 7
+   },
+   {
+    "value": "Stealth Fighter",
+    "label": "Stealth Fighter",
+    "count": 7
+   },
+   {
+    "value": "Heavy Salvage",
+    "label": "Heavy Salvage",
+    "count": 3
+   },
+   {
+    "value": "Recovery",
+    "label": "Recovery",
+    "count": 1
+   },
+   {
+    "value": "Transport",
+    "label": "Transport",
+    "count": 2
+   },
+   {
+    "value": "Heavy Freight",
+    "label": "Heavy Freight",
+    "count": 2
+   },
+   {
+    "value": "Pathfinder",
+    "label": "Pathfinder",
+    "count": 13
+   },
+   {
+    "value": "Light Refueling",
+    "label": "Light Refueling",
+    "count": 1
+   },
+   {
+    "value": "Interdiction",
+    "label": "Interdiction",
+    "count": 7
+   },
+   {
+    "value": "Corvette",
+    "label": "Corvette",
+    "count": 2
+   },
+   {
+    "value": "Heavy Refueling",
+    "label": "Heavy Refueling",
+    "count": 3
+   },
+   {
+    "value": "Light Science",
+    "label": "Light Science",
+    "count": 1
+   },
+   {
+    "value": "Anti-Air",
+    "label": "Anti-Air",
+    "count": 7
+   },
+   {
+    "value": "Destroyer",
+    "label": "Destroyer",
+    "count": 2
+   },
+   {
+    "value": "Medium Freight / Gun Ship",
+    "label": "Medium Freight / Gun Ship",
+    "count": 1
+   },
+   {
+    "value": "Snub Carrier",
+    "label": "Snub Carrier",
+    "count": 1
+   },
+   {
+    "value": "Light Mining",
+    "label": "Light Mining",
+    "count": 5
+   },
+   {
+    "value": "Passenger",
+    "label": "Passenger",
+    "count": 10
+   },
+   {
+    "value": "Racing",
+    "label": "Racing",
+    "count": 20
+   },
+   {
+    "value": "Generalist",
+    "label": "Generalist",
+    "count": 2
+   },
+   {
+    "value": null,
+    "label": "Unknown",
+    "count": 1
+   },
+   {
+    "value": "Luxury Touring",
+    "label": "Luxury Touring",
+    "count": 6
+   },
+   {
+    "value": "Heavy Fighter / Bomber",
+    "label": "Heavy Fighter / Bomber",
+    "count": 2
+   },
+   {
+    "value": "Starter / Light Salvage",
+    "label": "Starter / Light Salvage",
+    "count": 1
+   },
+   {
+    "value": "Modular",
+    "label": "Modular",
+    "count": 1
+   },
+   {
+    "value": "Medium Mining",
+    "label": "Medium Mining",
+    "count": 3
+   },
+   {
+    "value": "Gunship",
+    "label": "Gunship",
+    "count": 5
+   },
+   {
+    "value": "Medium Data",
+    "label": "Medium Data",
+    "count": 1
+   },
+   {
+    "value": "Mining",
+    "label": "Mining",
+    "count": 4
+   },
+   {
+    "value": "Dropship",
+    "label": "Dropship",
+    "count": 7
+   },
+   {
+    "value": "Heavy Fighter",
+    "label": "Heavy Fighter",
+    "count": 27
+   },
+   {
+    "value": "Heavy Gunship",
+    "label": "Heavy Gunship",
+    "count": 5
+   }
+  ],
+  "career": [
+   {
+    "value": "Gunship",
+    "label": "Gunship",
+    "count": 1
+   },
+   {
+    "value": "Competition",
+    "label": "Competition",
+    "count": 19
+   },
+   {
+    "value": "Destroyer",
+    "label": "Destroyer",
+    "count": 1
+   },
+   {
+    "value": "Industrial",
+    "label": "Industrial",
+    "count": 24
+   },
+   {
+    "value": "Transporter",
+    "label": "Transporter",
+    "count": 44
+   },
+   {
+    "value": "Exploration",
+    "label": "Exploration",
+    "count": 37
+   },
+   {
+    "value": null,
+    "label": "Unknown",
+    "count": 1
+   },
+   {
+    "value": "Snub Fighter",
+    "label": "Snub Fighter",
+    "count": 1
+   },
+   {
+    "value": "Support",
+    "label": "Support",
+    "count": 23
+   },
+   {
+    "value": "Multi-Role",
+    "label": "Multi-Role",
+    "count": 12
+   },
+   {
+    "value": "Transport",
+    "label": "Transport",
+    "count": 2
+   },
+   {
+    "value": "Ground",
+    "label": "Ground",
+    "count": 10
+   },
+   {
+    "value": "Starter",
+    "label": "Starter",
+    "count": 2
+   },
+   {
+    "value": "Combat",
+    "label": "Combat",
+    "count": 141
+   }
+  ],
+  "shield.face_type": [
+   {
+    "value": null,
+    "label": "Unknown",
+    "count": 18
+   },
+   {
+    "value": "Quadrant",
+    "label": "Quadrant",
+    "count": 61
+   },
+   {
+    "value": "Bubble",
+    "label": "Bubble",
+    "count": 239
+   }
+  ],
+  "max_medical_tier": [
+   {
+    "value": "T2",
+    "label": "T2",
+    "count": 9
+   },
+   {
+    "value": "T3",
+    "label": "T3",
+    "count": 21
+   }
+  ]
+ }
+}

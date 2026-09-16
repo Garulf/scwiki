@@ -1,0 +1,232 @@
+{
+ "data": {
+  "id": 21332,
+  "title": "Aegis Sabre Raven EX | Star Citizen",
+  "rsi_url": "https://robertsspaceindustries.com/en/comm-link/transmission/21332-Aegis-Sabre-Raven-EX",
+  "api_url": "https://api.star-citizen.wiki/api/comm-links/21332",
+  "api_public_url": "https://api.star-citizen.wiki/comm-links/21332",
+  "channel": "Transmission",
+  "category": "Undefined",
+  "series": "None",
+  "images": [
+   {
+    "id": 35721,
+    "name": "source.pdf",
+    "rsi_url": "https://media.robertsspaceindustries.com/ardu86f74a8us/source.pdf",
+    "alt": "",
+    "size": 3242063,
+    "mime_type": "application/pdf",
+    "last_modified": "2024-06-10T16:22:30+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/35721",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/35721/similar"
+   },
+   {
+    "id": 43947,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/b61gxzyhfql4c/source.jpg",
+    "alt": "",
+    "size": 894135,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-03-02T18:00:01+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/43947",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/43947/similar"
+   },
+   {
+    "id": 44602,
+    "name": "source.png",
+    "rsi_url": "https://media.robertsspaceindustries.com/mlhmnilwu5p6r/source.png",
+    "alt": "",
+    "size": 3106,
+    "mime_type": "image/png",
+    "last_modified": "2026-05-14T12:40:41+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/44602",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/44602/similar"
+   },
+   {
+    "id": 44666,
+    "name": "source.png",
+    "rsi_url": "https://media.robertsspaceindustries.com/5s9bh3rzx2yae/source.png",
+    "alt": "",
+    "size": 19731,
+    "mime_type": "image/png",
+    "last_modified": "2026-04-24T08:34:39+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/44666",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/44666/similar"
+   },
+   {
+    "id": 45387,
+    "name": "source.mp4",
+    "rsi_url": "https://media.robertsspaceindustries.com/25zzefkirlu6x/source.mp4",
+    "alt": "",
+    "size": 125053291,
+    "mime_type": "video/mp4",
+    "last_modified": "2026-09-15T19:24:04+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45387",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45387/similar"
+   },
+   {
+    "id": 45388,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/9n6f8zb8rdiwy/source.jpg",
+    "alt": "",
+    "size": 1167892,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-15T10:34:53+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45388",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45388/similar"
+   },
+   {
+    "id": 45389,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/ft0q53knh5hsf/source.jpg",
+    "alt": "",
+    "size": 117642,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-15T10:34:44+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45389",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45389/similar"
+   },
+   {
+    "id": 45390,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/bpi9z5xyidk1b/source.jpg",
+    "alt": "",
+    "size": 1180721,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-15T11:04:01+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45390",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45390/similar"
+   },
+   {
+    "id": 45391,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/jyzo7d41s2j71/source.jpg",
+    "alt": "",
+    "size": 199416,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-15T08:34:48+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45391",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45391/similar"
+   },
+   {
+    "id": 45392,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/jy2hm3jx43lrz/source.jpg",
+    "alt": "",
+    "size": 1967048,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:44:31+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45392",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45392/similar"
+   },
+   {
+    "id": 45393,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/080luemj6dsl2/source.jpg",
+    "alt": "",
+    "size": 1841502,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:35:50+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45393",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45393/similar"
+   },
+   {
+    "id": 45394,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/ztu4lh61m6inr/source.jpg",
+    "alt": "",
+    "size": 1931892,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:37:51+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45394",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45394/similar"
+   },
+   {
+    "id": 45395,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/ww540qgymtu97/source.jpg",
+    "alt": "",
+    "size": 1955150,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:39:33+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45395",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45395/similar"
+   },
+   {
+    "id": 45396,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/svouimneje4ad/source.jpg",
+    "alt": "",
+    "size": 2057332,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:45:22+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45396",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45396/similar"
+   },
+   {
+    "id": 45397,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/i695m7s9iijrz/source.jpg",
+    "alt": "",
+    "size": 586119,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:45:09+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45397",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45397/similar"
+   },
+   {
+    "id": 45398,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/macqvxoh734f3/source.jpg",
+    "alt": "",
+    "size": 583320,
+    "mime_type": "image/jpeg",
+    "last_modified": "2025-10-22T16:52:05+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45398",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45398/similar"
+   },
+   {
+    "id": 45400,
+    "name": "source.jpg",
+    "rsi_url": "https://media.robertsspaceindustries.com/eair6afkspkkl/source.jpg",
+    "alt": "",
+    "size": 2377822,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-15T10:52:53+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45400",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45400/similar"
+   },
+   {
+    "id": 45401,
+    "name": "veh2617-sabreravenex-fallback-jpeg-1920x860-260916.jpg",
+    "rsi_url": "https://robertsspaceindustries.com/i/c137211aed44f07ec3685ad0de6a0e96712e54b4/ADdPNihJzmPbNuTnFsH1DqUeqBRpXdSXVVtgJTyDDgscGKrzJuoFjReskCUzDdbtitnz9s6gmNuFeSntxaCpbzhr6/veh2617-sabreravenex-fallback-jpeg-1920x860-260916.jpg",
+    "alt": "g-banner-advanced",
+    "size": 262666,
+    "mime_type": "image/jpeg",
+    "last_modified": "2026-09-16T13:27:32+00:00",
+    "api_url": "https://api.star-citizen.wiki/api/comm-link-images/45401",
+    "similar_url": "https://api.star-citizen.wiki/api/comm-link-images/45401/similar"
+   }
+  ],
+  "images_count": 22,
+  "translations": {
+   "en_EN": "ENGAGE. ENTRAP. END.\n\n\n\nOne of military manufacturing\u2019s most performance-driven lines just got bigger, as the Sabre Raven EX becomes the sixth addition to Aegis\u2019 legendary array of space superiority fighters. Combining the combat capabilities of the original Sabre with the Raven\u2019s refined silhouette, the EX adds a quantum dampener to leave targets powerless to flee. By the time they see it coming, there\u2019s no escape.\n\nNO SURVIVORS\nWeapons\n\n\n\nArmed to uphold the Sabre\u2019s lethal reputation, the Raven EX boasts four configurable weapon hardpoints, giving you the firepower to dismantle your foe and finish the fight.\nCLIP THEIR WINGS\nQuantum Dampener\n\n\n\nControl the terms of engagement with the Sabre Raven EX\u2019s combat-winning quantum dampener. Disabling enemy quantum drives within its reach ensures that once your target enters the fight, there\u2019s no running from the inevitable.",
+   "de_DE": "ENGAGE. ENTRAP. END.\n\n\n\nOne of military manufacturing\u2019s most performance-driven lines just got bigger, as the Sabre Raven EX becomes the sixth addition to Aegis\u2019 legendary array of space superiority fighters. Combining the combat capabilities of the original Sabre with the Raven\u2019s refined silhouette, the EX adds a quantum dampener to leave targets powerless to flee. By the time they see it coming, there\u2019s no escape.\n\nNO SURVIVORS\nWeapons\n\n\n\nArmed to uphold the Sabre\u2019s lethal reputation, the Raven EX boasts four configurable weapon hardpoints, giving you the firepower to dismantle your foe and finish the fight.\nCLIP THEIR WINGS\nQuantum Dampener\n\n\n\nControl the terms of engagement with the Sabre Raven EX\u2019s combat-winning quantum dampener. Disabling enemy quantum drives within its reach ensures that once your target enters the fight, there\u2019s no running from the inevitable.",
+   "zh_CN": "ENGAGE. ENTRAP. END.\n\n\n\nOne of military manufacturing\u2019s most performance-driven lines just got bigger, as the Sabre Raven EX becomes the sixth addition to Aegis\u2019 legendary array of space superiority fighters. Combining the combat capabilities of the original Sabre with the Raven\u2019s refined silhouette, the EX adds a quantum dampener to leave targets powerless to flee. By the time they see it coming, there\u2019s no escape.\n\nNO SURVIVORS\nWeapons\n\n\n\nArmed to uphold the Sabre\u2019s lethal reputation, the Raven EX boasts four configurable weapon hardpoints, giving you the firepower to dismantle your foe and finish the fight.\nCLIP THEIR WINGS\nQuantum Dampener\n\n\n\nControl the terms of engagement with the Sabre Raven EX\u2019s combat-winning quantum dampener. Disabling enemy quantum drives within its reach ensures that once your target enters the fight, there\u2019s no running from the inevitable.",
+   "fr_FR": "ENGAGE. ENTRAP. END.\n\n\n\nOne of military manufacturing\u2019s most performance-driven lines just got bigger, as the Sabre Raven EX becomes the sixth addition to Aegis\u2019 legendary array of space superiority fighters. Combining the combat capabilities of the original Sabre with the Raven\u2019s refined silhouette, the EX adds a quantum dampener to leave targets powerless to flee. By the time they see it coming, there\u2019s no escape.\n\nNO SURVIVORS\nWeapons\n\n\n\nArmed to uphold the Sabre\u2019s lethal reputation, the Raven EX boasts four configurable weapon hardpoints, giving you the firepower to dismantle your foe and finish the fight.\nCLIP THEIR WINGS\nQuantum Dampener\n\n\n\nControl the terms of engagement with the Sabre Raven EX\u2019s combat-winning quantum dampener. Disabling enemy quantum drives within its reach ensures that once your target enters the fight, there\u2019s no running from the inevitable."
+  },
+  "links_count": 0,
+  "comment_count": 0,
+  "created_at": "2026-09-16T18:00:00+00:00",
+  "created_at_human": "1 hour ago"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 19:00:04",
+  "valid_relations": [
+   "images",
+   "links"
+  ],
+  "prev_id": 21330,
+  "next_id": -1
+ }
+}

@@ -1,0 +1,476 @@
+{
+ "data": [
+  {
+   "uuid": "2d01142c-0199-4ac2-9589-21096a16b98d",
+   "slug": "2954-lucks-favor-tankard",
+   "name": "2954 Luck's Favor Tankard",
+   "class_name": "Drink_mug_stella_fortuna_1_b",
+   "classification": "FPS.Consumable.Food.Drink",
+   "classification_label": "Drink",
+   "description": {
+    "en_EN": "Beautifully crafted from genuine wood with pewter accents, this Stella Fortuna themed tankard features a compass star and a reminder that \"Luck Favors the Bold.\"",
+    "de_DE": "Wundersch\u00f6n aus echtem Holz mit Zinnaufdrucken gefertigt, zeigt dieser \"Stella Fortuna\"-Themenkrug einen Kompassstern und eine Erinnerung daran, dass \"Luck Favors the Bold\" (Das Gl\u00fcck beg\u00fcnstigt die Mutigen).",
+    "zh_CN": "\u8fd9\u6b3e\u5e78\u8fd0\u661f\u8282\u4e3b\u9898\u7684\u5564\u9152\u676f\u4f7f\u7528\u771f\u6728\u7cbe\u5236\u4e14\u5e26\u6709\u767d\u9574\u88c5\u9970\uff0c\u5e76\u914d\u6709\u6307\u5357\u9488\u4e4b\u661f\u548c\u201c\u5e78\u8fd0\u7737\u987e\u52c7\u6562\u8005\u201d\u7684\u6807\u8bed\u3002",
+    "fr_FR": "Magnifiquement fabriqu\u00e9e \u00e0 partir de bois v\u00e9ritable avec des accents en \u00e9tain, cette chope sur le th\u00e8me Stella Fortuna arbore une \u00e9toile de compas et rappelle que \u00ab La chance sourit aux audacieux \u00bb."
+   },
+   "size": 1,
+   "mass": 0.25,
+   "event_source": [
+    "Stella Fortuna"
+   ],
+   "is_base_variant": false,
+   "is_craftable": false,
+   "is_lootable": false,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Consumable",
+    "code": "GEND",
+    "uuid": "f80ab8de-4d04-4a1f-a8f2-ee2bb01fd125",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/GEND"
+   },
+   "type": "Drink",
+   "type_label": "Drink",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Drink",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "food": {
+    "nutrition": [],
+    "buffs": [],
+    "debuffs": [],
+    "container": {
+     "type": "bottle",
+     "closed": false,
+     "can_be_reclosed": false,
+     "discard_when_consumed": false
+    },
+    "consumption": {
+     "volume": 780,
+     "one_shot_consume": false
+    },
+    "nutritional_density_rating": null,
+    "hydration_efficacy_index": null,
+    "container_type": "bottle",
+    "one_shot_consume": false,
+    "can_be_reclosed": false,
+    "discard_when_consumed": false,
+    "effects": null,
+    "resource_effects": null,
+    "gas_effects": null
+   },
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0.0008,
+    "volume_converted": 780,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": 0.077,
+     "height": 0.135,
+     "length": 0.093
+    },
+    "dimensions": {
+     "width": 0.077,
+     "height": 0.135,
+     "length": 0.093
+    },
+    "cargo_dimension": {
+     "width": 0.1,
+     "height": 0.13,
+     "length": 0.09
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "Mug",
+    "StellaFortuna"
+   ],
+   "required_tags": [],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [
+    "Drop",
+    "Carrylowered",
+    "Inspect",
+    "Place",
+    "Vendorinspect",
+    "Vendorreturn"
+   ],
+   "ports": [
+    {
+     "name": "slot_garnish",
+     "display_name": "Slot Garnish",
+     "position": "SLOT_GARNISH",
+     "size": 1,
+     "sizes": {
+      "min": 0,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Misc",
+       "sub_types": []
+      }
+     ],
+     "types": [
+      "Misc"
+     ],
+     "type": "Misc",
+     "sub_type": null,
+     "tags": [
+      "slot_garnish"
+     ],
+     "port_tags": [
+      "slot_garnish"
+     ],
+     "required_tags": [],
+     "flags": [],
+     "editable": true,
+     "uneditable": false,
+     "equipped_item_uuid": null,
+     "ports": null
+    }
+   ],
+   "shops": [],
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/a/a3/2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp?d15vj",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/a/a3/2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp/600px-2954_Luck%27s_Favor_Tankard_-_Subflair_2024_March.webp?d15vj",
+     "original_width": 3641,
+     "original_height": 2048,
+     "thumbnail_width": 600,
+     "thumbnail_height": 337
+    }
+   ],
+   "uex_prices": {
+    "purchase": [
+     {
+      "price_buy": 5,
+      "price_sell": 0,
+      "price_rent": null,
+      "terminal_id": 781,
+      "terminal_code": "NNLEV",
+      "terminal_name": "Nyx Nax Levski",
+      "starmap_location": {
+       "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+       "name": "Levski",
+       "slug": "levski",
+       "type_name": "Manmade",
+       "parent_name": "Nyx",
+       "star_system_name": "Nyx",
+       "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+       "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+      },
+      "date_updated": "2026-08-31T22:15:31+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/items/info?name=2954-luck's-favor-tankard&tab=about"
+     }
+    ]
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/2954-lucks-favor-tankard",
+   "link": "https://api.star-citizen.wiki/api/items/2d01142c-0199-4ac2-9589-21096a16b98d",
+   "updated_at": "2026-09-16T00:01:54.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  },
+  {
+   "uuid": "31142a63-5179-48e5-b382-a705d8d01672",
+   "slug": "2954-tempt-fate-tankard",
+   "name": "2954 Tempt Fate Tankard",
+   "class_name": "Drink_mug_stella_fortuna_1_a",
+   "classification": "FPS.Consumable.Food.Drink",
+   "classification_label": "Drink",
+   "description": {
+    "en_EN": "Featuring a clover motif with an antique finish, this pewter and brass tankard is perfect for making a traditional Stella Fortuna toast to \"Tempt Fate.\"",
+    "de_DE": "Mit einem Kleeblattmotiv und antikem Finish ist dieser Zinn- und Messingkrug perfekt, um einen traditionellen Stella Fortuna Toast auf \"Tempt Fate\" auszusprechen.",
+    "zh_CN": "\u8fd9\u6b3e\u767d\u9574\u548c\u9ec4\u94dc\u5236\u7684\u5564\u9152\u676f\u91c7\u7528\u4e86\u4e09\u53f6\u8349\u56fe\u6848\u548c\u4eff\u53e4\u9970\u9762\uff0c\u975e\u5e38\u9002\u5408\u5e78\u8fd0\u661f\u8282\u7684\u4f20\u7edf\u795d\u9152\u8bcd\u201c\u6311\u6218\u547d\u8fd0\u201d\u3002",
+    "fr_FR": "Dot\u00e9e d'un motif tr\u00e8fle et d'une finition antique, cette chope en \u00e9tain et en laiton est parfaite pour porter un toast traditionnel Stella Fortuna \u00e0 \"Tempt Fate\"."
+   },
+   "size": 1,
+   "mass": 0.25,
+   "event_source": [
+    "Stella Fortuna"
+   ],
+   "is_base_variant": true,
+   "is_craftable": false,
+   "is_lootable": false,
+   "description_data": [],
+   "manufacturer_description": null,
+   "manufacturer": {
+    "name": "Consumable",
+    "code": "GEND",
+    "uuid": "f80ab8de-4d04-4a1f-a8f2-ee2bb01fd125",
+    "link": "https://api.star-citizen.wiki/api/manufacturers/GEND"
+   },
+   "type": "Drink",
+   "type_label": "Drink",
+   "type_web_url": "https://api.star-citizen.wiki/items?filter%5Btype%5D=Drink",
+   "sub_type": "UNDEFINED",
+   "sub_type_label": "Undefined",
+   "food": {
+    "nutrition": [],
+    "buffs": [],
+    "debuffs": [],
+    "container": {
+     "type": "bottle",
+     "closed": false,
+     "can_be_reclosed": false,
+     "discard_when_consumed": false
+    },
+    "consumption": {
+     "volume": 780,
+     "one_shot_consume": false
+    },
+    "nutritional_density_rating": null,
+    "hydration_efficacy_index": null,
+    "container_type": "bottle",
+    "one_shot_consume": false,
+    "can_be_reclosed": false,
+    "discard_when_consumed": false,
+    "effects": null,
+    "resource_effects": null,
+    "gas_effects": null
+   },
+   "dimension": {
+    "width": 0.75,
+    "height": 0.75,
+    "length": 0.75,
+    "volume": 0.0008,
+    "volume_converted": 780,
+    "volume_converted_unit": "\u00b5SCU",
+    "true_dimension": {
+     "width": 0.077,
+     "height": 0.135,
+     "length": 0.093
+    },
+    "dimensions": {
+     "width": 0.077,
+     "height": 0.135,
+     "length": 0.093
+    },
+    "cargo_dimension": {
+     "width": 0.1,
+     "height": 0.13,
+     "length": 0.09
+    },
+    "ui_dimension": {
+     "width": 0.75,
+     "height": 0.75,
+     "length": 0.75
+    }
+   },
+   "tags": [
+    "Mug",
+    "StellaFortuna"
+   ],
+   "required_tags": [],
+   "entity_tags": [],
+   "entity_tag_map": [],
+   "interactions": [
+    "Place",
+    "Activate remote camera",
+    "Turret_gyro_mode",
+    "Turret_sensitivity_increase",
+    "Turret_sensitivity_decrease",
+    "Turret_sensitivity_reset"
+   ],
+   "ports": [
+    {
+     "name": "slot_garnish",
+     "display_name": "Slot Garnish",
+     "position": "SLOT_GARNISH",
+     "size": 1,
+     "sizes": {
+      "min": 0,
+      "max": 1
+     },
+     "compatible_types": [
+      {
+       "type": "Misc",
+       "sub_types": []
+      }
+     ],
+     "types": [
+      "Misc"
+     ],
+     "type": "Misc",
+     "sub_type": null,
+     "tags": [
+      "slot_garnish"
+     ],
+     "port_tags": [
+      "slot_garnish"
+     ],
+     "required_tags": [],
+     "flags": [],
+     "editable": true,
+     "uneditable": false,
+     "equipped_item_uuid": null,
+     "ports": null
+    }
+   ],
+   "shops": [],
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/c/c3/2954_Tempt_Fate_Tankard_-_Subflair_2024_March.webp?qaezu",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/c/c3/2954_Tempt_Fate_Tankard_-_Subflair_2024_March.webp/600px-2954_Tempt_Fate_Tankard_-_Subflair_2024_March.webp?qaezu",
+     "original_width": 2500,
+     "original_height": 1071,
+     "thumbnail_width": 600,
+     "thumbnail_height": 257
+    }
+   ],
+   "uex_prices": {
+    "purchase": [
+     {
+      "price_buy": 5,
+      "price_sell": 0,
+      "price_rent": null,
+      "terminal_id": 781,
+      "terminal_code": "NNLEV",
+      "terminal_name": "Nyx Nax - Levski",
+      "starmap_location": {
+       "uuid": "468d4102-a210-47b5-8bc3-084f791a173c",
+       "name": "Levski",
+       "slug": "levski",
+       "type_name": "Manmade",
+       "parent_name": "Nyx",
+       "star_system_name": "Nyx",
+       "link": "https://api.star-citizen.wiki/api/locations/468d4102-a210-47b5-8bc3-084f791a173c",
+       "web_url": "https://api.star-citizen.wiki/locations/468d4102-a210-47b5-8bc3-084f791a173c"
+      },
+      "date_updated": "2026-08-31T22:15:31+00:00",
+      "game_version": "4.10.0-LIVE.12519617",
+      "uex_link": "https://uexcorp.space/items/info?name=2954-tempt-fate-tankard&tab=about"
+     }
+    ]
+   },
+   "variants": [],
+   "web_url": "https://api.star-citizen.wiki/items/2954-tempt-fate-tankard",
+   "link": "https://api.star-citizen.wiki/api/items/31142a63-5179-48e5-b382-a705d8d01672",
+   "updated_at": "2026-09-16T00:05:03.000000Z",
+   "version": "4.10.0-LIVE.12519617"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=111",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 111,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=110",
+    "label": "110",
+    "page": 110,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=111",
+    "label": "111",
+    "page": 111,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/food?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/food",
+  "per_page": 2,
+  "to": 2,
+  "total": 221,
+  "valid_relations": [
+   "shops",
+   "shops.items",
+   "variants",
+   "related_items",
+   "blueprints",
+   "vehicles"
+  ]
+ }
+}

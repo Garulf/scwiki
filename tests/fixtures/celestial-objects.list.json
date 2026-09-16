@@ -1,0 +1,199 @@
+{
+ "data": [
+  {
+   "id": 1695,
+   "code": "STANTON.PLANETS.STANTONIICRUSADER",
+   "system_id": 314,
+   "link": "https://api.star-citizen.wiki/api/celestial-objects/STANTON.PLANETS.STANTONIICRUSADER",
+   "web_url": "https://api.star-citizen.wiki/starmap/celestial-objects/STANTON.PLANETS.STANTONIICRUSADER",
+   "name": "Crusader",
+   "type": "PLANET",
+   "age": 0,
+   "habitable": true,
+   "fairchanceact": null,
+   "appearance": "PLANET_GAS",
+   "designation": "Stanton II",
+   "distance": 1.28,
+   "latitude": 0,
+   "longitude": -160,
+   "axial_tilt": 0,
+   "orbit_period": 534.63,
+   "info_url": null,
+   "description": {
+    "en_EN": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+    "de_DE": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+    "zh_CN": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner.",
+    "fr_FR": "A low mass gas giant that features a breathable atmosphere at high altitudes. This was an ideal situation for ship manufacturer Crusader, who now occupies the planet\u2019s floating platforms to build massive ships like the Starliner."
+   },
+   "sensor": {
+    "population": 4,
+    "economy": 8,
+    "danger": 5
+   },
+   "size": 74500,
+   "parent_id": 1691,
+   "affiliation": [
+    {
+     "id": 1,
+     "name": "UEE",
+     "code": "uee",
+     "color": "#48bbd4"
+    }
+   ],
+   "sub_type": {
+    "id": 23,
+    "name": "Gas Giant",
+    "type": "PLANET"
+   },
+   "jumppoints": null,
+   "time_modified": "2022-02-22T03:15:03.000000Z"
+  },
+  {
+   "id": 1691,
+   "code": "STANTON.STARS.STANTON",
+   "system_id": 314,
+   "link": "https://api.star-citizen.wiki/api/celestial-objects/STANTON.STARS.STANTON",
+   "web_url": "https://api.star-citizen.wiki/starmap/celestial-objects/STANTON.STARS.STANTON",
+   "name": null,
+   "type": "STAR",
+   "age": 4.6,
+   "habitable": null,
+   "fairchanceact": false,
+   "appearance": "DEFAULT",
+   "designation": "Stanton",
+   "distance": 0,
+   "latitude": 0,
+   "longitude": 0,
+   "axial_tilt": 0,
+   "orbit_period": null,
+   "info_url": null,
+   "description": null,
+   "sensor": {
+    "population": 0,
+    "economy": 0,
+    "danger": 0
+   },
+   "size": 1.2,
+   "parent_id": null,
+   "affiliation": [],
+   "sub_type": {
+    "id": 59,
+    "name": "Main Sequence-Dwarf-G",
+    "type": "STAR"
+   },
+   "jumppoints": null,
+   "time_modified": "2015-10-10T04:10:30.000000Z"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=439",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 439,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=438",
+    "label": "438",
+    "page": 438,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=439",
+    "label": "439",
+    "page": 439,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/celestial-objects?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/celestial-objects",
+  "per_page": 2,
+  "to": 2,
+  "total": 877,
+  "valid_relations": [
+   "affiliation",
+   "starsystem",
+   "jumppoints"
+  ]
+ }
+}

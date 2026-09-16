@@ -1,0 +1,122 @@
+{
+ "data": {
+  "id": 14,
+  "chassis_id": 3,
+  "name": "F7C-R Hornet Tracker Mk I",
+  "slug": "f7c-r-hornet-tracker-mk-i",
+  "sizes": {
+   "length": 28.25,
+   "beam": 25.5,
+   "height": 7.5
+  },
+  "dimension": {
+   "length": 28.25,
+   "width": 25.5,
+   "height": 7.5
+  },
+  "mass": 72032,
+  "cargo_capacity": 0,
+  "crew": {
+   "min": 1,
+   "max": 1
+  },
+  "speed": {
+   "scm": 219,
+   "max": 1142
+  },
+  "agility": {
+   "pitch": 56,
+   "yaw": 45,
+   "roll": 150,
+   "acceleration": {
+    "x_axis": null,
+    "y_axis": null,
+    "z_axis": null
+   }
+  },
+  "foci": [
+   {
+    "en_EN": "Pathfinder",
+    "de_DE": "Pfadfinder",
+    "zh_CN": "\u5f00\u62d3\u8005",
+    "fr_FR": "Pathfinder"
+   }
+  ],
+  "production_status": {
+   "en_EN": "flight-ready",
+   "de_DE": "Flugbereit",
+   "zh_CN": "\u53ef\u98de\u884c",
+   "fr_FR": "flight-ready"
+  },
+  "production_note": {
+   "en_EN": "None",
+   "de_DE": "Keine",
+   "zh_CN": "\u65e0",
+   "fr_FR": "None"
+  },
+  "type": {
+   "en_EN": "Exploration",
+   "de_DE": "Erkundung",
+   "zh_CN": "\u52d8\u63a2",
+   "fr_FR": "Exploration"
+  },
+  "description": {
+   "en_EN": "If the Ghost is made to hide, the Tracker is made to seek. The F7C-R Tracker boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&amp;C ships for their squadrons.",
+   "de_DE": "Wenn die Ghost dazu bestimmt ist, sich zu verstecken, dann ist die Trackerin dazu bestimmt, zu suchen. Die F7C-R Tracker verf\u00fcgt \u00fcber eine fortschrittliche Radaranlage, die sie ideal f\u00fcr Deep-Space-Explorer macht, die Tiefe und Genauigkeit in ihren Scankonzepten ben\u00f6tigen. Lokale Milizen und gr\u00f6\u00dfere S\u00f6ldner-Einheiten werden auch Tracker wiederverwenden, um als mobile Command and Controll-Schiffe f\u00fcr ihre Geschwader zu fungieren.",
+   "zh_CN": "\u5982\u679c\u8bf4\u5e7d\u7075\u662f\u7528\u6765\u9690\u85cf\u7684\uff0c\u90a3\u4e48\u8ffd\u8e2a\u8005\u5c31\u662f\u7528\u6765\u5bfb\u627e\u7684\u3002F7C-R \u8ffd\u8e2a\u8005\u53f7\u62e5\u6709\u5148\u8fdb\u7684\u96f7\u8fbe\u5957\u4ef6\uff0c\u662f\u8981\u6c42\u626b\u63cf\u6df1\u5ea6\u548c\u7cbe\u786e\u5ea6\u7684\u6df1\u7a7a\u63a2\u9669\u8005\u7684\u7406\u60f3\u9009\u62e9\u3002\u5f53\u5730\u6c11\u5175\u548c\u5927\u578b\u96c7\u4f63\u5175\u90e8\u961f\u4e5f\u4f1a\u5c06\u8ffd\u8e2a\u8005\u6539\u88c5\u6210\u4ed6\u4eec\u4e2d\u961f\u7684\u79fb\u52a8 C&amp;C \u6218\u8230\u3002",
+   "fr_FR": "If the Ghost is made to hide, the Tracker is made to seek. The F7C-R Tracker boasts an advanced radar suite making it ideal for deep-space explorers who require depth and accuracy in their scan packages. Local militia and larger merc units will also repurpose Trackers to act as mobile C&amp;C ships for their squadrons."
+  },
+  "size": {
+   "en_EN": "Small",
+   "de_DE": "Klein",
+   "zh_CN": "\u5c0f",
+   "fr_FR": "Small"
+  },
+  "msrp": 150,
+  "pledge_url": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker-Mk-I",
+  "skus": [
+   {
+    "source": "upgrade_api",
+    "cig_id": 12999,
+    "title": "Standard Edition ",
+    "url": null,
+    "price": 140,
+    "discounted_price": null,
+    "is_warbond": null,
+    "is_package": null,
+    "available": true,
+    "imported_at": "2024-01-07T13:54:02.000000Z"
+   },
+   {
+    "source": "upgrade_api",
+    "cig_id": 16864,
+    "title": "Standard Edition ",
+    "url": null,
+    "price": 150,
+    "discounted_price": null,
+    "is_warbond": null,
+    "is_package": null,
+    "available": true,
+    "imported_at": "2024-03-15T00:00:30.000000Z"
+   }
+  ],
+  "manufacturer": {
+   "code": "ANVL",
+   "name": "Anvil Aerospace"
+  },
+  "loaner": [],
+  "link": "https://api.star-citizen.wiki/api/shipmatrix/vehicles/f7c-r-hornet-tracker-mk-i",
+  "updated_at": "2026-06-22T16:14:15.000000Z"
+ },
+ "meta": {
+  "processed_at": "2026-09-16 22:18:51",
+  "valid_relations": [
+   "components",
+   "loaner",
+   "skus"
+  ],
+  "deprecated_fields": {
+   "sizes": "Use length, width, and height properties from dimension instead"
+  }
+ }
+}

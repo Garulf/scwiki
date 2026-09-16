@@ -1,0 +1,212 @@
+{
+ "data": [
+  {
+   "id": "RMNaBDyx6W",
+   "title": "Odin",
+   "slug": "anvil-odin",
+   "thumbnail": null,
+   "type": null,
+   "template": null,
+   "category": "Spacecraft, Human",
+   "tag": "human vehicle",
+   "rsi_url": "/galactapedia/article/RMNaBDyx6W-anvil-odin",
+   "api_url": "https://api.star-citizen.wiki/api/galactapedia/RMNaBDyx6W",
+   "web_url": "https://api.star-citizen.wiki/galactapedia/RMNaBDyx6W",
+   "categories": [
+    {
+     "id": null,
+     "name": "Spacecraft"
+    },
+    {
+     "id": null,
+     "name": "Human"
+    }
+   ],
+   "categories_count": 2,
+   "tags": [
+    {
+     "id": null,
+     "name": "human vehicle"
+    }
+   ],
+   "tags_count": 1,
+   "related_articles_count": 0,
+   "translations": {
+    "en_EN": "Pending review by the Ark research team...",
+    "de_DE": "Die \u00dcberpr\u00fcfung durch das Ark-Forschungsteam steht noch aus...",
+    "zh_CN": "Pending review by the Ark research team...",
+    "fr_FR": "Pending review by the Ark research team..."
+   },
+   "created_at": "2026-04-16T02:00:12+00:00",
+   "created_at_human": "5 months ago"
+  },
+  {
+   "id": "RL64awp5oL",
+   "title": "Claw Salamanders",
+   "slug": "claw-salamanders",
+   "thumbnail": "https://static.robertsspaceindustries.com/galactapedia/upload/33404ef1-b023-4c06-b430-836e567a7eb6",
+   "type": "Civilization",
+   "template": "Civilization",
+   "category": "Illegal Activity, Organizations, Human",
+   "tag": "claw salamanders, outlaw factions, human outlaw factions, nyx outlaw factions",
+   "rsi_url": "/galactapedia/article/RL64awp5oL-claw-salamanders",
+   "api_url": "https://api.star-citizen.wiki/api/galactapedia/RL64awp5oL",
+   "web_url": "https://api.star-citizen.wiki/galactapedia/RL64awp5oL",
+   "categories": [
+    {
+     "id": null,
+     "name": "Illegal Activity"
+    },
+    {
+     "id": null,
+     "name": "Organizations"
+    },
+    {
+     "id": null,
+     "name": "Human"
+    }
+   ],
+   "categories_count": 3,
+   "tags": [
+    {
+     "id": null,
+     "name": "claw salamanders"
+    },
+    {
+     "id": null,
+     "name": "outlaw factions"
+    },
+    {
+     "id": null,
+     "name": "human outlaw factions"
+    },
+    {
+     "id": null,
+     "name": "nyx outlaw factions"
+    }
+   ],
+   "tags_count": 4,
+   "related_articles_count": 1,
+   "translations": {
+    "en_EN": "The Claw Salamanders are an independent faction and outlaw group based in the [Nyx system](https://robertsspaceindustries.com/galactapedia/article/0jGxP6kpG3-nyx-system). Known for their custom-made armor suited for cold environments and helmets that conceal their faces and modulate their voices, they can generally be found living in deep freeze environments. The group's origin is not known, but evidence suggests that it may have been started by out-of-work miners who lost their contracts when the [United Empire of Earth](https://robertsspaceindustries.com/galactapedia/article/VyvyKxy4v6-united-empire-of-earth) (UEE) government elected not to claim the Nyx system in the late-26th century SEY. The Claw Salamanders largely keep to themselves unless they are in need of resources, but will attack those who intrude on what they consider to be their territory.",
+    "de_DE": "Die Krallensalamander sind eine unabh\u00e4ngige Fraktion und gesetzlose Gruppe mit Sitz im [Nyx-System] (https://robertsspaceindustries.com/galactapedia/article/0jGxP6kpG3-nyx-system). Sie sind bekannt f\u00fcr ihre speziell f\u00fcr kalte Umgebungen angefertigten R\u00fcstungen und Helme, die ihre Gesichter verbergen und ihre Stimmen modulieren, und leben in der Regel in Tiefk\u00fchlgebieten. Der Ursprung der Gruppe ist nicht bekannt, aber es gibt Hinweise darauf, dass sie von arbeitslosen Bergarbeitern gegr\u00fcndet wurde, die ihre Vertr\u00e4ge verloren, als die Regierung des [Vereinigten Imperiums der Erde](https://robertsspaceindustries.com/galactapedia/article/VyvyKxy4v6-united-empire-of-earth) (UEE) beschloss, das Nyx-System im sp\u00e4ten 26. Die Krallensalamander bleiben weitgehend unter sich, es sei denn, sie ben\u00f6tigen Ressourcen, greifen aber diejenigen an, die in ihr Territorium eindringen, das sie als ihr eigenes betrachten.",
+    "zh_CN": "The Claw Salamanders are an independent faction and outlaw group based in the [Nyx system](https://robertsspaceindustries.com/galactapedia/article/0jGxP6kpG3-nyx-system). Known for their custom-made armor suited for cold environments and helmets that conceal their faces and modulate their voices, they can generally be found living in deep freeze environments. The group's origin is not known, but evidence suggests that it may have been started by out-of-work miners who lost their contracts when the [United Empire of Earth](https://robertsspaceindustries.com/galactapedia/article/VyvyKxy4v6-united-empire-of-earth) (UEE) government elected not to claim the Nyx system in the late-26th century SEY. The Claw Salamanders largely keep to themselves unless they are in need of resources, but will attack those who intrude on what they consider to be their territory.",
+    "fr_FR": "The Claw Salamanders are an independent faction and outlaw group based in the [Nyx system](https://robertsspaceindustries.com/galactapedia/article/0jGxP6kpG3-nyx-system). Known for their custom-made armor suited for cold environments and helmets that conceal their faces and modulate their voices, they can generally be found living in deep freeze environments. The group's origin is not known, but evidence suggests that it may have been started by out-of-work miners who lost their contracts when the [United Empire of Earth](https://robertsspaceindustries.com/galactapedia/article/VyvyKxy4v6-united-empire-of-earth) (UEE) government elected not to claim the Nyx system in the late-26th century SEY. The Claw Salamanders largely keep to themselves unless they are in need of resources, but will attack those who intrude on what they consider to be their territory."
+   },
+   "created_at": "2026-04-04T02:00:11+00:00",
+   "created_at_human": "5 months ago"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=740",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 740,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=739",
+    "label": "739",
+    "page": 739,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=740",
+    "label": "740",
+    "page": 740,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/galactapedia?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/galactapedia",
+  "per_page": 2,
+  "to": 2,
+  "total": 1480,
+  "valid_relations": [
+   "categories",
+   "properties",
+   "tags",
+   "related"
+  ]
+ }
+}

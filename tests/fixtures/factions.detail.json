@@ -1,0 +1,98 @@
+{
+ "data": {
+  "uuid": "4e429470-4d4e-4c2b-a4ac-4de42ada16e0",
+  "name": "Aciedo Communications",
+  "faction_type": "Lawful",
+  "lawful": true,
+  "is_npc": false,
+  "has_reputation": true,
+  "link": "https://api.star-citizen.wiki/api/factions/4e429470-4d4e-4c2b-a4ac-4de42ada16e0",
+  "description": "Following the conclusion of the First Tevarin War, Humanity was eager to begin exploring the stars again. Aciedo began life as fledging ship manufacturer focused on creating long-range exploration vessels. While they saw moderate success with their initial ship design, it was the included communication drones that stood out for their reliability and transmission success. Captains across the newly formed Empire began asking Aciedo to sell them commdrones directly. Within the first year of offering them, sales skyrocketed, and it wasn't long before Aciedo decided to stop manufacturing ships entirely. Today, they are the UEE's largest communication service provider, handling over 70% of all comms, and operate commrelays, commarrays, and commdrones across the Empire.",
+  "default_reaction": "Neutral",
+  "able_to_arrest": false,
+  "polices_lawful_trespass": false,
+  "polices_criminality": false,
+  "no_legal_rights": false,
+  "headquarters": "Quinton, Angeli, Croshaw System",
+  "founded": "2565",
+  "leadership": "Narumi Arai, CEO",
+  "area": "UEE",
+  "focus": "Communication Services",
+  "sort_order_scope": "Alphabetical",
+  "reputation_ladder": {
+   "scope_name": "Technician",
+   "display_name": "Technician",
+   "reputation_ceiling": 243000,
+   "initial_reputation": 0,
+   "standings": [
+    {
+     "uuid": null,
+     "name": "Technician_NotEligible",
+     "display_name": "Not Eligible",
+     "min_reputation": -1000,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank0",
+     "display_name": "Applicant",
+     "min_reputation": 0,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank1",
+     "display_name": "Technician-in-Training",
+     "min_reputation": 1,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank2",
+     "display_name": "Jr. Technician",
+     "min_reputation": 3000,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank3",
+     "display_name": "Technician",
+     "min_reputation": 9000,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank4",
+     "display_name": "Sr. Technician",
+     "min_reputation": 27000,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    },
+    {
+     "uuid": null,
+     "name": "Technician_Rank5",
+     "display_name": "Master Technician",
+     "min_reputation": 81000,
+     "drift_reputation": null,
+     "drift_time_hours": null,
+     "gated": null
+    }
+   ]
+  }
+ },
+ "meta": {
+  "processed_at": "2026-09-16 18:36:20",
+  "valid_relations": []
+ }
+}

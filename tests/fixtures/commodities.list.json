@@ -1,0 +1,215 @@
+{
+ "data": [
+  {
+   "uuid": "7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+   "key": "AceInterceptorHelmet",
+   "name": "Ace Interceptor Helmet",
+   "display_name": "Ace Interceptor Helmet (ProcessedGoods)",
+   "slug": "ace-interceptor-helmet",
+   "description": "Item Type: Racing Helmet\nDamage Reduction: 5%\nTemp. Rating: -35 / 65 \u00b0C\nRadiation Protection: 26000 REM\nRadiation Scrub Rate: 145.8 REM/s\n\nThe unique open-faced design makes the Ace Interceptor helmet a lightweight and liberating option for operating in atmosphere. It features precisely layered plating to protect the head from a variety of combat and environmental hazards and an impact resistant, anti-glare visor over the eyes. Visor is AR crosshair compatible.",
+   "tier": null,
+   "density_g_per_cc": 1,
+   "instability": null,
+   "resistance": null,
+   "volatility": null,
+   "volatility_health_decay_per_second": null,
+   "box_sizes_scu": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    24,
+    32
+   ],
+   "validate_default_cargo_box": true,
+   "has_default_cargo_containers": true,
+   "is_mineable": false,
+   "has_ship_mineables": false,
+   "has_ground_vehicle_mineables": false,
+   "has_fps_mineables": false,
+   "has_harvestables": false,
+   "has_salvage": false,
+   "signature": null,
+   "kind": null,
+   "methods": [],
+   "systems": [],
+   "locations": [],
+   "commodity_groups": [
+    "ProcessedGoods"
+   ],
+   "link": "https://api.star-citizen.wiki/api/commodities/7abd6c08-3755-4a2a-ba3f-cb3019c2f213",
+   "web_url": "https://api.star-citizen.wiki/commodities/ace-interceptor-helmet",
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/f/f0/Ace_interceptor_helmet.png?7bpnp",
+     "thumbnail_url": "https://media.starcitizen.tools/thumb/f/f0/Ace_interceptor_helmet.png/600px-Ace_interceptor_helmet.png.webp?7bpnp",
+     "original_width": 800,
+     "original_height": 800,
+     "thumbnail_width": 600,
+     "thumbnail_height": 600
+    }
+   ]
+  },
+  {
+   "uuid": "dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+   "key": "Agricium",
+   "name": "Agricium",
+   "display_name": "Agricium (Metal)",
+   "slug": "agricium",
+   "description": "A rare and valuable silvery metal with a blue-green sheen. Malleable, ductile, and largely non-reactive.",
+   "tier": null,
+   "density_g_per_cc": 1,
+   "instability": null,
+   "resistance": null,
+   "volatility": null,
+   "volatility_health_decay_per_second": null,
+   "box_sizes_scu": [
+    0.125,
+    1,
+    2,
+    4,
+    8,
+    16,
+    24,
+    32
+   ],
+   "validate_default_cargo_box": true,
+   "has_default_cargo_containers": true,
+   "is_mineable": false,
+   "has_ship_mineables": false,
+   "has_ground_vehicle_mineables": false,
+   "has_fps_mineables": false,
+   "has_harvestables": false,
+   "has_salvage": false,
+   "signature": null,
+   "kind": null,
+   "methods": [],
+   "systems": [],
+   "locations": [],
+   "commodity_groups": [
+    "Metal"
+   ],
+   "link": "https://api.star-citizen.wiki/api/commodities/dc6fbcbb-5990-4ed5-82ee-93152dab7845",
+   "web_url": "https://api.star-citizen.wiki/commodities/agricium",
+   "images": [
+    {
+     "source": "starcitizen.tools",
+     "original_url": "https://media.starcitizen.tools/2/2f/Cargo_-_Metal.png?n7igy",
+     "thumbnail_url": "https://media.starcitizen.tools/2/2f/Cargo_-_Metal.png?n7igy",
+     "original_width": 466,
+     "original_height": 256,
+     "thumbnail_width": 466,
+     "thumbnail_height": 256
+    }
+   ]
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=103",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 103,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=102",
+    "label": "102",
+    "page": 102,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=103",
+    "label": "103",
+    "page": 103,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/commodities?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/commodities",
+  "per_page": 2,
+  "to": 2,
+  "total": 206
+ }
+}

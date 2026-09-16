@@ -1,0 +1,264 @@
+{
+ "data": [
+  {
+   "uuid": "091ffb61-7733-4ebe-8cef-66ec15de2320",
+   "title": "A Batch from Scratch",
+   "description": "Normally, I like to cook everything from scratch myself. Pride in product and all. But every once in a while, whether it's too much demand or too much heat or whatever, I need to rely on other labs for an order. \n\nMy hands are tied up here though, so I could use someone to help oversee the whole production line for me. Couldn't think of anyone better and more available than you.\n\n* TO-DO LIST *\n\n1. PROCESSING - Take the raw material from  [Pickup1|Address] to [Pickup2|Address]\n2. PACKAGING - Take the refined product from  [Pickup2|Address] to [Pickup3|Address]\n3. DISTRIBUTION - Take the finished goods from  [Pickup3|Address] to [DropOff1|Address]\n\nJust don't get distracted in the middle and wander off. It happens more often than you'd think. Manage to finish the full list, and I'll see to it you get nice cut of the profits.\n\n-Wallace",
+   "mission_giver": "Wallace Klim",
+   "debug_name": "PU_Delivery_Local_DrugProduction_Stanton4_KlimIntro",
+   "faction": {
+    "name": "Wallace Klim",
+    "uuid": "c088786f-db63-4598-9c1b-a71ff4831f79",
+    "link": "https://api.star-citizen.wiki/api/factions/c088786f-db63-4598-9c1b-a71ff4831f79"
+   },
+   "rank_index": 21,
+   "illegal": true,
+   "legality_label": "Illegal",
+   "shareable": true,
+   "once_only": true,
+   "has_combat": false,
+   "has_defend_objective": false,
+   "enemy_count_min": null,
+   "enemy_count_max": null,
+   "reward_min": 20000,
+   "reward_max": 0,
+   "reward_currency": "UEC",
+   "time_to_complete_minutes": null,
+   "star_systems": [],
+   "variant_count": 1,
+   "variants": [
+    {
+     "uuid": "0b2fbdea-760f-4764-b680-50101ff0cd10",
+     "link": "https://api.star-citizen.wiki/api/missions/0b2fbdea-760f-4764-b680-50101ff0cd10"
+    }
+   ],
+   "has_blueprints": false,
+   "has_chain": false,
+   "has_prerequisites": false,
+   "has_hauling": true,
+   "min_standing": {
+    "name": "<= PLACEHOLDER =>",
+    "min_reputation": -500
+   },
+   "max_standing": null,
+   "min_standing_name": "<= PLACEHOLDER =>",
+   "max_standing_name": null,
+   "cost": null,
+   "min_crime_stat": 0,
+   "max_crime_stat": 5,
+   "available_in_prison": false,
+   "not_for_release": false,
+   "work_in_progress": false,
+   "released": true,
+   "reputation_gained": [
+    {
+     "faction": "Wallace Klim",
+     "faction_uuid": "c088786f-db63-4598-9c1b-a71ff4831f79",
+     "scope": "Affinity",
+     "tier": "+T_05",
+     "amount": 1000
+    }
+   ],
+   "max_players_per_instance": 1,
+   "max_instances_per_player": 1,
+   "cooldown": {
+    "label": "60 seconds",
+    "personal_seconds": 60,
+    "abandoned_seconds": 15,
+    "personal_variation_seconds": 30,
+    "abandoned_variation_seconds": 0
+   },
+   "cooldown_seconds": 60,
+   "cooldown_label": "60 seconds",
+   "reaccept_after_abandoning": false,
+   "reaccept_after_failing": false,
+   "fail_if_became_criminal": false,
+   "hauling_summary": [
+    {
+     "name": "Uncut SLAM",
+     "min_amount": 1,
+     "max_amount": 1
+    }
+   ],
+   "reward_scope": "Hauling",
+   "reputation_amount": 1000,
+   "version": "4.10.0-LIVE.12519617",
+   "game_version": "4.10.0-LIVE.12519617",
+   "link": "https://api.star-citizen.wiki/api/missions/091ffb61-7733-4ebe-8cef-66ec15de2320",
+   "web_url": "https://api.star-citizen.wiki/missions/a-batch-from-scratch-2"
+  },
+  {
+   "uuid": "ccd6ef5b-9585-49cc-86cd-1062f929d06b",
+   "title": "A Call to Arms",
+   "description": "The Civilian Defense Force needs YOU! Everyday, in the Stanton system innocent civilians are preyed upon by vicious outlaws and heartless criminals.\n\nNO MORE.\n\nUnder the authority of the UEE and the Militia Mobilization Initiative, the CDF is deputizing all combat minded individuals in good legal standing* to engage and neutralize any individuals or vehicles that they verify to have an active CrimeStat.\n\nIn exchange for these selfless contributions to the general populaces safety, the CDF will financially compensate those who successfully bring these criminals to justice with a reward** of [RewardValue_Wanted1] UEC per outlaw dealt with. \n\nNow is your chance to help bring about a positive change for yourself and all other Stanton travelers. Sign up today and do your part!\n\n\n\n* Be aware, acquiring a CrimeStat will revoke CDF membership and cancel any outstanding contracts.\n** Please note, criminals encountered as part of paid contract work do not qualify for the reward.",
+   "mission_giver": null,
+   "debug_name": "Sandbox_CriminalKills_CDF",
+   "faction": null,
+   "rank_index": null,
+   "illegal": false,
+   "legality_label": "Legal",
+   "shareable": false,
+   "once_only": false,
+   "has_combat": false,
+   "has_defend_objective": false,
+   "enemy_count_min": null,
+   "enemy_count_max": null,
+   "reward_min": 0,
+   "reward_max": 0,
+   "reward_currency": "UEC",
+   "time_to_complete_minutes": null,
+   "star_systems": [
+    "Stanton"
+   ],
+   "variant_count": 0,
+   "variants": [],
+   "has_blueprints": false,
+   "has_chain": false,
+   "has_prerequisites": false,
+   "has_hauling": false,
+   "min_standing": null,
+   "max_standing": null,
+   "min_standing_name": null,
+   "max_standing_name": null,
+   "cost": null,
+   "min_crime_stat": 0,
+   "max_crime_stat": 2,
+   "available_in_prison": false,
+   "not_for_release": false,
+   "work_in_progress": false,
+   "released": true,
+   "reputation_gained": null,
+   "max_players_per_instance": 1,
+   "max_instances_per_player": 1,
+   "cooldown": {
+    "label": "1 seconds",
+    "personal_seconds": 1,
+    "abandoned_seconds": 0,
+    "personal_variation_seconds": 1,
+    "abandoned_variation_seconds": 0
+   },
+   "cooldown_seconds": 1,
+   "cooldown_label": "1 seconds",
+   "reaccept_after_abandoning": true,
+   "reaccept_after_failing": false,
+   "fail_if_became_criminal": true,
+   "hauling_summary": null,
+   "reward_scope": "Assassination",
+   "reputation_amount": null,
+   "version": "4.10.0-LIVE.12519617",
+   "game_version": "4.10.0-LIVE.12519617",
+   "link": "https://api.star-citizen.wiki/api/missions/ccd6ef5b-9585-49cc-86cd-1062f929d06b",
+   "web_url": "https://api.star-citizen.wiki/missions/open-bounty-3"
+  }
+ ],
+ "links": {
+  "first": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+  "last": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=893",
+  "prev": null,
+  "next": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=2"
+ },
+ "meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 893,
+  "links": [
+   {
+    "url": null,
+    "label": "&laquo; Previous",
+    "page": null,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=1",
+    "label": "1",
+    "page": 1,
+    "active": true
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "2",
+    "page": 2,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=3",
+    "label": "3",
+    "page": 3,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=4",
+    "label": "4",
+    "page": 4,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=5",
+    "label": "5",
+    "page": 5,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=6",
+    "label": "6",
+    "page": 6,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=7",
+    "label": "7",
+    "page": 7,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=8",
+    "label": "8",
+    "page": 8,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=9",
+    "label": "9",
+    "page": 9,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=10",
+    "label": "10",
+    "page": 10,
+    "active": false
+   },
+   {
+    "url": null,
+    "label": "...",
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=892",
+    "label": "892",
+    "page": 892,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=893",
+    "label": "893",
+    "page": 893,
+    "active": false
+   },
+   {
+    "url": "https://api.star-citizen.wiki/api/missions?page%5Bsize%5D=2&page%5Bnumber%5D=2",
+    "label": "Next &raquo;",
+    "page": 2,
+    "active": false
+   }
+  ],
+  "path": "https://api.star-citizen.wiki/api/missions",
+  "per_page": 2,
+  "to": 2,
+  "total": 1786,
+  "valid_relations": [],
+  "deprecated_fields": {
+   "game_version": "Use version field instead."
+  }
+ }
+}
