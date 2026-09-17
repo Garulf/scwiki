@@ -1,6 +1,6 @@
 [project]
 name = "scwiki"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python client for the Star Citizen Wiki API with version-aware caching and pluggable HTTP transports"
 readme = "README.md"
 license = "MIT"
